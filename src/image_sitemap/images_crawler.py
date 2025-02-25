@@ -54,15 +54,10 @@ class ImagesCrawler:
 
         return images_data
 
-    async def create_images_sitemap(self, links: Set[str]):
+    async def create_sitemap(self, links: Set[str]):
         self.web_instrument = WebInstrument(init_url=next(iter(links)))
+        self.file_instrument.create(links_images_data=await self.__prepare_images_struct(links=links))
 
-        sitemap_text = self.file_instrument.build_file(
-            links_images_data=await self.__prepare_images_struct(links=links)
-        )
-        self.file_instrument.save_file(file_data=sitemap_text)
-
-    async def get_images_sitemap_data(self, links: Set[str]) -> Dict[str, Set[str]]:
+    async def get_data(self, links: Set[str]) -> Dict[str, Set[str]]:
         self.web_instrument = WebInstrument(init_url=next(iter(links)))
-
         return await self.__prepare_images_struct(links=links)

@@ -1,8 +1,10 @@
 import urllib
+import logging
 from typing import Set
 
 from .instruments import WebInstrument
 
+logger = logging.getLogger(__name__)
 __all__ = ("LinksCrawler",)
 
 
@@ -13,6 +15,7 @@ class LinksCrawler:
         self.web_instrument = WebInstrument(init_url=init_url)
 
     async def __links_crawler(self, url: str, current_depth: int = 0) -> Set[str]:
+        logger.info(f"Crawling page - {url} , depth - {current_depth}")
         if current_depth >= self.max_depth:
             return set()
 
@@ -37,5 +40,10 @@ class LinksCrawler:
 
         return links
 
-    async def run(self):
-        await self.__links_crawler(url=self.web_instrument.init_url)
+    async def run(self) -> Set[str]:
+        logger.info(
+            f"Starting crawling - {self.web_instrument.init_url} , max depth - {self.max_depth} , with subdomains - {self.accept_subdomains}"
+        )
+        result = await self.__links_crawler(url=self.web_instrument.init_url)
+        logger.info(f"Finishing crawling - {self.web_instrument.init_url}")
+        return result

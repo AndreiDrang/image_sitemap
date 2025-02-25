@@ -1,1 +1,1 @@
-from .main import ImageSitemap
+from .main import Sitemap
