@@ -4,7 +4,7 @@ Image Sitemap Generator SEO tool.
 Sitemap Images is a Python tool that generates [a specialized XML sitemap file](./example_sitemap_images.xml),
 allowing you to submit image URLs to search engines like Google, Bing, and Yahoo.
 This tool helps improve image search visibility, driving more traffic to your website and increasing engagement.
-To ensure search engines can discover your sitemap, simply add the following line to your robots.txt file:
+To ensure search engines can discover your sitemap, simply add the following line to your **robots.txt** file:
 ```txt
 Sitemap: https://example.com/sitemap-images.xml
 ```
