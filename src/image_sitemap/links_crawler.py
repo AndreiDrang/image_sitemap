@@ -15,6 +15,14 @@ class LinksCrawler:
         self.web_instrument = WebInstrument(init_url=init_url)
 
     async def __links_crawler(self, url: str, current_depth: int = 0) -> Set[str]:
+        """
+        Method with recursion for webpages crawling
+        Args:
+            url: url for read and parse weblinks
+            current_depth: current recursion depth
+        Returns:
+            Set of weblinks from page
+        """
         logger.info(f"Crawling page - {url} , depth - {current_depth}")
         if current_depth >= self.max_depth:
             return set()
@@ -23,13 +31,16 @@ class LinksCrawler:
         if page_data := await self.web_instrument.download_page(url=url):
             page_links = self.web_instrument.find_tags(page_data=page_data, tag="a", key="href")
 
+            # filter only local weblinks
             inner_links = self.web_instrument.filter_inner_links(links=page_links)
+            # filter global domain weblinks from webpages link minus local links
             links.update(
                 self.web_instrument.filter_links_domain(
                     links=page_links.difference(inner_links),
                     is_subdomain=self.accept_subdomains,
                 )
             )
+            # add to links set fixed inner links (fixed - added to local link page url)
             links.update({urllib.parse.urljoin(url, inner_link) for inner_link in inner_links})
 
             rec_parsed_links = set()
@@ -41,6 +52,11 @@ class LinksCrawler:
         return links
 
     async def run(self) -> Set[str]:
+        """
+        Method runs website crawling process
+        Returns:
+            Set with all crawled website pages links
+        """
         logger.info(
             f"Starting crawling - {self.web_instrument.init_url} , max depth - {self.max_depth} , with subdomains - {self.accept_subdomains}"
         )
