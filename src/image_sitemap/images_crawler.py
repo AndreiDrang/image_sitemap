@@ -20,7 +20,7 @@ class ImagesCrawler:
         result_links = set()
         for link in links:
             mime_type, _ = mimetypes.guess_type(link if link else "")
-            if mime_type and mime_type.startswith("image/"):
+            if mime_type and mime_type.startswith("image/") and not link.startswith("data:image/"):
                 result_links.add(link)
         return result_links
 
