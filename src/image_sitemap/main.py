@@ -40,8 +40,10 @@ class Sitemap:
             url: website address for crawling
             max_depth: crawling max depth, higher value == more time for parsing
         """
+        logger.info(f"Run command is started")
         links = await self.crawl_links(url=url, max_depth=max_depth)
         await self.generate_file(links=links)
+        logger.info(f"Run command finished")
 
     async def generate_file(self, links: Set[str]) -> None:
         """
@@ -51,8 +53,10 @@ class Sitemap:
         Args:
             links: set with webpages links
         """
+        logger.info(f"File generation started")
         images_crawler = ImagesCrawler(file_name=self.file_name, accept_subdomains=self.accept_subdomains)
         await images_crawler.create_sitemap(links=links)
+        logger.info(f"File generation finished")
 
     async def images_data(self, links: Set[str]) -> Dict[str, Set[str]]:
         """
@@ -78,4 +82,5 @@ class Sitemap:
         Returns:
             Set of all parsed website pages
         """
+        logger.info(f"Pages crawling is started")
         return await LinksCrawler(init_url=url, max_depth=max_depth, accept_subdomains=self.accept_subdomains).run()
