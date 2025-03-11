@@ -47,9 +47,9 @@ class ImagesCrawler:
         images_data = dict()
         all_images = set()
 
-        for url in links:
+        for url in sorted(links, key=len):
             if parsed_images := (await self.__parse_images(url=url)).difference(all_images):
-                images_data.update({url: parsed_images})
+                images_data.update({url: sorted(parsed_images, key=len)})
                 all_images.update(parsed_images)
 
         return images_data
