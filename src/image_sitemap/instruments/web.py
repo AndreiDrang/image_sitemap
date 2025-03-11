@@ -12,7 +12,7 @@ __all__ = ("WebInstrument",)
 
 
 class WebInstrument:
-    def __init__(self, init_url: str):
+    def __init__(self, init_url: str, header: dict[str] = None):
         """
         Core class for working with webpages:
 
@@ -24,15 +24,20 @@ class WebInstrument:
 
         Args:
             init_url: webpage main link
+            header: dict with header args
         """
         self.init_url = init_url
         self.domain = self.get_domain(url=self.init_url)
-        self.headers = {
-            "User-Agent": "ImageSitemap Crawler",
-            "Accept": "text/html",
-            "Accept-Encoding": "gzip",
-            "Connection": "close",
-        }
+        self.headers = (
+            header
+            if header
+            else {
+                "User-Agent": "ImageSitemap Crawler",
+                "Accept": "text/html",
+                "Accept-Encoding": "gzip",
+                "Connection": "close",
+            }
+        )
 
     @staticmethod
     def get_domain(url: str) -> str:
