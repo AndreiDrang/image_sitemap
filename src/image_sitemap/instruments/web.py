@@ -27,6 +27,12 @@ class WebInstrument:
         """
         self.init_url = init_url
         self.domain = self.get_domain(url=self.init_url)
+        self.headers = {
+            "User-Agent": "ImageSitemap Crawler",
+            "Accept": "text/html",
+            "Accept-Encoding": "gzip",
+            "Connection": "close",
+        }
 
     @staticmethod
     def get_domain(url: str) -> str:
@@ -68,7 +74,7 @@ class WebInstrument:
         Returns:
             Webpage as text
         """
-        async with aiohttp.ClientSession() as session:
+        async with aiohttp.ClientSession(headers=self.headers) as session:
             for attempt in self.attempts_generator():
                 try:
                     async with session.get(url=url) as resp:
