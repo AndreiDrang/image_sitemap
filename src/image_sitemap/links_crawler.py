@@ -9,9 +9,12 @@ __all__ = ("LinksCrawler",)
 
 
 class LinksCrawler:
-    def __init__(self, init_url: str, max_depth: int = 3, accept_subdomains: bool = True):
+    def __init__(
+        self, init_url: str, max_depth: int = 3, accept_subdomains: bool = True, is_query_enabled: bool = True
+    ):
         self.max_depth = max_depth
         self.accept_subdomains = accept_subdomains
+        self.is_query_enabled = is_query_enabled
         self.web_instrument = WebInstrument(init_url=init_url)
 
     async def __links_crawler(self, url: str, current_depth: int = 0) -> Set[str]:
@@ -33,15 +36,20 @@ class LinksCrawler:
 
             # filter only local weblinks
             inner_links = self.web_instrument.filter_inner_links(links=page_links)
-            # filter global domain weblinks from webpages link minus local links
+            # filter global domain weblinks from local links
             links.update(
                 self.web_instrument.filter_links_domain(
                     links=page_links.difference(inner_links),
                     is_subdomain=self.accept_subdomains,
                 )
             )
-            # add to links set fixed inner links (fixed - added to local link page url)
-            links.update({urllib.parse.urljoin(url, inner_link) for inner_link in inner_links})
+            # create fixed inner links (fixed - added to local link page url)
+            fixed_local_links = {urllib.parse.urljoin(url, inner_link) for inner_link in inner_links}
+
+            # filter weblinks from webpages link minus links with query
+            links.update(
+                self.web_instrument.filter_links_query(links=fixed_local_links, is_query_enabled=self.is_query_enabled)
+            )
 
             rec_parsed_links = set()
             for link in links:
@@ -58,7 +66,10 @@ class LinksCrawler:
             Set with all crawled website pages links
         """
         logger.info(
-            f"Starting crawling - {self.web_instrument.init_url} , max depth - {self.max_depth} , with subdomains - {self.accept_subdomains}"
+            f"Starting crawling - {self.web_instrument.init_url},"
+            f" max depth - {self.max_depth},"
+            f" with subdomains - {self.accept_subdomains},"
+            f" with queries - {self.is_query_enabled}"
         )
         result = await self.__links_crawler(url=self.web_instrument.init_url)
         logger.info(f"Finishing crawling - {self.web_instrument.init_url}")
