@@ -52,7 +52,7 @@ class LinksCrawler:
             )
 
             rec_parsed_links = set()
-            for link in links:
+            for link in sorted(links, key=len):
                 rec_parsed_links.update(await self.__links_crawler(url=link, current_depth=current_depth + 1))
 
             links.update(rec_parsed_links)
