@@ -78,12 +78,31 @@ class WebInstrument:
                         else:
                             await asyncio.sleep(1 * attempt)
                             raise ValueError(
-                                f"Too many requests {attempt = }, {url = } ; {resp.status = }, {await resp.text()}"
+                                f"Wrong response status {attempt = }, {url = } ; {resp.status = }, {await resp.text()}"
                             )
                 except Exception as err:
                     logger.warning(f"{err}")
             else:
                 logger.error(f"Page not loaded - {url = }")
+
+    @staticmethod
+    def filter_links_query(links: Set[str], is_query_enabled: bool = True) -> Set[str]:
+        """
+        Method filter webpages links set and return only links with same domain or subdomain
+        Args:
+            links: set of links for filtering
+            is_query_enabled: accept or not links with query strings
+
+        Returns:
+            Filtered list of links
+        """
+        result_links = set()
+        for link in links:
+            if is_query_enabled and urlparse(url=link).query:
+                result_links.add(link)
+            elif not urlparse(url=link).query:
+                result_links.add(link)
+        return result_links
 
     def filter_links_domain(self, links: Set[str], is_subdomain: bool = True) -> Set[str]:
         """
