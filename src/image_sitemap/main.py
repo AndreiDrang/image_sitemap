@@ -17,7 +17,9 @@ __all__ = ("Sitemap",)
 
 
 class Sitemap:
-    def __init__(self, accept_subdomains: bool = True, file_name: str = "sitemap_images.xml"):
+    def __init__(
+        self, accept_subdomains: bool = True, is_query_enabled: bool = True, file_name: str = "sitemap_images.xml"
+    ):
         """
         Main class for work with sitemap images generation
 
@@ -29,6 +31,7 @@ class Sitemap:
             file_name: sitemap images file name
         """
         self.accept_subdomains = accept_subdomains
+        self.is_query_enabled = is_query_enabled
         self.file_name = file_name
 
     async def run(self, url: str, max_depth: int = 3) -> None:
@@ -83,4 +86,9 @@ class Sitemap:
             Set of all parsed website pages
         """
         logger.info(f"Pages crawling is started")
-        return await LinksCrawler(init_url=url, max_depth=max_depth, accept_subdomains=self.accept_subdomains).run()
+        return await LinksCrawler(
+            init_url=url,
+            max_depth=max_depth,
+            accept_subdomains=self.accept_subdomains,
+            is_query_enabled=self.is_query_enabled,
+        ).run()
