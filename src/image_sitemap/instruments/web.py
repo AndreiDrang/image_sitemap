@@ -148,8 +148,6 @@ class WebInstrument:
         # filter only local weblinks
         inner_links = self.filter_inner_links(links=links)
         links = links.difference(inner_links)
-        logger.warning(f"{inner_links = }")
-        logger.warning(f"{links.difference(inner_links) = }")
         # filter global domain weblinks from local links
         links.update(
             self.filter_links_domain(
@@ -157,10 +155,8 @@ class WebInstrument:
                 is_subdomain=self.config.accept_subdomains,
             )
         )
-        logger.warning(f"#1 {links = }")
         # create fixed inner links (fixed - added to local link page url)
         links.update({urllib.parse.urljoin(canonical_url, inner_link) for inner_link in inner_links})
-        logger.warning(f"#2 {links = }")
         # filter weblinks from webpages link minus links with query
         return self.__filter_links_query(links=links, is_query_enabled=self.config.is_query_enabled)
 
