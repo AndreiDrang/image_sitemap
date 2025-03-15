@@ -3,33 +3,237 @@
 	xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
 	xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
 	<url>
+		<loc>https://2captcha.com/</loc>
+		<image:image>
+			<image:loc>https://2captcha.com/dist/web/assets/x-3g2ZbtdE.svg</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://2captcha.com/dist/web/assets/g2-BeiJkVzl.svg</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://2captcha.com/dist/web/assets/go-BBHsz-sj.svg</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://2captcha.com/dist/web/assets/php-DQeUrv0U.svg</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://2captcha.com/dist/web/assets/ssl-Cl0PWDw8.svg</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://2captcha.com/dist/web/assets/ruby-BVaQRakX.svg</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://2captcha.com/dist/web/assets/ccpa-DqusN_YC.svg</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://2captcha.com/dist/web/assets/gdpr-FYEsUDMh.svg</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://2captcha.com/dist/web/assets/a11y-laMWAnXo.svg</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://2captcha.com/dist/web/assets/java-w5CaKi74.svg</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://2captcha.com/dist/web/assets/smime-FlftGzQG.svg</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://2captcha.com/dist/web/assets/github-BVCl5PhD.svg</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://2captcha.com/dist/web/assets/csharp-BmVKVIcI.svg</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://2captcha.com/dist/web/assets/github-Z1IytMkC.svg</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://2captcha.com/dist/web/assets/worker-Cf9aKQen.svg</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://2captcha.com/dist/web/assets/python-Cr927FN6.svg</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://2captcha.com/dist/web/assets/youtube-QwGKDaMh.svg</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://2captcha.com/dist/web/assets/aws-waf-BlmQtCfU.svg</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://2captcha.com/dist/web/assets/aws-waf-DCpi7z_I.svg</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://2captcha.com/dist/web/assets/gee-test-DQQqadKY.svg</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://2captcha.com/dist/web/assets/customer-DEL_O_zN.svg</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://2captcha.com/dist/web/assets/linkedin-C8Mm_qxN.svg</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://2captcha.com/dist/web/assets/x-active-Cxm-UQSQ.svg</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://2captcha.com/dist/web/assets/recaptcha-DcikcuAB.svg</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://2captcha.com/dist/web/assets/javascript-CM5wZEc6.svg</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://2captcha.com/dist/web/assets/funcaptcha-D_bfeNZ_.svg</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://2captcha.com/dist/web/assets/number-one-BYhk2sqx.svg</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://2captcha.com/dist/web/assets/fun-captcha-CvliCAz8.svg</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://2captcha.com/dist/web/assets/sourceforge-BOMcPrBS.svg</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://2captcha.com/dist/web/assets/key-captcha-DNWBhfWO.svg</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://2captcha.com/dist/web/assets/recaptcha-v2-DFa1AcNY.svg</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://2captcha.com/dist/web/assets/text-captcha-BdhD4Fsd.svg</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://2captcha.com/dist/web/assets/bounding-box-D-9-u35U.svg</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://2captcha.com/dist/web/assets/recaptcha-v2-BbBlHNcD.svg</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://2captcha.com/dist/web/assets/lemin-captcha-nZV0wwpU.svg</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://2captcha.com/dist/web/assets/opera-add-ons-xRmVZD2u.svg</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://2captcha.com/dist/web/assets/image-captcha-CFq0ok23.svg</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://2captcha.com/dist/web/assets/github-active-D0W6pzG9.svg</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://2captcha.com/dist/web/assets/worker@mobile-CFeQG9Oc.svg</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://2captcha.com/dist/web/assets/captcha-upload-B7doCoyv.svg</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://2captcha.com/dist/web/assets/youtube-active-DjccKltd.svg</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://2captcha.com/dist/web/assets/get-captcha-id-B9fhT1lz.svg</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://2captcha.com/dist/web/assets/normal-captcha-CaQZ7_bf.svg</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://2captcha.com/dist/web/assets/captcha-sending-BjnyHJc_.svg</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://2captcha.com/dist/web/assets/twocaptcha-logo-C0LH6luP.svg</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://2captcha.com/dist/web/assets/captcha-solving-gst9s-u_.svg</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://2captcha.com/dist/web/assets/twocaptcha-logo-Bo2a5vUj.svg</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://2captcha.com/dist/web/assets/customer@mobile-yFLH39Mf.svg</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://2captcha.com/dist/web/assets/linkedin-active-BX9AfhmZ.svg</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://2captcha.com/dist/web/assets/chrome-web-store--D74v1-W.svg</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://2captcha.com/dist/web/assets/image-annotation-CKPUkNjf.svg</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://2captcha.com/dist/web/assets/gee-test-captcha-vUlUkdzA.svg</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://2captcha.com/dist/web/assets/chrome-web-store-EZnEa2SO.svg</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://2captcha.com/dist/web/assets/supported-browsers-BwzPBGQ4.svg</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://2captcha.com/dist/web/assets/captchathecat-logo-DiLrZ0yN.svg</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://2captcha.com/dist/web/assets/dataset-annotation-CyuqGixA.svg</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://2captcha.com/dist/web/assets/get-solved-captcha-GDWAmAjA.svg</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://2captcha.com/dist/web/assets/capy-puzzle-captcha-Duej1Tgt.svg</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://2captcha.com/dist/web/assets/cloudflare-turnstile-Dge_yFN-.svg</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://2captcha.com/dist/web/assets/cloudflare-turnstile-CjtAkTVy.svg</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://2captcha.com/dist/web/assets/google-privacy-policy-Cb0CGVRT.svg</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://2captcha.com/dist/web/assets/microsoft-edge-add-ons-l8iF7AnF.svg</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://2captcha.com/dist/web/assets/extension-widget@mobile-BLIVz-0v.svg</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://2captcha.com/dist/web/assets/mozilla-firefox-add-ons-CZH72Mjr.svg</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://2captcha.com/dist/web/assets/recaptcha-widget@mobile-CZLGft9u.svg</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://2captcha.com/dist/web/assets/satellite-image-annotation-S2P8Bpqd.svg</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://2captcha.com/dist/web/assets/twocaptcha-payment-methods-D5T9Y1ts.svg</image:loc>
+		</image:image>
+	</url>
+	<url>
 		<loc>https://rucaptcha.com/</loc>
 		<image:image>
 			<image:loc>https://rucaptcha.com/dist/web/assets/x-3g2ZbtdE.svg</image:loc>
 		</image:image>
 		<image:image>
-			<image:loc>https://rucaptcha.com/dist/web/assets/g2-BeiJkVzl.svg</image:loc>
-		</image:image>
-		<image:image>
 			<image:loc>https://rucaptcha.com/dist/web/assets/go-BBHsz-sj.svg</image:loc>
 		</image:image>
 		<image:image>
-			<image:loc>https://rucaptcha.com/dist/web/assets/php-DQeUrv0U.svg</image:loc>
+			<image:loc>https://rucaptcha.com/dist/web/assets/g2-BeiJkVzl.svg</image:loc>
 		</image:image>
 		<image:image>
 			<image:loc>https://rucaptcha.com/dist/web/assets/ssl-Cl0PWDw8.svg</image:loc>
 		</image:image>
 		<image:image>
-			<image:loc>https://rucaptcha.com/dist/web/assets/a11y-laMWAnXo.svg</image:loc>
+			<image:loc>https://rucaptcha.com/dist/web/assets/php-DQeUrv0U.svg</image:loc>
 		</image:image>
 		<image:image>
 			<image:loc>https://rucaptcha.com/dist/web/assets/ccpa-DqusN_YC.svg</image:loc>
 		</image:image>
 		<image:image>
+			<image:loc>https://rucaptcha.com/dist/web/assets/gdpr-FYEsUDMh.svg</image:loc>
+		</image:image>
+		<image:image>
 			<image:loc>https://rucaptcha.com/dist/web/assets/ruby-BVaQRakX.svg</image:loc>
 		</image:image>
 		<image:image>
-			<image:loc>https://rucaptcha.com/dist/web/assets/gdpr-FYEsUDMh.svg</image:loc>
+			<image:loc>https://rucaptcha.com/dist/web/assets/a11y-laMWAnXo.svg</image:loc>
 		</image:image>
 		<image:image>
 			<image:loc>https://rucaptcha.com/dist/web/assets/java-w5CaKi74.svg</image:loc>
@@ -38,13 +242,13 @@
 			<image:loc>https://rucaptcha.com/dist/web/assets/smime-FlftGzQG.svg</image:loc>
 		</image:image>
 		<image:image>
+			<image:loc>https://rucaptcha.com/dist/web/assets/csharp-BmVKVIcI.svg</image:loc>
+		</image:image>
+		<image:image>
 			<image:loc>https://rucaptcha.com/dist/web/assets/github-Z1IytMkC.svg</image:loc>
 		</image:image>
 		<image:image>
 			<image:loc>https://rucaptcha.com/dist/web/assets/python-Cr927FN6.svg</image:loc>
-		</image:image>
-		<image:image>
-			<image:loc>https://rucaptcha.com/dist/web/assets/csharp-BmVKVIcI.svg</image:loc>
 		</image:image>
 		<image:image>
 			<image:loc>https://rucaptcha.com/dist/web/assets/github-BVCl5PhD.svg</image:loc>
@@ -53,13 +257,19 @@
 			<image:loc>https://rucaptcha.com/dist/web/assets/worker-Cf9aKQen.svg</image:loc>
 		</image:image>
 		<image:image>
-			<image:loc>https://rucaptcha.com/dist/web/assets/aws-waf-DCpi7z_I.svg</image:loc>
-		</image:image>
-		<image:image>
 			<image:loc>https://rucaptcha.com/dist/web/assets/aws-waf-BlmQtCfU.svg</image:loc>
 		</image:image>
 		<image:image>
 			<image:loc>https://rucaptcha.com/dist/web/assets/youtube-QwGKDaMh.svg</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://rucaptcha.com/dist/web/assets/aws-waf-DCpi7z_I.svg</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://rucaptcha.com/dist/web/assets/customer-DEL_O_zN.svg</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://rucaptcha.com/dist/web/assets/linkedin-C8Mm_qxN.svg</image:loc>
 		</image:image>
 		<image:image>
 			<image:loc>https://rucaptcha.com/dist/web/assets/x-active-Cxm-UQSQ.svg</image:loc>
@@ -68,16 +278,7 @@
 			<image:loc>https://rucaptcha.com/dist/web/assets/gee-test-DQQqadKY.svg</image:loc>
 		</image:image>
 		<image:image>
-			<image:loc>https://rucaptcha.com/dist/web/assets/linkedin-C8Mm_qxN.svg</image:loc>
-		</image:image>
-		<image:image>
-			<image:loc>https://rucaptcha.com/dist/web/assets/customer-DEL_O_zN.svg</image:loc>
-		</image:image>
-		<image:image>
 			<image:loc>https://rucaptcha.com/dist/web/assets/recaptcha-DcikcuAB.svg</image:loc>
-		</image:image>
-		<image:image>
-			<image:loc>https://rucaptcha.com/dist/web/assets/javascript-CM5wZEc6.svg</image:loc>
 		</image:image>
 		<image:image>
 			<image:loc>https://rucaptcha.com/dist/web/assets/number-one-BYhk2sqx.svg</image:loc>
@@ -86,13 +287,22 @@
 			<image:loc>https://rucaptcha.com/dist/web/assets/funcaptcha-D_bfeNZ_.svg</image:loc>
 		</image:image>
 		<image:image>
+			<image:loc>https://rucaptcha.com/dist/web/assets/javascript-CM5wZEc6.svg</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://rucaptcha.com/dist/web/assets/key-captcha-DNWBhfWO.svg</image:loc>
+		</image:image>
+		<image:image>
 			<image:loc>https://rucaptcha.com/dist/web/assets/sourceforge-BOMcPrBS.svg</image:loc>
 		</image:image>
 		<image:image>
 			<image:loc>https://rucaptcha.com/dist/web/assets/fun-captcha-CvliCAz8.svg</image:loc>
 		</image:image>
 		<image:image>
-			<image:loc>https://rucaptcha.com/dist/web/assets/key-captcha-DNWBhfWO.svg</image:loc>
+			<image:loc>https://rucaptcha.com/dist/web/assets/bounding-box-D-9-u35U.svg</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://rucaptcha.com/dist/web/assets/recaptcha-v2-BbBlHNcD.svg</image:loc>
 		</image:image>
 		<image:image>
 			<image:loc>https://rucaptcha.com/dist/web/assets/recaptcha-v2-DFa1AcNY.svg</image:loc>
@@ -101,43 +311,37 @@
 			<image:loc>https://rucaptcha.com/dist/web/assets/text-captcha-BdhD4Fsd.svg</image:loc>
 		</image:image>
 		<image:image>
-			<image:loc>https://rucaptcha.com/dist/web/assets/recaptcha-v2-BbBlHNcD.svg</image:loc>
-		</image:image>
-		<image:image>
-			<image:loc>https://rucaptcha.com/dist/web/assets/bounding-box-D-9-u35U.svg</image:loc>
-		</image:image>
-		<image:image>
-			<image:loc>https://rucaptcha.com/dist/web/assets/opera-add-ons-xRmVZD2u.svg</image:loc>
-		</image:image>
-		<image:image>
-			<image:loc>https://rucaptcha.com/dist/web/assets/worker@mobile-CFeQG9Oc.svg</image:loc>
-		</image:image>
-		<image:image>
 			<image:loc>https://rucaptcha.com/dist/web/assets/image-captcha-CFq0ok23.svg</image:loc>
 		</image:image>
 		<image:image>
 			<image:loc>https://rucaptcha.com/dist/web/assets/lemin-captcha-nZV0wwpU.svg</image:loc>
 		</image:image>
 		<image:image>
+			<image:loc>https://rucaptcha.com/dist/web/assets/worker@mobile-CFeQG9Oc.svg</image:loc>
+		</image:image>
+		<image:image>
 			<image:loc>https://rucaptcha.com/dist/web/assets/github-active-D0W6pzG9.svg</image:loc>
 		</image:image>
 		<image:image>
-			<image:loc>https://rucaptcha.com/dist/web/assets/captcha-upload-B7doCoyv.svg</image:loc>
-		</image:image>
-		<image:image>
-			<image:loc>https://rucaptcha.com/dist/web/assets/rucaptcha-logo-6JpGrpAv.svg</image:loc>
-		</image:image>
-		<image:image>
-			<image:loc>https://rucaptcha.com/dist/web/assets/youtube-active-DjccKltd.svg</image:loc>
+			<image:loc>https://rucaptcha.com/dist/web/assets/opera-add-ons-xRmVZD2u.svg</image:loc>
 		</image:image>
 		<image:image>
 			<image:loc>https://rucaptcha.com/dist/web/assets/get-captcha-id-B9fhT1lz.svg</image:loc>
 		</image:image>
 		<image:image>
+			<image:loc>https://rucaptcha.com/dist/web/assets/rucaptcha-logo-6JpGrpAv.svg</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://rucaptcha.com/dist/web/assets/captcha-upload-B7doCoyv.svg</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://rucaptcha.com/dist/web/assets/youtube-active-DjccKltd.svg</image:loc>
+		</image:image>
+		<image:image>
 			<image:loc>https://rucaptcha.com/dist/web/assets/normal-captcha-CaQZ7_bf.svg</image:loc>
 		</image:image>
 		<image:image>
-			<image:loc>https://rucaptcha.com/dist/web/assets/customer@mobile-yFLH39Mf.svg</image:loc>
+			<image:loc>https://rucaptcha.com/dist/web/assets/linkedin-active-BX9AfhmZ.svg</image:loc>
 		</image:image>
 		<image:image>
 			<image:loc>https://rucaptcha.com/dist/web/assets/captcha-solving-gst9s-u_.svg</image:loc>
@@ -146,19 +350,19 @@
 			<image:loc>https://rucaptcha.com/dist/web/assets/captcha-sending-BjnyHJc_.svg</image:loc>
 		</image:image>
 		<image:image>
-			<image:loc>https://rucaptcha.com/dist/web/assets/linkedin-active-BX9AfhmZ.svg</image:loc>
+			<image:loc>https://rucaptcha.com/dist/web/assets/customer@mobile-yFLH39Mf.svg</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://rucaptcha.com/dist/web/assets/gee-test-captcha-vUlUkdzA.svg</image:loc>
 		</image:image>
 		<image:image>
 			<image:loc>https://rucaptcha.com/dist/web/assets/chrome-web-store--D74v1-W.svg</image:loc>
 		</image:image>
 		<image:image>
-			<image:loc>https://rucaptcha.com/dist/web/assets/image-annotation-CKPUkNjf.svg</image:loc>
-		</image:image>
-		<image:image>
 			<image:loc>https://rucaptcha.com/dist/web/assets/chrome-web-store-EZnEa2SO.svg</image:loc>
 		</image:image>
 		<image:image>
-			<image:loc>https://rucaptcha.com/dist/web/assets/gee-test-captcha-vUlUkdzA.svg</image:loc>
+			<image:loc>https://rucaptcha.com/dist/web/assets/image-annotation-CKPUkNjf.svg</image:loc>
 		</image:image>
 		<image:image>
 			<image:loc>https://rucaptcha.com/dist/web/assets/dataset-annotation-CyuqGixA.svg</image:loc>
@@ -167,10 +371,10 @@
 			<image:loc>https://rucaptcha.com/dist/web/assets/captchathecat-logo-DiLrZ0yN.svg</image:loc>
 		</image:image>
 		<image:image>
-			<image:loc>https://rucaptcha.com/dist/web/assets/get-solved-captcha-GDWAmAjA.svg</image:loc>
+			<image:loc>https://rucaptcha.com/dist/web/assets/supported-browsers-BwzPBGQ4.svg</image:loc>
 		</image:image>
 		<image:image>
-			<image:loc>https://rucaptcha.com/dist/web/assets/supported-browsers-BwzPBGQ4.svg</image:loc>
+			<image:loc>https://rucaptcha.com/dist/web/assets/get-solved-captcha-GDWAmAjA.svg</image:loc>
 		</image:image>
 		<image:image>
 			<image:loc>https://rucaptcha.com/dist/web/assets/capy-puzzle-captcha-Duej1Tgt.svg</image:loc>
@@ -204,21 +408,36 @@
 		</image:image>
 	</url>
 	<url>
-		<loc>https://rucaptcha.com/blog</loc>
+		<loc>https://rucaptcha.com/lang</loc>
 		<image:image>
-			<image:loc>https://rucaptcha.com/api/v1/articles/attachments/67bc0af0c6ccca051ff39a85.svg</image:loc>
+			<image:loc>https://rucaptcha.com/dist/web/assets/go-C6kEFO6o.svg</image:loc>
 		</image:image>
 		<image:image>
-			<image:loc>https://rucaptcha.com/api/v1/articles/attachments/67345ce18c18a34b55c0a074.svg</image:loc>
+			<image:loc>https://rucaptcha.com/dist/web/assets/php-7RFNDydy.svg</image:loc>
 		</image:image>
 		<image:image>
-			<image:loc>https://rucaptcha.com/api/v1/articles/attachments/67af651f4642c42279999a90.svg</image:loc>
+			<image:loc>https://rucaptcha.com/dist/web/assets/java-UkgvNfd2.svg</image:loc>
 		</image:image>
 		<image:image>
-			<image:loc>https://rucaptcha.com/api/v1/articles/attachments/670cda9e79186c3b1e4ed700.svg</image:loc>
+			<image:loc>https://rucaptcha.com/dist/web/assets/ruby-WVKY6INW.svg</image:loc>
 		</image:image>
 		<image:image>
-			<image:loc>https://rucaptcha.com/api/v1/articles/attachments/67bc0bdb5599980e4d394185.svg</image:loc>
+			<image:loc>https://rucaptcha.com/dist/web/assets/python-Cs4-TgAX.svg</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://rucaptcha.com/dist/web/assets/github-CZ-QSsSZ.svg</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://rucaptcha.com/dist/web/assets/csharp-DlNWw_rZ.svg</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://rucaptcha.com/dist/web/assets/javascript-BS2hPMhp.svg</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://rucaptcha.com/dist/web/assets/code-examples-DnTLXNsQ.svg</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://rucaptcha.com/dist/web/assets/bypass-captcha-n_drgnqE.svg</image:loc>
 		</image:image>
 	</url>
 	<url>
@@ -254,10 +473,10 @@
 			<image:loc>https://rucaptcha.com/dist/web/assets/image-annotation-Cuzc0WNB.svg</image:loc>
 		</image:image>
 		<image:image>
-			<image:loc>https://rucaptcha.com/dist/web/assets/passenger-transit-D38SDlak.svg</image:loc>
+			<image:loc>https://rucaptcha.com/dist/web/assets/food-and-beverage-xU2koy4M.svg</image:loc>
 		</image:image>
 		<image:image>
-			<image:loc>https://rucaptcha.com/dist/web/assets/food-and-beverage-xU2koy4M.svg</image:loc>
+			<image:loc>https://rucaptcha.com/dist/web/assets/passenger-transit-D38SDlak.svg</image:loc>
 		</image:image>
 		<image:image>
 			<image:loc>https://rucaptcha.com/dist/web/assets/dataset-annotation-DIFO-dxm.svg</image:loc>
@@ -269,100 +488,67 @@
 			<image:loc>https://rucaptcha.com/dist/web/assets/trucking-and-logistics-CbBfUQPF.svg</image:loc>
 		</image:image>
 		<image:image>
-			<image:loc>https://rucaptcha.com/dist/web/assets/satellite-image-labeler-BSedPQfK.svg</image:loc>
+			<image:loc>https://rucaptcha.com/dist/web/assets/crowdsourced-annotation-aBvGGgC6.svg</image:loc>
 		</image:image>
 		<image:image>
-			<image:loc>https://rucaptcha.com/dist/web/assets/crowdsourced-annotation-aBvGGgC6.svg</image:loc>
+			<image:loc>https://rucaptcha.com/dist/web/assets/satellite-image-labeler-BSedPQfK.svg</image:loc>
 		</image:image>
 		<image:image>
 			<image:loc>https://rucaptcha.com/dist/web/assets/satellite-image-annotation-DGMXORjm.svg</image:loc>
 		</image:image>
 	</url>
 	<url>
-		<loc>https://rucaptcha.com/lang</loc>
+		<loc>https://rucaptcha.com/blog</loc>
 		<image:image>
-			<image:loc>https://rucaptcha.com/dist/web/assets/go-C6kEFO6o.svg</image:loc>
+			<image:loc>https://rucaptcha.com/api/v1/articles/attachments/670cda9e79186c3b1e4ed700.svg</image:loc>
 		</image:image>
 		<image:image>
-			<image:loc>https://rucaptcha.com/dist/web/assets/php-7RFNDydy.svg</image:loc>
+			<image:loc>https://rucaptcha.com/api/v1/articles/attachments/67bc0af0c6ccca051ff39a85.svg</image:loc>
 		</image:image>
 		<image:image>
-			<image:loc>https://rucaptcha.com/dist/web/assets/java-UkgvNfd2.svg</image:loc>
+			<image:loc>https://rucaptcha.com/api/v1/articles/attachments/67bc0bdb5599980e4d394185.svg</image:loc>
 		</image:image>
 		<image:image>
-			<image:loc>https://rucaptcha.com/dist/web/assets/ruby-WVKY6INW.svg</image:loc>
+			<image:loc>https://rucaptcha.com/api/v1/articles/attachments/67af651f4642c42279999a90.svg</image:loc>
 		</image:image>
 		<image:image>
-			<image:loc>https://rucaptcha.com/dist/web/assets/python-Cs4-TgAX.svg</image:loc>
-		</image:image>
-		<image:image>
-			<image:loc>https://rucaptcha.com/dist/web/assets/csharp-DlNWw_rZ.svg</image:loc>
-		</image:image>
-		<image:image>
-			<image:loc>https://rucaptcha.com/dist/web/assets/github-CZ-QSsSZ.svg</image:loc>
-		</image:image>
-		<image:image>
-			<image:loc>https://rucaptcha.com/dist/web/assets/javascript-BS2hPMhp.svg</image:loc>
-		</image:image>
-		<image:image>
-			<image:loc>https://rucaptcha.com/dist/web/assets/code-examples-DnTLXNsQ.svg</image:loc>
-		</image:image>
-		<image:image>
-			<image:loc>https://rucaptcha.com/dist/web/assets/bypass-captcha-n_drgnqE.svg</image:loc>
-		</image:image>
-	</url>
-	<url>
-		<loc>https://rucaptcha.com/about</loc>
-		<image:image>
-			<image:loc>https://rucaptcha.com/dist/web/assets/hero-DSOkYmqf.svg</image:loc>
-		</image:image>
-		<image:image>
-			<image:loc>https://rucaptcha.com/dist/web/assets/worker-1hB9F4vL.svg</image:loc>
-		</image:image>
-		<image:image>
-			<image:loc>https://rucaptcha.com/dist/web/assets/customer-Mr6wLJ-I.svg</image:loc>
-		</image:image>
-		<image:image>
-			<image:loc>https://rucaptcha.com/dist/web/assets/workflow-1-eurFCm0z.svg</image:loc>
-		</image:image>
-		<image:image>
-			<image:loc>https://rucaptcha.com/dist/web/assets/workflow-3-BrkqEack.svg</image:loc>
-		</image:image>
-		<image:image>
-			<image:loc>https://rucaptcha.com/dist/web/assets/workflow-2-CAsQvN8u.svg</image:loc>
+			<image:loc>https://rucaptcha.com/api/v1/articles/attachments/67345ce18c18a34b55c0a074.svg</image:loc>
 		</image:image>
 	</url>
 	<url>
 		<loc>https://rucaptcha.com/proxy</loc>
 		<image:image>
-			<image:loc>https://rucaptcha.com/dist/web/assets/go-BTIzgNPT.svg</image:loc>
-		</image:image>
-		<image:image>
 			<image:loc>https://rucaptcha.com/dist/web/assets/g2-CEdNgVZi.svg</image:loc>
 		</image:image>
 		<image:image>
-			<image:loc>https://rucaptcha.com/dist/web/assets/php-AMqk9XGw.svg</image:loc>
+			<image:loc>https://rucaptcha.com/dist/web/assets/go-BTIzgNPT.svg</image:loc>
 		</image:image>
 		<image:image>
 			<image:loc>https://rucaptcha.com/dist/web/assets/ssl-CXCc7-QR.svg</image:loc>
 		</image:image>
 		<image:image>
-			<image:loc>https://rucaptcha.com/dist/web/assets/gdpr-FYcKvTEm.svg</image:loc>
-		</image:image>
-		<image:image>
-			<image:loc>https://rucaptcha.com/dist/web/assets/java-BS1GEBhX.svg</image:loc>
-		</image:image>
-		<image:image>
-			<image:loc>https://rucaptcha.com/dist/web/assets/hero-Br4GiF4f.svg</image:loc>
-		</image:image>
-		<image:image>
-			<image:loc>https://rucaptcha.com/dist/web/assets/ccpa-DhhIMZ9G.svg</image:loc>
+			<image:loc>https://rucaptcha.com/dist/web/assets/php-AMqk9XGw.svg</image:loc>
 		</image:image>
 		<image:image>
 			<image:loc>https://rucaptcha.com/dist/web/assets/bash-KEZNXw4j.svg</image:loc>
 		</image:image>
 		<image:image>
+			<image:loc>https://rucaptcha.com/dist/web/assets/gdpr-FYcKvTEm.svg</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://rucaptcha.com/dist/web/assets/ccpa-DhhIMZ9G.svg</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://rucaptcha.com/dist/web/assets/java-BS1GEBhX.svg</image:loc>
+		</image:image>
+		<image:image>
 			<image:loc>https://rucaptcha.com/dist/web/assets/perl-CZ_-pdxN.svg</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://rucaptcha.com/dist/web/assets/hero-Br4GiF4f.svg</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://rucaptcha.com/dist/web/assets/smime-BaHt3dlP.svg</image:loc>
 		</image:image>
 		<image:image>
 			<image:loc>https://rucaptcha.com/dist/web/assets/proxy-WrKAlPNQ.svg</image:loc>
@@ -371,16 +557,13 @@
 			<image:loc>https://rucaptcha.com/dist/web/assets/vbnet-m3Fzh_Y7.svg</image:loc>
 		</image:image>
 		<image:image>
-			<image:loc>https://rucaptcha.com/dist/web/assets/smime-BaHt3dlP.svg</image:loc>
-		</image:image>
-		<image:image>
 			<image:loc>https://rucaptcha.com/dist/web/assets/google-VFzMJmNF.svg</image:loc>
 		</image:image>
 		<image:image>
-			<image:loc>https://rucaptcha.com/dist/web/assets/python-BFRlYXs-.svg</image:loc>
+			<image:loc>https://rucaptcha.com/dist/web/assets/csharp-DqyOxXik.svg</image:loc>
 		</image:image>
 		<image:image>
-			<image:loc>https://rucaptcha.com/dist/web/assets/csharp-DqyOxXik.svg</image:loc>
+			<image:loc>https://rucaptcha.com/dist/web/assets/python-BFRlYXs-.svg</image:loc>
 		</image:image>
 		<image:image>
 			<image:loc>https://rucaptcha.com/dist/web/assets/testing-CNiDNHmn.svg</image:loc>
@@ -395,34 +578,40 @@
 			<image:loc>https://rucaptcha.com/dist/web/assets/javascript-v8Z63EBx.svg</image:loc>
 		</image:image>
 		<image:image>
-			<image:loc>https://rucaptcha.com/dist/web/assets/isp-proxies-0bdo4ULP.svg</image:loc>
+			<image:loc>https://rucaptcha.com/dist/web/assets/isp-proxies-DXBsdnYi.svg</image:loc>
 		</image:image>
 		<image:image>
-			<image:loc>https://rucaptcha.com/dist/web/assets/isp-proxies-f8kGsAfb.svg</image:loc>
+			<image:loc>https://rucaptcha.com/dist/web/assets/isp-proxies-0bdo4ULP.svg</image:loc>
 		</image:image>
 		<image:image>
 			<image:loc>https://rucaptcha.com/dist/web/assets/sourceforge-BWcdYftu.svg</image:loc>
 		</image:image>
 		<image:image>
-			<image:loc>https://rucaptcha.com/dist/web/assets/isp-proxies-DXBsdnYi.svg</image:loc>
-		</image:image>
-		<image:image>
-			<image:loc>https://rucaptcha.com/dist/web/assets/https-proxies-BLcHWlhS.svg</image:loc>
+			<image:loc>https://rucaptcha.com/dist/web/assets/isp-proxies-f8kGsAfb.svg</image:loc>
 		</image:image>
 		<image:image>
 			<image:loc>https://rucaptcha.com/dist/web/assets/captchathecat-CI9F6C5u.svg</image:loc>
 		</image:image>
 		<image:image>
+			<image:loc>https://rucaptcha.com/dist/web/assets/https-proxies-86YY4yc3.svg</image:loc>
+		</image:image>
+		<image:image>
 			<image:loc>https://rucaptcha.com/dist/web/assets/https-proxies-ZeScmFFm.svg</image:loc>
 		</image:image>
 		<image:image>
-			<image:loc>https://rucaptcha.com/dist/web/assets/https-proxies-86YY4yc3.svg</image:loc>
+			<image:loc>https://rucaptcha.com/dist/web/assets/elite-proxies-UJEdwCen.svg</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://rucaptcha.com/dist/web/assets/https-proxies-BLcHWlhS.svg</image:loc>
 		</image:image>
 		<image:image>
 			<image:loc>https://rucaptcha.com/dist/web/assets/cybersecurity-DW1TLbS-.svg</image:loc>
 		</image:image>
 		<image:image>
-			<image:loc>https://rucaptcha.com/dist/web/assets/elite-proxies-UJEdwCen.svg</image:loc>
+			<image:loc>https://rucaptcha.com/dist/web/assets/mobile-proxies-BEiYvGDs.svg</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://rucaptcha.com/dist/web/assets/socks5-proxies-uxg5_wJG.svg</image:loc>
 		</image:image>
 		<image:image>
 			<image:loc>https://rucaptcha.com/dist/web/assets/socks5-proxies-B42M88Ir.svg</image:loc>
@@ -434,37 +623,34 @@
 			<image:loc>https://rucaptcha.com/dist/web/assets/socks5-proxies-CxHnpemX.svg</image:loc>
 		</image:image>
 		<image:image>
-			<image:loc>https://rucaptcha.com/dist/web/assets/socks5-proxies-uxg5_wJG.svg</image:loc>
+			<image:loc>https://rucaptcha.com/dist/web/assets/mobile-proxies-DPALGOHp.svg</image:loc>
 		</image:image>
 		<image:image>
 			<image:loc>https://rucaptcha.com/dist/web/assets/mobile-proxies-C2rWi5sG.svg</image:loc>
 		</image:image>
 		<image:image>
-			<image:loc>https://rucaptcha.com/dist/web/assets/mobile-proxies-BEiYvGDs.svg</image:loc>
-		</image:image>
-		<image:image>
-			<image:loc>https://rucaptcha.com/dist/web/assets/mobile-proxies-DPALGOHp.svg</image:loc>
-		</image:image>
-		<image:image>
-			<image:loc>https://rucaptcha.com/dist/web/assets/ad-verification-Cbn2Ydsa.svg</image:loc>
-		</image:image>
-		<image:image>
 			<image:loc>https://rucaptcha.com/dist/web/assets/premium-proxies-Cwohz67v.svg</image:loc>
-		</image:image>
-		<image:image>
-			<image:loc>https://rucaptcha.com/dist/web/assets/premium-proxies-BxcF65Hq.svg</image:loc>
 		</image:image>
 		<image:image>
 			<image:loc>https://rucaptcha.com/dist/web/assets/premium-proxies-L2UFOdH7.svg</image:loc>
 		</image:image>
 		<image:image>
+			<image:loc>https://rucaptcha.com/dist/web/assets/ad-verification-Cbn2Ydsa.svg</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://rucaptcha.com/dist/web/assets/premium-proxies-BxcF65Hq.svg</image:loc>
+		</image:image>
+		<image:image>
 			<image:loc>https://rucaptcha.com/dist/web/assets/rotating-proxies-D-CFeSQi.svg</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://rucaptcha.com/dist/web/assets/anonymous-proxies-Cd67XktD.svg</image:loc>
 		</image:image>
 		<image:image>
 			<image:loc>https://rucaptcha.com/dist/web/assets/review-monitoring-BacbBBWj.svg</image:loc>
 		</image:image>
 		<image:image>
-			<image:loc>https://rucaptcha.com/dist/web/assets/anonymous-proxies-Cd67XktD.svg</image:loc>
+			<image:loc>https://rucaptcha.com/dist/web/assets/datacenter-proxies-DmLGNW14.svg</image:loc>
 		</image:image>
 		<image:image>
 			<image:loc>https://rucaptcha.com/dist/web/assets/datacenter-proxies-yCEBIwqp.svg</image:loc>
@@ -473,22 +659,19 @@
 			<image:loc>https://rucaptcha.com/dist/web/assets/datacenter-proxies-fnxvsplX.svg</image:loc>
 		</image:image>
 		<image:image>
-			<image:loc>https://rucaptcha.com/dist/web/assets/datacenter-proxies-DmLGNW14.svg</image:loc>
-		</image:image>
-		<image:image>
-			<image:loc>https://rucaptcha.com/dist/web/assets/residential-proxies-DwV6mB4C.svg</image:loc>
+			<image:loc>https://rucaptcha.com/dist/web/assets/residential-proxies-D5T8ZWbW.svg</image:loc>
 		</image:image>
 		<image:image>
 			<image:loc>https://rucaptcha.com/dist/web/assets/residential-proxies-DoiH60r4.svg</image:loc>
 		</image:image>
 		<image:image>
-			<image:loc>https://rucaptcha.com/dist/web/assets/residential-proxies-D5T8ZWbW.svg</image:loc>
-		</image:image>
-		<image:image>
-			<image:loc>https://rucaptcha.com/dist/web/assets/proxy-service-active-BFXR8_2a.svg</image:loc>
+			<image:loc>https://rucaptcha.com/dist/web/assets/residential-proxies-DwV6mB4C.svg</image:loc>
 		</image:image>
 		<image:image>
 			<image:loc>https://rucaptcha.com/dist/web/assets/elite-proxies-active-GCN5rIBc.svg</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://rucaptcha.com/dist/web/assets/proxy-service-active-BFXR8_2a.svg</image:loc>
 		</image:image>
 		<image:image>
 			<image:loc>https://rucaptcha.com/dist/web/assets/premium-proxies-active-DMk8vDcz.svg</image:loc>
@@ -504,87 +687,24 @@
 		</image:image>
 	</url>
 	<url>
-		<loc>https://rucaptcha.com/pricing</loc>
+		<loc>https://rucaptcha.com/about</loc>
 		<image:image>
-			<image:loc>https://rucaptcha.com/dist/web/assets/prosopo-VI9iuWot.svg</image:loc>
+			<image:loc>https://rucaptcha.com/dist/web/assets/hero-DSOkYmqf.svg</image:loc>
 		</image:image>
 		<image:image>
-			<image:loc>https://rucaptcha.com/dist/web/assets/mtcaptcha-B5ZgfN9B.svg</image:loc>
+			<image:loc>https://rucaptcha.com/dist/web/assets/worker-1hB9F4vL.svg</image:loc>
 		</image:image>
 		<image:image>
-			<image:loc>https://rucaptcha.com/dist/web/assets/cybersiara-GUQdxk_r.svg</image:loc>
+			<image:loc>https://rucaptcha.com/dist/web/assets/customer-Mr6wLJ-I.svg</image:loc>
 		</image:image>
 		<image:image>
-			<image:loc>https://rucaptcha.com/dist/web/assets/cutcaptcha-v8IGbSBH.svg</image:loc>
+			<image:loc>https://rucaptcha.com/dist/web/assets/workflow-3-BrkqEack.svg</image:loc>
 		</image:image>
 		<image:image>
-			<image:loc>https://rucaptcha.com/dist/web/assets/vk-captcha-WwdhY9cm.svg</image:loc>
+			<image:loc>https://rucaptcha.com/dist/web/assets/workflow-2-CAsQvN8u.svg</image:loc>
 		</image:image>
 		<image:image>
-			<image:loc>https://rucaptcha.com/dist/web/assets/key-captcha-CFdLMAgw.svg</image:loc>
-		</image:image>
-		<image:image>
-			<image:loc>https://rucaptcha.com/dist/web/assets/atb-captcha-COobGxs4.svg</image:loc>
-		</image:image>
-		<image:image>
-			<image:loc>https://rucaptcha.com/dist/web/assets/math-captcha-BC5EY0_B.svg</image:loc>
-		</image:image>
-		<image:image>
-			<image:loc>https://rucaptcha.com/dist/web/assets/bounding-box-Cb7oh7_V.svg</image:loc>
-		</image:image>
-		<image:image>
-			<image:loc>https://rucaptcha.com/dist/web/assets/recaptcha-v3-BVYnVK2X.svg</image:loc>
-		</image:image>
-		<image:image>
-			<image:loc>https://rucaptcha.com/dist/web/assets/text-captcha-DIuuo-Sg.svg</image:loc>
-		</image:image>
-		<image:image>
-			<image:loc>https://rucaptcha.com/dist/web/assets/audio-captcha-BxOkisH3.svg</image:loc>
-		</image:image>
-		<image:image>
-			<image:loc>https://rucaptcha.com/dist/web/assets/click-captcha-Cj9gf119.svg</image:loc>
-		</image:image>
-		<image:image>
-			<image:loc>https://rucaptcha.com/dist/web/assets/lemin-captcha-Chv68--H.svg</image:loc>
-		</image:image>
-		<image:image>
-			<image:loc>https://rucaptcha.com/dist/web/assets/number-captcha-BsjavBe0.svg</image:loc>
-		</image:image>
-		<image:image>
-			<image:loc>https://rucaptcha.com/dist/web/assets/slider-captcha-DpaFG_eI.svg</image:loc>
-		</image:image>
-		<image:image>
-			<image:loc>https://rucaptcha.com/dist/web/assets/rotate-captcha-D-Yz_Yz_.svg</image:loc>
-		</image:image>
-		<image:image>
-			<image:loc>https://rucaptcha.com/dist/web/assets/normal-captcha-q1qkB1U1.svg</image:loc>
-		</image:image>
-		<image:image>
-			<image:loc>https://rucaptcha.com/dist/web/assets/russian-captcha-CglRXd9J.svg</image:loc>
-		</image:image>
-		<image:image>
-			<image:loc>https://rucaptcha.com/dist/web/assets/tencent-captcha-T2a5TAmx.svg</image:loc>
-		</image:image>
-		<image:image>
-			<image:loc>https://rucaptcha.com/dist/web/assets/chinese-captcha-DtgzURQ2.svg</image:loc>
-		</image:image>
-		<image:image>
-			<image:loc>https://rucaptcha.com/dist/web/assets/datadome-captcha-BMBcnX6N.svg</image:loc>
-		</image:image>
-		<image:image>
-			<image:loc>https://rucaptcha.com/dist/web/assets/friendly-captcha-C73phPfB.svg</image:loc>
-		</image:image>
-		<image:image>
-			<image:loc>https://rucaptcha.com/dist/web/assets/capy-puzzle-captcha-COJkr-xD.svg</image:loc>
-		</image:image>
-		<image:image>
-			<image:loc>https://rucaptcha.com/dist/web/assets/recaptcha-enterprise-CACmMaTy.svg</image:loc>
-		</image:image>
-		<image:image>
-			<image:loc>https://rucaptcha.com/dist/web/assets/recaptcha-v2-callback-kGhPbdPN.svg</image:loc>
-		</image:image>
-		<image:image>
-			<image:loc>https://rucaptcha.com/dist/web/assets/recaptcha-v2-invisible-CDlfY8rD.svg</image:loc>
+			<image:loc>https://rucaptcha.com/dist/web/assets/workflow-1-eurFCm0z.svg</image:loc>
 		</image:image>
 	</url>
 	<url>
@@ -602,13 +722,13 @@
 			<image:loc>https://rucaptcha.com/dist/web/assets/php-DmJNEUfQ.svg</image:loc>
 		</image:image>
 		<image:image>
-			<image:loc>https://rucaptcha.com/dist/web/assets/java-DxmSuhN0.svg</image:loc>
-		</image:image>
-		<image:image>
 			<image:loc>https://rucaptcha.com/dist/web/assets/ruby-FrzeANUN.svg</image:loc>
 		</image:image>
 		<image:image>
 			<image:loc>https://rucaptcha.com/dist/web/assets/java-Dnx9oypJ.svg</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://rucaptcha.com/dist/web/assets/java-DxmSuhN0.svg</image:loc>
 		</image:image>
 		<image:image>
 			<image:loc>https://rucaptcha.com/dist/web/assets/ruby-CgWRURSB.svg</image:loc>
@@ -617,10 +737,13 @@
 			<image:loc>https://rucaptcha.com/dist/web/assets/go-lg-DWB-0Nc1.svg</image:loc>
 		</image:image>
 		<image:image>
-			<image:loc>https://rucaptcha.com/dist/web/assets/python-2zbLC2mI.svg</image:loc>
+			<image:loc>https://rucaptcha.com/dist/web/assets/csharp-C_bpKln2.svg</image:loc>
 		</image:image>
 		<image:image>
 			<image:loc>https://rucaptcha.com/dist/web/assets/php-lg-ZIZ2D6Aw.svg</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://rucaptcha.com/dist/web/assets/python-2zbLC2mI.svg</image:loc>
 		</image:image>
 		<image:image>
 			<image:loc>https://rucaptcha.com/dist/web/assets/csharp-CY2Y7IHm.svg</image:loc>
@@ -629,19 +752,16 @@
 			<image:loc>https://rucaptcha.com/dist/web/assets/python-DWtU5yp-.svg</image:loc>
 		</image:image>
 		<image:image>
-			<image:loc>https://rucaptcha.com/dist/web/assets/csharp-C_bpKln2.svg</image:loc>
-		</image:image>
-		<image:image>
 			<image:loc>https://rucaptcha.com/dist/web/assets/java-lg-B3DJZ9sf.svg</image:loc>
 		</image:image>
 		<image:image>
 			<image:loc>https://rucaptcha.com/dist/web/assets/ruby-lg-Dj4qqRw-.svg</image:loc>
 		</image:image>
 		<image:image>
-			<image:loc>https://rucaptcha.com/dist/web/assets/python-lg-Di2pmseN.svg</image:loc>
+			<image:loc>https://rucaptcha.com/dist/web/assets/csharp-lg-CxnN2Sd1.svg</image:loc>
 		</image:image>
 		<image:image>
-			<image:loc>https://rucaptcha.com/dist/web/assets/csharp-lg-CxnN2Sd1.svg</image:loc>
+			<image:loc>https://rucaptcha.com/dist/web/assets/python-lg-Di2pmseN.svg</image:loc>
 		</image:image>
 		<image:image>
 			<image:loc>https://rucaptcha.com/dist/web/assets/funcaptcha-CV_IDPHQ.svg</image:loc>
@@ -659,7 +779,7 @@
 			<image:loc>https://rucaptcha.com/dist/web/assets/go-disabled-BO4iaEDb.svg</image:loc>
 		</image:image>
 		<image:image>
-			<image:loc>https://rucaptcha.com/dist/web/assets/recaptcha-v3-DLVT8V6v.svg</image:loc>
+			<image:loc>https://rucaptcha.com/dist/web/assets/recaptcha-v2-n67LzslO.svg</image:loc>
 		</image:image>
 		<image:image>
 			<image:loc>https://rucaptcha.com/dist/web/assets/php-disabled-ByjcvXCx.svg</image:loc>
@@ -668,22 +788,22 @@
 			<image:loc>https://rucaptcha.com/dist/web/assets/text-captcha-DMLkAMCn.svg</image:loc>
 		</image:image>
 		<image:image>
-			<image:loc>https://rucaptcha.com/dist/web/assets/recaptcha-v2-n67LzslO.svg</image:loc>
-		</image:image>
-		<image:image>
 			<image:loc>https://rucaptcha.com/dist/web/assets/grid-captcha-kk-hGKYr.svg</image:loc>
 		</image:image>
 		<image:image>
-			<image:loc>https://rucaptcha.com/dist/web/assets/ruby-disabled-DZmumWsk.svg</image:loc>
+			<image:loc>https://rucaptcha.com/dist/web/assets/recaptcha-v3-DLVT8V6v.svg</image:loc>
 		</image:image>
 		<image:image>
 			<image:loc>https://rucaptcha.com/dist/web/assets/click-captcha-6I0DigjU.svg</image:loc>
 		</image:image>
 		<image:image>
+			<image:loc>https://rucaptcha.com/dist/web/assets/java-disabled-DI_BU0sO.svg</image:loc>
+		</image:image>
+		<image:image>
 			<image:loc>https://rucaptcha.com/dist/web/assets/javascript-lg-DJlefwuk.svg</image:loc>
 		</image:image>
 		<image:image>
-			<image:loc>https://rucaptcha.com/dist/web/assets/java-disabled-DI_BU0sO.svg</image:loc>
+			<image:loc>https://rucaptcha.com/dist/web/assets/ruby-disabled-DZmumWsk.svg</image:loc>
 		</image:image>
 		<image:image>
 			<image:loc>https://rucaptcha.com/dist/web/assets/rotate-captcha-BQNSAOJT.svg</image:loc>
@@ -698,52 +818,100 @@
 			<image:loc>https://rucaptcha.com/dist/web/assets/csharp-disabled-8NjWRbin.svg</image:loc>
 		</image:image>
 		<image:image>
-			<image:loc>https://rucaptcha.com/dist/web/assets/geetest-captcha-w_4nAc5B.svg</image:loc>
-		</image:image>
-		<image:image>
 			<image:loc>https://rucaptcha.com/dist/web/assets/python-disabled-BeCLsKfR.svg</image:loc>
 		</image:image>
 		<image:image>
-			<image:loc>https://rucaptcha.com/dist/web/assets/javascript-disabled-D7OnJr9Z.svg</image:loc>
+			<image:loc>https://rucaptcha.com/dist/web/assets/geetest-captcha-w_4nAc5B.svg</image:loc>
 		</image:image>
 		<image:image>
 			<image:loc>https://rucaptcha.com/dist/web/assets/capy-puzzle-captcha-1E5QNgcN.svg</image:loc>
 		</image:image>
+		<image:image>
+			<image:loc>https://rucaptcha.com/dist/web/assets/javascript-disabled-D7OnJr9Z.svg</image:loc>
+		</image:image>
 	</url>
 	<url>
-		<loc>https://rucaptcha.com/api-docs</loc>
+		<loc>https://rucaptcha.com/pricing</loc>
 		<image:image>
-			<image:loc>https://rucaptcha.com/dist/web/assets/go-z3vmMuLB.svg</image:loc>
+			<image:loc>https://rucaptcha.com/dist/web/assets/prosopo-VI9iuWot.svg</image:loc>
 		</image:image>
 		<image:image>
-			<image:loc>https://rucaptcha.com/dist/web/assets/php-B5Spy0Zq.svg</image:loc>
+			<image:loc>https://rucaptcha.com/dist/web/assets/mtcaptcha-B5ZgfN9B.svg</image:loc>
 		</image:image>
 		<image:image>
-			<image:loc>https://rucaptcha.com/dist/web/assets/java-BduKJu7K.svg</image:loc>
+			<image:loc>https://rucaptcha.com/dist/web/assets/cutcaptcha-v8IGbSBH.svg</image:loc>
 		</image:image>
 		<image:image>
-			<image:loc>https://rucaptcha.com/dist/web/assets/ruby-DOiKe3HT.svg</image:loc>
+			<image:loc>https://rucaptcha.com/dist/web/assets/vk-captcha-WwdhY9cm.svg</image:loc>
 		</image:image>
 		<image:image>
-			<image:loc>https://rucaptcha.com/dist/web/assets/csharp-chqx7xWE.svg</image:loc>
+			<image:loc>https://rucaptcha.com/dist/web/assets/cybersiara-GUQdxk_r.svg</image:loc>
 		</image:image>
 		<image:image>
-			<image:loc>https://rucaptcha.com/dist/web/assets/python-DZkSH86L.svg</image:loc>
+			<image:loc>https://rucaptcha.com/dist/web/assets/key-captcha-CFdLMAgw.svg</image:loc>
 		</image:image>
 		<image:image>
-			<image:loc>https://rucaptcha.com/dist/web/assets/github-BOoOh1jp.svg</image:loc>
+			<image:loc>https://rucaptcha.com/dist/web/assets/atb-captcha-COobGxs4.svg</image:loc>
 		</image:image>
 		<image:image>
-			<image:loc>https://rucaptcha.com/dist/web/assets/javascript-BdgrMxXT.svg</image:loc>
+			<image:loc>https://rucaptcha.com/dist/web/assets/recaptcha-v3-BVYnVK2X.svg</image:loc>
 		</image:image>
 		<image:image>
-			<image:loc>https://rucaptcha.com/dist/web/assets/draw-around-ouz-tq2w.svg</image:loc>
+			<image:loc>https://rucaptcha.com/dist/web/assets/text-captcha-DIuuo-Sg.svg</image:loc>
 		</image:image>
 		<image:image>
-			<image:loc>https://rucaptcha.com/dist/web/assets/grid-captcha-_jQkqb0G.svg</image:loc>
+			<image:loc>https://rucaptcha.com/dist/web/assets/math-captcha-BC5EY0_B.svg</image:loc>
 		</image:image>
 		<image:image>
-			<image:loc>https://rucaptcha.com/dist/web/assets/gee-test-captcha-v4-EZ1RZTCY.svg</image:loc>
+			<image:loc>https://rucaptcha.com/dist/web/assets/bounding-box-Cb7oh7_V.svg</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://rucaptcha.com/dist/web/assets/lemin-captcha-Chv68--H.svg</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://rucaptcha.com/dist/web/assets/click-captcha-Cj9gf119.svg</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://rucaptcha.com/dist/web/assets/audio-captcha-BxOkisH3.svg</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://rucaptcha.com/dist/web/assets/number-captcha-BsjavBe0.svg</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://rucaptcha.com/dist/web/assets/normal-captcha-q1qkB1U1.svg</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://rucaptcha.com/dist/web/assets/rotate-captcha-D-Yz_Yz_.svg</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://rucaptcha.com/dist/web/assets/slider-captcha-DpaFG_eI.svg</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://rucaptcha.com/dist/web/assets/chinese-captcha-DtgzURQ2.svg</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://rucaptcha.com/dist/web/assets/russian-captcha-CglRXd9J.svg</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://rucaptcha.com/dist/web/assets/tencent-captcha-T2a5TAmx.svg</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://rucaptcha.com/dist/web/assets/friendly-captcha-C73phPfB.svg</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://rucaptcha.com/dist/web/assets/datadome-captcha-BMBcnX6N.svg</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://rucaptcha.com/dist/web/assets/capy-puzzle-captcha-COJkr-xD.svg</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://rucaptcha.com/dist/web/assets/recaptcha-enterprise-CACmMaTy.svg</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://rucaptcha.com/dist/web/assets/recaptcha-v2-callback-kGhPbdPN.svg</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://rucaptcha.com/dist/web/assets/recaptcha-v2-invisible-CDlfY8rD.svg</image:loc>
 		</image:image>
 	</url>
 	<url>
@@ -752,88 +920,88 @@
 			<image:loc>https://rucaptcha.com/template/soft/img/all.png</image:loc>
 		</image:image>
 		<image:image>
-			<image:loc>https://rucaptcha.com/template/design/img/lng/ja.png</image:loc>
-		</image:image>
-		<image:image>
-			<image:loc>https://rucaptcha.com/template/design/img/lng/ar.png</image:loc>
-		</image:image>
-		<image:image>
-			<image:loc>https://rucaptcha.com/template/design/img/lng/fr.png</image:loc>
-		</image:image>
-		<image:image>
 			<image:loc>https://rucaptcha.com/template/design/img/lng/en.png</image:loc>
 		</image:image>
 		<image:image>
 			<image:loc>https://rucaptcha.com/template/design/img/lng/uz.png</image:loc>
 		</image:image>
 		<image:image>
-			<image:loc>https://rucaptcha.com/template/design/img/lng/pt.png</image:loc>
-		</image:image>
-		<image:image>
-			<image:loc>https://rucaptcha.com/template/design/img/lng/tr.png</image:loc>
-		</image:image>
-		<image:image>
-			<image:loc>https://rucaptcha.com/template/design/img/lng/fi.png</image:loc>
-		</image:image>
-		<image:image>
-			<image:loc>https://rucaptcha.com/template/design/img/lng/zh.png</image:loc>
-		</image:image>
-		<image:image>
-			<image:loc>https://rucaptcha.com/template/design/img/lng/el.png</image:loc>
-		</image:image>
-		<image:image>
 			<image:loc>https://rucaptcha.com/template/design/img/lng/pl.png</image:loc>
-		</image:image>
-		<image:image>
-			<image:loc>https://rucaptcha.com/template/design/img/lng/uk.png</image:loc>
 		</image:image>
 		<image:image>
 			<image:loc>https://rucaptcha.com/template/design/img/lng/kk.png</image:loc>
 		</image:image>
 		<image:image>
-			<image:loc>https://rucaptcha.com/template/design/img/lng/es.png</image:loc>
+			<image:loc>https://rucaptcha.com/template/design/img/lng/pt.png</image:loc>
 		</image:image>
 		<image:image>
-			<image:loc>https://rucaptcha.com/template/design/img/lng/it.png</image:loc>
+			<image:loc>https://rucaptcha.com/template/design/img/lng/ar.png</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://rucaptcha.com/template/design/img/lng/fi.png</image:loc>
 		</image:image>
 		<image:image>
 			<image:loc>https://rucaptcha.com/template/design/img/lng/ka.png</image:loc>
 		</image:image>
 		<image:image>
+			<image:loc>https://rucaptcha.com/template/design/img/lng/fr.png</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://rucaptcha.com/template/design/img/lng/ja.png</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://rucaptcha.com/template/design/img/lng/it.png</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://rucaptcha.com/template/design/img/lng/el.png</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://rucaptcha.com/template/design/img/lng/tr.png</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://rucaptcha.com/template/design/img/lng/zh.png</image:loc>
+		</image:image>
+		<image:image>
 			<image:loc>https://rucaptcha.com/template/design/img/lng/ru.png</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://rucaptcha.com/template/design/img/lng/uk.png</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://rucaptcha.com/template/design/img/lng/es.png</image:loc>
 		</image:image>
 		<image:image>
 			<image:loc>https://rucaptcha.com/template/design/img/lng/fil.png</image:loc>
 		</image:image>
 		<image:image>
-			<image:loc>https://rucaptcha.com/template/design/img/med_mail.svg</image:loc>
-		</image:image>
-		<image:image>
 			<image:loc>https://rucaptcha.com/template/design/img/payments.png</image:loc>
 		</image:image>
 		<image:image>
-			<image:loc>https://rucaptcha.com/template/design/img/svg/software/i1.svg</image:loc>
-		</image:image>
-		<image:image>
-			<image:loc>https://rucaptcha.com/template/design/img/svg/software/i5.svg</image:loc>
-		</image:image>
-		<image:image>
-			<image:loc>https://rucaptcha.com/template/design/img/svg/software/i9.svg</image:loc>
-		</image:image>
-		<image:image>
-			<image:loc>https://rucaptcha.com/template/design/img/svg/software/i6.svg</image:loc>
-		</image:image>
-		<image:image>
-			<image:loc>https://rucaptcha.com/template/design/img/svg/software/i8.svg</image:loc>
+			<image:loc>https://rucaptcha.com/template/design/img/med_mail.svg</image:loc>
 		</image:image>
 		<image:image>
 			<image:loc>https://rucaptcha.com/template/design/img/svg/software/i3.svg</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://rucaptcha.com/template/design/img/svg/software/i9.svg</image:loc>
 		</image:image>
 		<image:image>
 			<image:loc>https://rucaptcha.com/template/design/img/svg/software/i4.svg</image:loc>
 		</image:image>
 		<image:image>
 			<image:loc>https://rucaptcha.com/template/design/img/svg/software/i7.svg</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://rucaptcha.com/template/design/img/svg/software/i6.svg</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://rucaptcha.com/template/design/img/svg/software/i1.svg</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://rucaptcha.com/template/design/img/svg/software/i8.svg</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://rucaptcha.com/template/design/img/svg/software/i5.svg</image:loc>
 		</image:image>
 		<image:image>
 			<image:loc>https://rucaptcha.com/template/design/img/rucaptcha_logo_g.svg</image:loc>
@@ -891,45 +1059,45 @@
 		</image:image>
 	</url>
 	<url>
-		<loc>https://rucaptcha.com/p/geetest</loc>
+		<loc>https://rucaptcha.com/api-docs</loc>
 		<image:image>
-			<image:loc>https://rucaptcha.com/dist/web/assets/hero-D5uYgmY9.svg</image:loc>
+			<image:loc>https://rucaptcha.com/dist/web/assets/go-z3vmMuLB.svg</image:loc>
 		</image:image>
 		<image:image>
-			<image:loc>https://rucaptcha.com/dist/web/assets/geetest-CVxhIpn6.svg</image:loc>
+			<image:loc>https://rucaptcha.com/dist/web/assets/php-B5Spy0Zq.svg</image:loc>
 		</image:image>
 		<image:image>
-			<image:loc>https://rucaptcha.com/dist/web/assets/geetest-v4-CJicbSHs.svg</image:loc>
+			<image:loc>https://rucaptcha.com/dist/web/assets/java-BduKJu7K.svg</image:loc>
 		</image:image>
 		<image:image>
-			<image:loc>https://rucaptcha.com/assets/captcha-recognition/icons/go.svg</image:loc>
+			<image:loc>https://rucaptcha.com/dist/web/assets/ruby-DOiKe3HT.svg</image:loc>
 		</image:image>
 		<image:image>
-			<image:loc>https://rucaptcha.com/dist/web/assets/geetest-v3-Cwf1ZJbp.svg</image:loc>
+			<image:loc>https://rucaptcha.com/dist/web/assets/github-BOoOh1jp.svg</image:loc>
 		</image:image>
 		<image:image>
-			<image:loc>https://rucaptcha.com/assets/captcha-recognition/icons/cpp.svg</image:loc>
+			<image:loc>https://rucaptcha.com/dist/web/assets/python-DZkSH86L.svg</image:loc>
 		</image:image>
 		<image:image>
-			<image:loc>https://rucaptcha.com/assets/captcha-recognition/icons/php.svg</image:loc>
+			<image:loc>https://rucaptcha.com/dist/web/assets/csharp-chqx7xWE.svg</image:loc>
 		</image:image>
 		<image:image>
-			<image:loc>https://rucaptcha.com/assets/captcha-recognition/icons/java.svg</image:loc>
+			<image:loc>https://rucaptcha.com/dist/web/assets/javascript-BdgrMxXT.svg</image:loc>
 		</image:image>
 		<image:image>
-			<image:loc>https://rucaptcha.com/assets/captcha-recognition/icons/ruby.svg</image:loc>
+			<image:loc>https://rucaptcha.com/dist/web/assets/draw-around-ouz-tq2w.svg</image:loc>
 		</image:image>
 		<image:image>
-			<image:loc>https://rucaptcha.com/dist/web/assets/extension-demo-D_z8c-cv.svg</image:loc>
+			<image:loc>https://rucaptcha.com/dist/web/assets/grid-captcha-_jQkqb0G.svg</image:loc>
 		</image:image>
 		<image:image>
-			<image:loc>https://rucaptcha.com/assets/captcha-recognition/icons/python.svg</image:loc>
+			<image:loc>https://rucaptcha.com/dist/web/assets/gee-test-captcha-v4-EZ1RZTCY.svg</image:loc>
 		</image:image>
+	</url>
+	<url>
+		<loc>https://rucaptcha.com/lang/java</loc>
 		<image:image>
-			<image:loc>https://rucaptcha.com/assets/captcha-recognition/icons/csharp.svg</image:loc>
-		</image:image>
-		<image:image>
-			<image:loc>https://rucaptcha.com/dist/web/assets/supported-browsers-F-EMxNYW.svg</image:loc>
+			<image:loc>https://rucaptcha.com/dist/web/assets/java-8NPcJkYK.svg</image:loc>
 		</image:image>
 	</url>
 	<url>
@@ -957,15 +1125,51 @@
 		</image:image>
 	</url>
 	<url>
-		<loc>https://rucaptcha.com/lang/java</loc>
-		<image:image>
-			<image:loc>https://rucaptcha.com/dist/web/assets/java-8NPcJkYK.svg</image:loc>
-		</image:image>
-	</url>
-	<url>
 		<loc>https://rucaptcha.com/lang/ruby</loc>
 		<image:image>
 			<image:loc>https://rucaptcha.com/dist/web/assets/ruby-BdBwmYDr.svg</image:loc>
+		</image:image>
+	</url>
+	<url>
+		<loc>https://rucaptcha.com/p/geetest</loc>
+		<image:image>
+			<image:loc>https://rucaptcha.com/dist/web/assets/hero-D5uYgmY9.svg</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://rucaptcha.com/dist/web/assets/geetest-CVxhIpn6.svg</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://rucaptcha.com/dist/web/assets/geetest-v3-Cwf1ZJbp.svg</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://rucaptcha.com/assets/captcha-recognition/icons/go.svg</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://rucaptcha.com/dist/web/assets/geetest-v4-CJicbSHs.svg</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://rucaptcha.com/assets/captcha-recognition/icons/php.svg</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://rucaptcha.com/assets/captcha-recognition/icons/cpp.svg</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://rucaptcha.com/assets/captcha-recognition/icons/ruby.svg</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://rucaptcha.com/assets/captcha-recognition/icons/java.svg</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://rucaptcha.com/dist/web/assets/extension-demo-D_z8c-cv.svg</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://rucaptcha.com/assets/captcha-recognition/icons/csharp.svg</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://rucaptcha.com/assets/captcha-recognition/icons/python.svg</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://rucaptcha.com/dist/web/assets/supported-browsers-F-EMxNYW.svg</image:loc>
 		</image:image>
 	</url>
 	<url>
@@ -1007,13 +1211,13 @@
 			<image:loc>https://rucaptcha.com/dist/web/assets/placeholder-Cj7XlC1Z.svg</image:loc>
 		</image:image>
 		<image:image>
-			<image:loc>https://rucaptcha.com/dist/web/assets/funcaptcha-3-DKa_FPi4.svg</image:loc>
-		</image:image>
-		<image:image>
 			<image:loc>https://rucaptcha.com/dist/web/assets/funcaptcha-1-BtHum0Qg.svg</image:loc>
 		</image:image>
 		<image:image>
 			<image:loc>https://rucaptcha.com/dist/web/assets/funcaptcha-2-DZaIgdAg.svg</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://rucaptcha.com/dist/web/assets/funcaptcha-3-DKa_FPi4.svg</image:loc>
 		</image:image>
 		<image:image>
 			<image:loc>https://rucaptcha.com/dist/web/assets/funcaptcha-4-BvCUfiN1.svg</image:loc>
@@ -1026,12 +1230,18 @@
 		</image:image>
 	</url>
 	<url>
+		<loc>https://rucaptcha.com/p/capy_puzzle</loc>
+		<image:image>
+			<image:loc>https://rucaptcha.com/dist/web/assets/hero-DLLwTvjv.svg</image:loc>
+		</image:image>
+	</url>
+	<url>
 		<loc>https://rucaptcha.com/api-rucaptcha</loc>
 		<image:image>
-			<image:loc>https://rucaptcha.com/assets/captcha-api-docs/img/hooray.png</image:loc>
+			<image:loc>https://rucaptcha.com/assets/captcha-api-docs/img/answer.png</image:loc>
 		</image:image>
 		<image:image>
-			<image:loc>https://rucaptcha.com/assets/captcha-api-docs/img/answer.png</image:loc>
+			<image:loc>https://rucaptcha.com/assets/captcha-api-docs/img/hooray.png</image:loc>
 		</image:image>
 		<image:image>
 			<image:loc>https://rucaptcha.com/dist/web/assets/new-json-api-CYnesebS.svg</image:loc>
@@ -1040,10 +1250,10 @@
 			<image:loc>https://rucaptcha.com/assets/captcha-api-docs/img/funcaptcha.gif</image:loc>
 		</image:image>
 		<image:image>
-			<image:loc>https://rucaptcha.com/assets/captcha-api-docs/img/recaptchav2.gif</image:loc>
+			<image:loc>https://rucaptcha.com/assets/captcha-api-docs/img/capy_puzzle.png</image:loc>
 		</image:image>
 		<image:image>
-			<image:loc>https://rucaptcha.com/assets/captcha-api-docs/img/capy_puzzle.png</image:loc>
+			<image:loc>https://rucaptcha.com/assets/captcha-api-docs/img/recaptchav2.gif</image:loc>
 		</image:image>
 		<image:image>
 			<image:loc>https://rucaptcha.com/assets/captcha-api-docs/img/inspectelement.png</image:loc>
@@ -1059,15 +1269,27 @@
 		</image:image>
 	</url>
 	<url>
-		<loc>https://rucaptcha.com/p/capy_puzzle</loc>
+		<loc>https://rucaptcha.com/p/recaptcha_v2</loc>
 		<image:image>
-			<image:loc>https://rucaptcha.com/dist/web/assets/hero-DLLwTvjv.svg</image:loc>
+			<image:loc>https://rucaptcha.com/dist/web/assets/hero-D4DnoJO8.svg</image:loc>
 		</image:image>
 	</url>
 	<url>
 		<loc>https://rucaptcha.com/p/text_captcha</loc>
 		<image:image>
 			<image:loc>https://rucaptcha.com/dist/web/assets/hero-Dz-7TQyz.svg</image:loc>
+		</image:image>
+	</url>
+	<url>
+		<loc>https://rucaptcha.com/p/clickcaptcha</loc>
+		<image:image>
+			<image:loc>https://rucaptcha.com/dist/web/assets/hero-CJ2Z0Yfm.svg</image:loc>
+		</image:image>
+	</url>
+	<url>
+		<loc>https://rucaptcha.com/p/recaptcha_v3</loc>
+		<image:image>
+			<image:loc>https://rucaptcha.com/dist/web/assets/hero-hHiZrs3T.svg</image:loc>
 		</image:image>
 	</url>
 	<url>
@@ -1095,21 +1317,9 @@
 		</image:image>
 	</url>
 	<url>
-		<loc>https://rucaptcha.com/p/recaptcha_v2</loc>
+		<loc>https://rucaptcha.com/lang/javascript</loc>
 		<image:image>
-			<image:loc>https://rucaptcha.com/dist/web/assets/hero-D4DnoJO8.svg</image:loc>
-		</image:image>
-	</url>
-	<url>
-		<loc>https://rucaptcha.com/p/recaptcha_v3</loc>
-		<image:image>
-			<image:loc>https://rucaptcha.com/dist/web/assets/hero-hHiZrs3T.svg</image:loc>
-		</image:image>
-	</url>
-	<url>
-		<loc>https://rucaptcha.com/p/clickcaptcha</loc>
-		<image:image>
-			<image:loc>https://rucaptcha.com/dist/web/assets/hero-CJ2Z0Yfm.svg</image:loc>
+			<image:loc>https://rucaptcha.com/dist/web/assets/javascript-DXInIkZj.svg</image:loc>
 		</image:image>
 	</url>
 	<url>
@@ -1119,21 +1329,15 @@
 		</image:image>
 	</url>
 	<url>
-		<loc>https://rucaptcha.com/p/audio-captcha</loc>
-		<image:image>
-			<image:loc>https://rucaptcha.com/dist/web/assets/hero-CVIGiY8o.svg</image:loc>
-		</image:image>
-	</url>
-	<url>
 		<loc>https://rucaptcha.com/p/lemin-captcha</loc>
 		<image:image>
 			<image:loc>https://rucaptcha.com/dist/web/assets/hero-BxzvYZ_4.svg</image:loc>
 		</image:image>
 	</url>
 	<url>
-		<loc>https://rucaptcha.com/lang/javascript</loc>
+		<loc>https://rucaptcha.com/p/audio-captcha</loc>
 		<image:image>
-			<image:loc>https://rucaptcha.com/dist/web/assets/javascript-DXInIkZj.svg</image:loc>
+			<image:loc>https://rucaptcha.com/dist/web/assets/hero-CVIGiY8o.svg</image:loc>
 		</image:image>
 	</url>
 	<url>
@@ -1142,10 +1346,10 @@
 			<image:loc>https://rucaptcha.com/dist/web/assets/price-DwlQ6Y1R.svg</image:loc>
 		</image:image>
 		<image:image>
-			<image:loc>https://rucaptcha.com/dist/web/assets/captcha-DgphCAds.svg</image:loc>
+			<image:loc>https://rucaptcha.com/dist/web/assets/captcha-CyFmmWpT.svg</image:loc>
 		</image:image>
 		<image:image>
-			<image:loc>https://rucaptcha.com/dist/web/assets/captcha-CyFmmWpT.svg</image:loc>
+			<image:loc>https://rucaptcha.com/dist/web/assets/captcha-DgphCAds.svg</image:loc>
 		</image:image>
 		<image:image>
 			<image:loc>https://rucaptcha.com/dist/web/assets/recaptcha-CTzwlJBb.svg</image:loc>
@@ -1160,13 +1364,13 @@
 			<image:loc>https://rucaptcha.com/dist/web/assets/code-examples-CMpPSTwx.svg</image:loc>
 		</image:image>
 		<image:image>
-			<image:loc>https://rucaptcha.com/dist/web/assets/extension-demo-C1l9N8sf.svg</image:loc>
-		</image:image>
-		<image:image>
 			<image:loc>https://rucaptcha.com/dist/web/assets/captcha-bypass-DlH1DOJ6.svg</image:loc>
 		</image:image>
 		<image:image>
 			<image:loc>https://rucaptcha.com/dist/web/assets/captcha-bypass-lW6JrQTK.svg</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://rucaptcha.com/dist/web/assets/extension-demo-C1l9N8sf.svg</image:loc>
 		</image:image>
 		<image:image>
 			<image:loc>https://rucaptcha.com/dist/web/assets/chrome-web-store-24R7ZsTX.svg</image:loc>
@@ -1199,10 +1403,10 @@
 			<image:loc>https://rucaptcha.com/assets/faq/icons/mobile.png</image:loc>
 		</image:image>
 		<image:image>
-			<image:loc>https://rucaptcha.com/assets/faq/icons/payeer.png</image:loc>
+			<image:loc>https://rucaptcha.com/assets/faq/icons/tether.png</image:loc>
 		</image:image>
 		<image:image>
-			<image:loc>https://rucaptcha.com/assets/faq/icons/tether.png</image:loc>
+			<image:loc>https://rucaptcha.com/assets/faq/icons/payeer.png</image:loc>
 		</image:image>
 		<image:image>
 			<image:loc>https://rucaptcha.com/assets/faq/icons/bitcoin.png</image:loc>
@@ -1214,13 +1418,13 @@
 			<image:loc>https://rucaptcha.com/assets/faq/icons/webmoney.png</image:loc>
 		</image:image>
 		<image:image>
-			<image:loc>https://rucaptcha.com/assets/faq/icons/bitcoin-cash.png</image:loc>
+			<image:loc>https://rucaptcha.com/assets/faq/icons/yandex-money.png</image:loc>
 		</image:image>
 		<image:image>
 			<image:loc>https://rucaptcha.com/dist/web/assets/usdt-VIKawmFf.svg</image:loc>
 		</image:image>
 		<image:image>
-			<image:loc>https://rucaptcha.com/assets/faq/icons/yandex-money.png</image:loc>
+			<image:loc>https://rucaptcha.com/assets/faq/icons/bitcoin-cash.png</image:loc>
 		</image:image>
 		<image:image>
 			<image:loc>https://rucaptcha.com/dist/web/assets/airtm-OxPa_emN.svg</image:loc>
@@ -1256,10 +1460,10 @@
 			<image:loc>https://rucaptcha.com/dist/web/assets/bitcoin-cash-NmJXlMBe.svg</image:loc>
 		</image:image>
 		<image:image>
-			<image:loc>https://rucaptcha.com/dist/web/assets/working-terms-Dbxxg75o.svg</image:loc>
+			<image:loc>https://rucaptcha.com/dist/web/assets/perfect-money-jJu6aWDj.svg</image:loc>
 		</image:image>
 		<image:image>
-			<image:loc>https://rucaptcha.com/dist/web/assets/perfect-money-jJu6aWDj.svg</image:loc>
+			<image:loc>https://rucaptcha.com/dist/web/assets/working-terms-Dbxxg75o.svg</image:loc>
 		</image:image>
 		<image:image>
 			<image:loc>https://rucaptcha.com/dist/web/assets/payout-process-BBhxcItR.svg</image:loc>
@@ -1292,25 +1496,25 @@
 			<image:loc>https://rucaptcha.com/dist/web/assets/data-labeling-CmoxWwYK.svg</image:loc>
 		</image:image>
 		<image:image>
-			<image:loc>https://rucaptcha.com/dist/web/assets/bounding-box-1-kZ3t4KFm.svg</image:loc>
+			<image:loc>https://rucaptcha.com/dist/web/assets/bounding-box-2-BH8VJq0K.svg</image:loc>
 		</image:image>
 		<image:image>
-			<image:loc>https://rucaptcha.com/dist/web/assets/bounding-box-2-BH8VJq0K.svg</image:loc>
+			<image:loc>https://rucaptcha.com/dist/web/assets/bounding-box-1-kZ3t4KFm.svg</image:loc>
 		</image:image>
 		<image:image>
 			<image:loc>https://rucaptcha.com/dist/web/assets/object-tracking-CKUJv-1Z.svg</image:loc>
 		</image:image>
 		<image:image>
-			<image:loc>https://rucaptcha.com/dist/web/assets/object-detection-DW_IZ8J_.svg</image:loc>
+			<image:loc>https://rucaptcha.com/dist/web/assets/insurance-claims-SijgHWCy.svg</image:loc>
 		</image:image>
 		<image:image>
-			<image:loc>https://rucaptcha.com/dist/web/assets/insurance-claims-SijgHWCy.svg</image:loc>
+			<image:loc>https://rucaptcha.com/dist/web/assets/object-detection-CvP2Q6zk.svg</image:loc>
 		</image:image>
 		<image:image>
 			<image:loc>https://rucaptcha.com/dist/web/assets/bounding-box-api-DuPAcZ-q.svg</image:loc>
 		</image:image>
 		<image:image>
-			<image:loc>https://rucaptcha.com/dist/web/assets/object-detection-CvP2Q6zk.svg</image:loc>
+			<image:loc>https://rucaptcha.com/dist/web/assets/object-detection-DW_IZ8J_.svg</image:loc>
 		</image:image>
 		<image:image>
 			<image:loc>https://rucaptcha.com/dist/web/assets/bounding-box-active-JL67h3se.svg</image:loc>
@@ -1340,10 +1544,10 @@
 			<image:loc>https://rucaptcha.com/dist/web/assets/firefox-logo-diDQhpJS.svg</image:loc>
 		</image:image>
 		<image:image>
-			<image:loc>https://rucaptcha.com/dist/web/assets/recaptcha-v3-DFjUcjKx.svg</image:loc>
+			<image:loc>https://rucaptcha.com/dist/web/assets/recaptcha-v2-D1EANFNP.svg</image:loc>
 		</image:image>
 		<image:image>
-			<image:loc>https://rucaptcha.com/dist/web/assets/recaptcha-v2-D1EANFNP.svg</image:loc>
+			<image:loc>https://rucaptcha.com/dist/web/assets/recaptcha-v3-DFjUcjKx.svg</image:loc>
 		</image:image>
 		<image:image>
 			<image:loc>https://rucaptcha.com/dist/web/assets/captchathecat-BsHCZHos.svg</image:loc>
@@ -1358,22 +1562,22 @@
 			<image:loc>https://rucaptcha.com/dist/web/assets/recaptcha-workflow-CKWR-c6u.svg</image:loc>
 		</image:image>
 		<image:image>
-			<image:loc>https://rucaptcha.com/dist/web/assets/recaptcha-v3-bypass-D4CWck3x.svg</image:loc>
+			<image:loc>https://rucaptcha.com/dist/web/assets/recaptcha-v2-bypass-SDjHCmaS.svg</image:loc>
 		</image:image>
 		<image:image>
 			<image:loc>https://rucaptcha.com/dist/web/assets/recaptcha-v2-widget-D6EeFvXe.svg</image:loc>
 		</image:image>
 		<image:image>
-			<image:loc>https://rucaptcha.com/dist/web/assets/recaptcha-v2-bypass-SDjHCmaS.svg</image:loc>
+			<image:loc>https://rucaptcha.com/dist/web/assets/recaptcha-v3-bypass-D4CWck3x.svg</image:loc>
 		</image:image>
 		<image:image>
 			<image:loc>https://rucaptcha.com/dist/web/assets/recaptcha-enterprise-DUM6VsFl.svg</image:loc>
 		</image:image>
 		<image:image>
-			<image:loc>https://rucaptcha.com/dist/web/assets/chrome-web-store-logo-guQZQFtl.svg</image:loc>
+			<image:loc>https://rucaptcha.com/dist/web/assets/recaptcha-v2-callback-C-FNvNWM.svg</image:loc>
 		</image:image>
 		<image:image>
-			<image:loc>https://rucaptcha.com/dist/web/assets/recaptcha-v2-callback-C-FNvNWM.svg</image:loc>
+			<image:loc>https://rucaptcha.com/dist/web/assets/chrome-web-store-logo-guQZQFtl.svg</image:loc>
 		</image:image>
 		<image:image>
 			<image:loc>https://rucaptcha.com/dist/web/assets/recaptcha-v2-invisible-DjSe2XME.svg</image:loc>
@@ -1400,19 +1604,19 @@
 			<image:loc>https://rucaptcha.com/dist/web/assets/hero-W9c7-4ze.svg</image:loc>
 		</image:image>
 		<image:image>
+			<image:loc>https://rucaptcha.com/dist/web/assets/mtcaptcha-3-XGp7jPNT.svg</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://rucaptcha.com/dist/web/assets/mtcaptcha-4-DCok1mou.svg</image:loc>
+		</image:image>
+		<image:image>
 			<image:loc>https://rucaptcha.com/dist/web/assets/mtcaptcha-2-DXkT0kKK.svg</image:loc>
 		</image:image>
 		<image:image>
 			<image:loc>https://rucaptcha.com/dist/web/assets/mtcaptcha-1-BFbYEVvz.svg</image:loc>
 		</image:image>
 		<image:image>
-			<image:loc>https://rucaptcha.com/dist/web/assets/mtcaptcha-3-XGp7jPNT.svg</image:loc>
-		</image:image>
-		<image:image>
 			<image:loc>https://rucaptcha.com/dist/web/assets/quick-start-DxjLq5TH.svg</image:loc>
-		</image:image>
-		<image:image>
-			<image:loc>https://rucaptcha.com/dist/web/assets/mtcaptcha-4-DCok1mou.svg</image:loc>
 		</image:image>
 	</url>
 	<url>
@@ -1421,13 +1625,343 @@
 			<image:loc>https://rucaptcha.com/dist/web/assets/hero-Du0Eg0Ba.svg</image:loc>
 		</image:image>
 		<image:image>
+			<image:loc>https://rucaptcha.com/dist/web/assets/cutcaptcha-3-D6oo55WJ.svg</image:loc>
+		</image:image>
+		<image:image>
 			<image:loc>https://rucaptcha.com/dist/web/assets/cutcaptcha-1-C4bSt5VS.svg</image:loc>
 		</image:image>
 		<image:image>
 			<image:loc>https://rucaptcha.com/dist/web/assets/cutcaptcha-2-l67tHkfn.svg</image:loc>
 		</image:image>
+	</url>
+	<url>
+		<loc>https://captchathecat.com/service/2captcha</loc>
 		<image:image>
-			<image:loc>https://rucaptcha.com/dist/web/assets/cutcaptcha-3-D6oo55WJ.svg</image:loc>
+			<image:loc>https://captchathecat.com/assets/img/plus.svg</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://captchathecat.com/assets/img/logo.svg</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://captchathecat.com/assets/avatars/ava.png</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://captchathecat.com/assets/img/methods/pm.svg</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://captchathecat.com/assets/img/icons/menu.svg</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://captchathecat.com/assets/img/icons/close.svg</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://captchathecat.com/assets/img/logo-footer.svg</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://captchathecat.com/assets/img/language/go.svg</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://captchathecat.com/assets/img/methods/pix.svg</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://captchathecat.com/assets/img/methods/dash.svg</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://captchathecat.com/assets/img/methods/usdt.svg</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://captchathecat.com/assets/img/language/cpp.svg</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://captchathecat.com/assets/img/methods/enot.svg</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://captchathecat.com/assets/img/methods/visa.svg</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://captchathecat.com/assets/img/language/php.svg</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://captchathecat.com/assets/img/methods/ideal.svg</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://captchathecat.com/assets/img/language/java.svg</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://captchathecat.com/assets/img/language/ruby.svg</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://captchathecat.com/assets/img/methods/okpay.svg</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://captchathecat.com/assets/img/methods/paypal.svg</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://captchathecat.com/assets/img/methods/sofort.svg</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://captchathecat.com/assets/img/methods/paypro.svg</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://captchathecat.com/assets/img/methods/alipay.svg</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://captchathecat.com/assets/img/methods/boleto.svg</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://captchathecat.com/assets/img/language/csharp.svg</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://captchathecat.com/assets/img/methods/bitcoin.svg</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://captchathecat.com/assets/img/language/python.svg</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://captchathecat.com/assets/img/methods/webmoney.svg</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://captchathecat.com/assets/img/methods/ethereum.svg</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://captchathecat.com/assets/img/methods/american.svg</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://captchathecat.com/assets/img/methods/litecoin.svg</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://captchathecat.com/assets/img/services/2captcha.svg</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://captchathecat.com/assets/img/methods/mastercard.svg</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://captchathecat.com/assets/img/methods/bitcoincash.svg</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://captchathecat.com/assets/img/extension/recaptcha.svg</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://captchathecat.com/assets/img/security-standards/ssl.svg</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://captchathecat.com/assets/img/extension/chrome-addon.svg</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://captchathecat.com/assets/img/extension/firefox-addon.svg</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://captchathecat.com/assets/img/security-standards/gdpr.svg</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://captchathecat.com/assets/img/security-standards/ccpa.svg</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://captchathecat.com/assets/img/security-standards/smime.svg</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://captchathecat.com/assets/img/security-standards/google-privacy-policy.svg</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://captchathecat.com/assets/avatars/2147f97fe5870d89bb0416a4bb736a85cb3fb4fe.jpg</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://captchathecat.com/assets/avatars/ce9e0e3f7785eb719548bc70da66a234b3c21676.jpg</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://captchathecat.com/assets/avatars/ec3468db63d9b4c7fe1949f6e3131e0fc4b7650f.jpg</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://captchathecat.com/assets/avatars/050ff7bd0a9355c481b03a9a6e611db3d95cd796.jpg</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://captchathecat.com/assets/avatars/4cef2bbe847ee61bd08e13732ce6e9faf8ace343.jpg</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://captchathecat.com/assets/avatars/c84690c0b0f3998af7a8c0c6576f53c3655f9792.jpg</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://captchathecat.com/assets/avatars/1615d260305cc9d7a1e080e0ff37a0b836a65945.jpg</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://captchathecat.com/assets/avatars/4f0e6da1c1beea310846b79771fd1b362ecf13cc.jpg</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://captchathecat.com/assets/avatars/0116906487af3868732977a26fcdca4c9f87e60f.jpg</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://captchathecat.com/assets/avatars/5a0bc1a1f28ccbe69b4d5fb4694af0b915352d95.jpg</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://captchathecat.com/assets/avatars/5ba3894cfe872c9d25390bedc927a32ec12b2db8.jpg</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://captchathecat.com/assets/avatars/26cfbf7424bc4506f282b6d5b55923557c7df5a1.jpg</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://captchathecat.com/assets/avatars/e163ee9172100958e2323b53799c259ad4453f91.jpg</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://captchathecat.com/assets/avatars/6470b397e504c476588fe0feb0769b029b7b23f1.jpg</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://captchathecat.com/assets/avatars/92455d43131100c20889e465323635bb635d4142.jpg</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://captchathecat.com/assets/avatars/26e86fcf81d71a1968b91157e397837229ff919a.jpg</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://captchathecat.com/assets/avatars/b6574de5c7c9ee21fb91e2f14137701b43fd4f87.jpg</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://captchathecat.com/assets/avatars/7386789c987ba938bdaedf210ed84bda890091fc.jpg</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://captchathecat.com/assets/avatars/a1baaad90ae0614871dd91c43f4259c9dd4b213f.jpg</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://captchathecat.com/assets/avatars/f8b8a3a7018cf5e9d26ff9e0f63f7e662da27a06.jpg</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://captchathecat.com/assets/avatars/e6633e19fc4e7338ed33bdfbc57963c636d2a1a5.jpg</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://captchathecat.com/assets/avatars/73160bca738a23eef7dd6dd0c85e9d16e717d2e7.jpg</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://captchathecat.com/assets/avatars/475a6a299f8d101bf07088f5961c87548d1c4370.jpg</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://captchathecat.com/assets/avatars/6e7324e0e985138bcaba765bf8f51bfba78c6cb6.jpg</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://captchathecat.com/assets/avatars/f1604410dd153cf07a7277a85a07ae11a05766f9.jpg</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://captchathecat.com/assets/avatars/8b8483c9be1ae66f26a5034d323268d9a0a054e7.jpg</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://captchathecat.com/assets/avatars/acb1c8e552cc8de6f39d1a7daafa03ae147c657d.jpg</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://captchathecat.com/assets/avatars/4e7dbddda5c5c886df88f570f2b09967c4f4c0db.jpg</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://captchathecat.com/assets/avatars/3da33cf7bea5382997bc2f903cb1b388bfccce63.jpg</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://captchathecat.com/assets/avatars/26418ae1d38ee13c169d28701d6bf3f236810dde.jpg</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://captchathecat.com/assets/avatars/463c95488b0289cc3a6886483ba1df9f6d20afbd.jpg</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://captchathecat.com/assets/avatars/ceb1aa7538b5a51e38f9c0acb425f32785d4ec5a.jpg</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://captchathecat.com/assets/avatars/5c3c33d22309d696bae74e7a21145da79ef7ed33.jpg</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://captchathecat.com/assets/avatars/41e65610b0ee68ddad186c97062e8e358c82234c.jpg</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://captchathecat.com/assets/avatars/89a10695abcb0ea3b5120d2cb90a86c8644f3add.jpg</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://captchathecat.com/assets/avatars/4967a34d6629f26337426e3a9b42e2034cc9a441.jpg</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://captchathecat.com/assets/avatars/efce491d73492ad3a0430fc8de47fb74ce93370f.jpg</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://captchathecat.com/assets/avatars/489fcc6c3c23ea746be56307cde710a1737689b2.jpg</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://captchathecat.com/assets/avatars/e653341d71ad9ccdcea138dfe2a5f460343c382f.jpg</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://captchathecat.com/assets/avatars/1983ab7665d61abb713fb3e41dbe226af55c82a8.jpg</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://captchathecat.com/assets/avatars/03f6b170715bcaea27054325370bb377c13fdca9.jpg</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://captchathecat.com/assets/avatars/9e525939b67c6682bc7d727d814d0494e604eca2.jpg</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://captchathecat.com/assets/avatars/e83fcae30e63a97f392733617193a55dcf3033e7.jpg</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://captchathecat.com/assets/avatars/55253502e7f7916677567f49a28d8e99a761cef2.jpg</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://captchathecat.com/assets/avatars/da56822141fc64adc4e3456e9cd0ebd244fb883d.jpg</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://captchathecat.com/assets/avatars/effe18bc1098f87d5b974af90989d6fe2561aa4f.jpg</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://captchathecat.com/assets/avatars/a7993489961323f73c5f5a9c6f74fb570a2b1b16.jpg</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://captchathecat.com/assets/avatars/050d9a64adcbdc0eebfbc36e879248180cd9a7a5.jpg</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://captchathecat.com/assets/avatars/8ae2aee5cee1feb7beb0bc1e13f7a48a43e7952d.jpg</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://captchathecat.com/assets/avatars/a72577447a0d7b944d8dd8ebfcb27f1749a5c757.jpg</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://captchathecat.com/assets/avatars/08af6a7c291e465ad69c7a03e213dbab7532f1c4.jpg</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://captchathecat.com/assets/avatars/e7893ba9c4caa175403e22659e98bc8f82bde0c3.jpg</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://captchathecat.com/assets/avatars/29ded4a39b173876354dbaea10c2ecdfbc7eac01.jpg</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://captchathecat.com/assets/avatars/7253e6ad7b67ee14b862daf7acb474667bf22ac4.jpg</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://captchathecat.com/assets/avatars/ab19a8da4bc4a34404bdef26d852d21f18335b42.jpg</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://captchathecat.com/assets/avatars/f0007236d9f1a412a93094f16668ccc21d6e6fd0.jpg</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://captchathecat.com/assets/avatars/88cd216bf1781da09d1937f2c0514104a5f9c3e2.jpg</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://captchathecat.com/assets/avatars/4cb6fd9a38c67fbbc8a77285e06caa2ba4b29ec0.jpg</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://captchathecat.com/assets/avatars/e8d5c835c3a27e13beb646e64e39fc146bb656ff.jpg</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://captchathecat.com/assets/avatars/3515a372f0d049cd457975d103f35ad0ed5c9d5b.jpg</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://captchathecat.com/assets/avatars/2caa866f0dc8d2b5e172ef74a1a4ab79c3921492.jpg</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://captchathecat.com/assets/avatars/943e0258e2067793bb5c0a7a020bf175958a1079.jpg</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://captchathecat.com/assets/avatars/71d06051a8508176f4a242d7ad6ef2185220e951.jpg</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://captchathecat.com/assets/avatars/ace96cbe12cd906e5a0e42ffaf9ab3b0d2e47c73.jpg</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://captchathecat.com/assets/avatars/4dff37bab349ee23a6adf60e85cddec4878b60f4.jpg</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://captchathecat.com/assets/avatars/1cdc5d1bbe33806d5419a710392543d064b86fdf.jpg</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://captchathecat.com/assets/avatars/a89cd4ed152c46844a3535c968bb787495850e36.jpg</image:loc>
 		</image:image>
 	</url>
 	<url>
@@ -1448,16 +1982,16 @@
 			<image:loc>https://rucaptcha.com/dist/web/assets/proxy-service-DzW8nCzS.svg</image:loc>
 		</image:image>
 		<image:image>
-			<image:loc>https://rucaptcha.com/dist/web/assets/stable-network-BZcIJVgg.svg</image:loc>
-		</image:image>
-		<image:image>
 			<image:loc>https://rucaptcha.com/dist/web/assets/rotating-proxy-BWEMl4xE.svg</image:loc>
 		</image:image>
 		<image:image>
-			<image:loc>https://rucaptcha.com/dist/web/assets/infrastructure-CpSvRFdD.svg</image:loc>
+			<image:loc>https://rucaptcha.com/dist/web/assets/stable-network-BZcIJVgg.svg</image:loc>
 		</image:image>
 		<image:image>
 			<image:loc>https://rucaptcha.com/dist/web/assets/socks5-proxies-B0s-N5Hb.svg</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://rucaptcha.com/dist/web/assets/infrastructure-CpSvRFdD.svg</image:loc>
 		</image:image>
 		<image:image>
 			<image:loc>https://rucaptcha.com/dist/web/assets/proxy-getting-started-vbUyHzNy.svg</image:loc>
@@ -1469,10 +2003,10 @@
 			<image:loc>https://rucaptcha.com/dist/web/assets/hero-BgywKbEg.svg</image:loc>
 		</image:image>
 		<image:image>
-			<image:loc>https://rucaptcha.com/dist/web/assets/math-captcha-2-DIngTQzY.svg</image:loc>
+			<image:loc>https://rucaptcha.com/dist/web/assets/math-captcha-1-CPE9Gv_o.svg</image:loc>
 		</image:image>
 		<image:image>
-			<image:loc>https://rucaptcha.com/dist/web/assets/math-captcha-1-CPE9Gv_o.svg</image:loc>
+			<image:loc>https://rucaptcha.com/dist/web/assets/math-captcha-2-DIngTQzY.svg</image:loc>
 		</image:image>
 	</url>
 	<url>
@@ -1481,10 +2015,10 @@
 			<image:loc>https://rucaptcha.com/dist/web/assets/advantages-KcPBDzP3.svg</image:loc>
 		</image:image>
 		<image:image>
-			<image:loc>https://rucaptcha.com/dist/web/assets/image-annotator-xVy_qyjA.svg</image:loc>
+			<image:loc>https://rucaptcha.com/dist/web/assets/getting-started-hnhJi6em.svg</image:loc>
 		</image:image>
 		<image:image>
-			<image:loc>https://rucaptcha.com/dist/web/assets/getting-started-hnhJi6em.svg</image:loc>
+			<image:loc>https://rucaptcha.com/dist/web/assets/image-annotator-xVy_qyjA.svg</image:loc>
 		</image:image>
 		<image:image>
 			<image:loc>https://rucaptcha.com/dist/web/assets/object-detection-mOyKiim_.svg</image:loc>
@@ -1509,12 +2043,30 @@
 		</image:image>
 	</url>
 	<url>
-		<loc>https://rucaptcha.com/proxy/local-proxies/us</loc>
+		<loc>https://rucaptcha.com/p/cloudflare-turnstile</loc>
 		<image:image>
-			<image:loc>https://rucaptcha.com/dist/web/assets/leading-C7LD_-e2.svg</image:loc>
+			<image:loc>https://rucaptcha.com/dist/web/assets/hero-DrL9a1el.svg</image:loc>
 		</image:image>
 		<image:image>
+			<image:loc>https://rucaptcha.com/dist/web/assets/cloudflare-turnstile-4-Cx6-fNTN.svg</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://rucaptcha.com/dist/web/assets/cloudflare-turnstile-1-DJueCwlT.svg</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://rucaptcha.com/dist/web/assets/cloudflare-turnstile-3-Dj1QiC9r.svg</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://rucaptcha.com/dist/web/assets/cloudflare-turnstile-2-CStfgMnl.svg</image:loc>
+		</image:image>
+	</url>
+	<url>
+		<loc>https://rucaptcha.com/proxy/local-proxies/us</loc>
+		<image:image>
 			<image:loc>https://rucaptcha.com/dist/web/assets/network-DWzaAvIM.svg</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://rucaptcha.com/dist/web/assets/leading-C7LD_-e2.svg</image:loc>
 		</image:image>
 		<image:image>
 			<image:loc>https://rucaptcha.com/dist/web/assets/fastest-BCKiJUNX.svg</image:loc>
@@ -1523,16 +2075,16 @@
 			<image:loc>https://rucaptcha.com/dist/web/assets/targeting-dFtx6D5a.svg</image:loc>
 		</image:image>
 		<image:image>
-			<image:loc>https://rucaptcha.com/dist/web/assets/mx-proxies-Djk3higd.svg</image:loc>
+			<image:loc>https://rucaptcha.com/dist/web/assets/fr-proxies-CQ77kQiW.svg</image:loc>
 		</image:image>
 		<image:image>
-			<image:loc>https://rucaptcha.com/dist/web/assets/br-proxies-uzJvdF7a.svg</image:loc>
+			<image:loc>https://rucaptcha.com/dist/web/assets/mx-proxies-Djk3higd.svg</image:loc>
 		</image:image>
 		<image:image>
 			<image:loc>https://rucaptcha.com/dist/web/assets/uk-proxies-BQZ9S0_3.svg</image:loc>
 		</image:image>
 		<image:image>
-			<image:loc>https://rucaptcha.com/dist/web/assets/fr-proxies-CQ77kQiW.svg</image:loc>
+			<image:loc>https://rucaptcha.com/dist/web/assets/de-proxies-HKChNH_n.svg</image:loc>
 		</image:image>
 		<image:image>
 			<image:loc>https://rucaptcha.com/dist/web/assets/es-proxies-ChpjmnJR.svg</image:loc>
@@ -1541,13 +2093,13 @@
 			<image:loc>https://rucaptcha.com/dist/web/assets/ru-proxies-Dpf6TiYs.svg</image:loc>
 		</image:image>
 		<image:image>
+			<image:loc>https://rucaptcha.com/dist/web/assets/br-proxies-uzJvdF7a.svg</image:loc>
+		</image:image>
+		<image:image>
 			<image:loc>https://rucaptcha.com/dist/web/assets/ca-proxies-BAvxahrT.svg</image:loc>
 		</image:image>
 		<image:image>
 			<image:loc>https://rucaptcha.com/dist/web/assets/pt-proxies-DD9tkU9v.svg</image:loc>
-		</image:image>
-		<image:image>
-			<image:loc>https://rucaptcha.com/dist/web/assets/de-proxies-HKChNH_n.svg</image:loc>
 		</image:image>
 		<image:image>
 			<image:loc>https://rucaptcha.com/dist/web/assets/integration-BBwGoXej.svg</image:loc>
@@ -1559,16 +2111,16 @@
 			<image:loc>https://rucaptcha.com/dist/web/assets/local-proxies-CLrS-mK8.svg</image:loc>
 		</image:image>
 		<image:image>
-			<image:loc>https://rucaptcha.com/dist/web/assets/infrastructure-DXy3fUgV.svg</image:loc>
+			<image:loc>https://rucaptcha.com/dist/web/assets/socks5-proxies-BNcFl31l.svg</image:loc>
 		</image:image>
 		<image:image>
-			<image:loc>https://rucaptcha.com/dist/web/assets/fast-and-cheap-By-sCecZ.svg</image:loc>
+			<image:loc>https://rucaptcha.com/dist/web/assets/infrastructure-DXy3fUgV.svg</image:loc>
 		</image:image>
 		<image:image>
 			<image:loc>https://rucaptcha.com/dist/web/assets/mobile-proxies-CJSW7Ek4.svg</image:loc>
 		</image:image>
 		<image:image>
-			<image:loc>https://rucaptcha.com/dist/web/assets/socks5-proxies-BNcFl31l.svg</image:loc>
+			<image:loc>https://rucaptcha.com/dist/web/assets/fast-and-cheap-By-sCecZ.svg</image:loc>
 		</image:image>
 		<image:image>
 			<image:loc>https://rucaptcha.com/dist/web/assets/data-collection-BUDSnOxQ.svg</image:loc>
@@ -1583,37 +2135,37 @@
 			<image:loc>https://rucaptcha.com/dist/web/assets/brand-protection-DEzVGd8c.svg</image:loc>
 		</image:image>
 		<image:image>
-			<image:loc>https://rucaptcha.com/dist/web/assets/ru-proxies-active-DR4zQsWj.svg</image:loc>
-		</image:image>
-		<image:image>
-			<image:loc>https://rucaptcha.com/dist/web/assets/ca-proxies-active-BJUNYrVa.svg</image:loc>
-		</image:image>
-		<image:image>
-			<image:loc>https://rucaptcha.com/dist/web/assets/dedicated-proxies-iQa35Fl9.svg</image:loc>
-		</image:image>
-		<image:image>
-			<image:loc>https://rucaptcha.com/dist/web/assets/fr-proxies-active-K6ua9xPy.svg</image:loc>
-		</image:image>
-		<image:image>
-			<image:loc>https://rucaptcha.com/dist/web/assets/pt-proxies-active-tjFIbuHh.svg</image:loc>
-		</image:image>
-		<image:image>
-			<image:loc>https://rucaptcha.com/dist/web/assets/uk-proxies-active-BwcTZdww.svg</image:loc>
-		</image:image>
-		<image:image>
-			<image:loc>https://rucaptcha.com/dist/web/assets/es-proxies-active-gT9FT42I.svg</image:loc>
-		</image:image>
-		<image:image>
-			<image:loc>https://rucaptcha.com/dist/web/assets/de-proxies-active-Dw6MutQA.svg</image:loc>
-		</image:image>
-		<image:image>
 			<image:loc>https://rucaptcha.com/dist/web/assets/dedicated-proxies-XVBGTXiO.svg</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://rucaptcha.com/dist/web/assets/mx-proxies-active-BobfoHz8.svg</image:loc>
 		</image:image>
 		<image:image>
 			<image:loc>https://rucaptcha.com/dist/web/assets/br-proxies-active-D09K1iuz.svg</image:loc>
 		</image:image>
 		<image:image>
-			<image:loc>https://rucaptcha.com/dist/web/assets/mx-proxies-active-BobfoHz8.svg</image:loc>
+			<image:loc>https://rucaptcha.com/dist/web/assets/uk-proxies-active-BwcTZdww.svg</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://rucaptcha.com/dist/web/assets/ru-proxies-active-DR4zQsWj.svg</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://rucaptcha.com/dist/web/assets/es-proxies-active-gT9FT42I.svg</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://rucaptcha.com/dist/web/assets/ca-proxies-active-BJUNYrVa.svg</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://rucaptcha.com/dist/web/assets/fr-proxies-active-K6ua9xPy.svg</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://rucaptcha.com/dist/web/assets/dedicated-proxies-iQa35Fl9.svg</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://rucaptcha.com/dist/web/assets/pt-proxies-active-tjFIbuHh.svg</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://rucaptcha.com/dist/web/assets/de-proxies-active-Dw6MutQA.svg</image:loc>
 		</image:image>
 		<image:image>
 			<image:loc>https://rucaptcha.com/dist/web/assets/us-proxies-active-DAHcUUqj.svg</image:loc>
@@ -1638,42 +2190,27 @@
 		</image:image>
 	</url>
 	<url>
-		<loc>https://rucaptcha.com/p/cloudflare-turnstile</loc>
-		<image:image>
-			<image:loc>https://rucaptcha.com/dist/web/assets/hero-DrL9a1el.svg</image:loc>
-		</image:image>
-		<image:image>
-			<image:loc>https://rucaptcha.com/dist/web/assets/cloudflare-turnstile-3-Dj1QiC9r.svg</image:loc>
-		</image:image>
-		<image:image>
-			<image:loc>https://rucaptcha.com/dist/web/assets/cloudflare-turnstile-2-CStfgMnl.svg</image:loc>
-		</image:image>
-		<image:image>
-			<image:loc>https://rucaptcha.com/dist/web/assets/cloudflare-turnstile-1-DJueCwlT.svg</image:loc>
-		</image:image>
-		<image:image>
-			<image:loc>https://rucaptcha.com/dist/web/assets/cloudflare-turnstile-4-Cx6-fNTN.svg</image:loc>
-		</image:image>
-	</url>
-	<url>
 		<loc>https://rucaptcha.com/p/recaptcha_enterprise</loc>
 		<image:image>
 			<image:loc>https://rucaptcha.com/dist/web/assets/hero-ChNzv8PS.svg</image:loc>
 		</image:image>
 	</url>
 	<url>
-		<loc>https://rucaptcha.com/data/dataset-annotation</loc>
+		<loc>https://rucaptcha.com/p/amazon-captcha-bypass</loc>
 		<image:image>
-			<image:loc>https://rucaptcha.com/dist/web/assets/info-BiWhhAhN.svg</image:loc>
+			<image:loc>https://rucaptcha.com/dist/web/assets/hero-DiBpLDTh.svg</image:loc>
 		</image:image>
 		<image:image>
-			<image:loc>https://rucaptcha.com/dist/web/assets/dataset-annotation-BLKWaNoG.svg</image:loc>
+			<image:loc>https://rucaptcha.com/dist/web/assets/aws-waf-4-Bz6uBsgH.svg</image:loc>
 		</image:image>
 		<image:image>
-			<image:loc>https://rucaptcha.com/dist/web/assets/dataset-annotation-active-Crcz8Xhv.svg</image:loc>
+			<image:loc>https://rucaptcha.com/dist/web/assets/aws-waf-3-HEWU32g-.svg</image:loc>
 		</image:image>
 		<image:image>
-			<image:loc>https://rucaptcha.com/dist/web/assets/crowdsourcing-dataset-labeling-D6h0BJNZ.svg</image:loc>
+			<image:loc>https://rucaptcha.com/dist/web/assets/aws-waf-1-DZRhyPra.svg</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://rucaptcha.com/dist/web/assets/aws-waf-2-BgzyENsa.svg</image:loc>
 		</image:image>
 	</url>
 	<url>
@@ -1692,30 +2229,6 @@
 		</image:image>
 	</url>
 	<url>
-		<loc>https://rucaptcha.com/p/recaptcha_v2_callback</loc>
-		<image:image>
-			<image:loc>https://rucaptcha.com/dist/web/assets/hero-Ds85yfSd.svg</image:loc>
-		</image:image>
-	</url>
-	<url>
-		<loc>https://rucaptcha.com/p/amazon-captcha-bypass</loc>
-		<image:image>
-			<image:loc>https://rucaptcha.com/dist/web/assets/hero-DiBpLDTh.svg</image:loc>
-		</image:image>
-		<image:image>
-			<image:loc>https://rucaptcha.com/dist/web/assets/aws-waf-1-DZRhyPra.svg</image:loc>
-		</image:image>
-		<image:image>
-			<image:loc>https://rucaptcha.com/dist/web/assets/aws-waf-4-Bz6uBsgH.svg</image:loc>
-		</image:image>
-		<image:image>
-			<image:loc>https://rucaptcha.com/dist/web/assets/aws-waf-2-BgzyENsa.svg</image:loc>
-		</image:image>
-		<image:image>
-			<image:loc>https://rucaptcha.com/dist/web/assets/aws-waf-3-HEWU32g-.svg</image:loc>
-		</image:image>
-	</url>
-	<url>
 		<loc>https://rucaptcha.com/p/number-captcha-solver</loc>
 		<image:image>
 			<image:loc>https://rucaptcha.com/dist/web/assets/hero-DNfR5W2e.svg</image:loc>
@@ -1725,6 +2238,90 @@
 		</image:image>
 		<image:image>
 			<image:loc>https://rucaptcha.com/dist/web/assets/number-captcha-1-D1KUkQdj.svg</image:loc>
+		</image:image>
+	</url>
+	<url>
+		<loc>https://rucaptcha.com/p/recaptcha_v2_callback</loc>
+		<image:image>
+			<image:loc>https://rucaptcha.com/dist/web/assets/hero-Ds85yfSd.svg</image:loc>
+		</image:image>
+	</url>
+	<url>
+		<loc>https://rucaptcha.com/data/dataset-annotation</loc>
+		<image:image>
+			<image:loc>https://rucaptcha.com/dist/web/assets/info-BiWhhAhN.svg</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://rucaptcha.com/dist/web/assets/dataset-annotation-BLKWaNoG.svg</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://rucaptcha.com/dist/web/assets/dataset-annotation-active-Crcz8Xhv.svg</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://rucaptcha.com/dist/web/assets/crowdsourcing-dataset-labeling-D6h0BJNZ.svg</image:loc>
+		</image:image>
+	</url>
+	<url>
+		<loc>https://rucaptcha.com/captcha-bypass-extension</loc>
+		<image:image>
+			<image:loc>https://rucaptcha.com/dist/web/assets/gear-DCg83H2A.svg</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://rucaptcha.com/dist/web/assets/users-DHKB8xPl.svg</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://rucaptcha.com/dist/web/assets/speed-MQ3dxnQk.svg</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://rucaptcha.com/dist/web/assets/login-CjASINEY.svg</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://rucaptcha.com/dist/web/assets/globe-D6m3ECCy.svg</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://rucaptcha.com/dist/web/assets/enable-CGs-P6qZ.svg</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://rucaptcha.com/dist/web/assets/install-C6XeZJjJ.svg</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://rucaptcha.com/dist/web/assets/checkmark-wdXt-Hv2.svg</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://rucaptcha.com/dist/web/assets/fun-captcha-ByDB6KAk.svg</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://rucaptcha.com/dist/web/assets/recaptcha-v3-I27Vdp8Q.svg</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://rucaptcha.com/dist/web/assets/text-captcha-Dd4zARgY.svg</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://rucaptcha.com/dist/web/assets/recaptcha-v2-DBQ62iXv.svg</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://rucaptcha.com/dist/web/assets/normal-captcha-_CJEALOL.svg</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://rucaptcha.com/dist/web/assets/gee-test-captcha-Cqm7nOT5.svg</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://rucaptcha.com/dist/web/assets/recaptcha-enterprise-BWlcmRgl.svg</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://rucaptcha.com/dist/web/assets/recaptcha-v2-invisible-C9aQ16le.svg</image:loc>
+		</image:image>
+	</url>
+	<url>
+		<loc>https://rucaptcha.com/p/chinese-captcha-solver</loc>
+		<image:image>
+			<image:loc>https://rucaptcha.com/dist/web/assets/hero-CpdN12qA.svg</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://rucaptcha.com/dist/web/assets/chinese-captcha-1-BYjM0O80.svg</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://rucaptcha.com/dist/web/assets/chinese-captcha-2-B47ty6wM.svg</image:loc>
 		</image:image>
 	</url>
 	<url>
@@ -1746,18 +2343,6 @@
 		</image:image>
 	</url>
 	<url>
-		<loc>https://rucaptcha.com/p/chinese-captcha-solver</loc>
-		<image:image>
-			<image:loc>https://rucaptcha.com/dist/web/assets/hero-CpdN12qA.svg</image:loc>
-		</image:image>
-		<image:image>
-			<image:loc>https://rucaptcha.com/dist/web/assets/chinese-captcha-1-BYjM0O80.svg</image:loc>
-		</image:image>
-		<image:image>
-			<image:loc>https://rucaptcha.com/dist/web/assets/chinese-captcha-2-B47ty6wM.svg</image:loc>
-		</image:image>
-	</url>
-	<url>
 		<loc>https://rucaptcha.com/p/tencent-captcha-solver</loc>
 		<image:image>
 			<image:loc>https://rucaptcha.com/dist/web/assets/hero-D-C4uEML.svg</image:loc>
@@ -1773,57 +2358,6 @@
 		</image:image>
 	</url>
 	<url>
-		<loc>https://rucaptcha.com/captcha-bypass-extension</loc>
-		<image:image>
-			<image:loc>https://rucaptcha.com/dist/web/assets/gear-DCg83H2A.svg</image:loc>
-		</image:image>
-		<image:image>
-			<image:loc>https://rucaptcha.com/dist/web/assets/globe-D6m3ECCy.svg</image:loc>
-		</image:image>
-		<image:image>
-			<image:loc>https://rucaptcha.com/dist/web/assets/login-CjASINEY.svg</image:loc>
-		</image:image>
-		<image:image>
-			<image:loc>https://rucaptcha.com/dist/web/assets/users-DHKB8xPl.svg</image:loc>
-		</image:image>
-		<image:image>
-			<image:loc>https://rucaptcha.com/dist/web/assets/speed-MQ3dxnQk.svg</image:loc>
-		</image:image>
-		<image:image>
-			<image:loc>https://rucaptcha.com/dist/web/assets/enable-CGs-P6qZ.svg</image:loc>
-		</image:image>
-		<image:image>
-			<image:loc>https://rucaptcha.com/dist/web/assets/install-C6XeZJjJ.svg</image:loc>
-		</image:image>
-		<image:image>
-			<image:loc>https://rucaptcha.com/dist/web/assets/checkmark-wdXt-Hv2.svg</image:loc>
-		</image:image>
-		<image:image>
-			<image:loc>https://rucaptcha.com/dist/web/assets/fun-captcha-ByDB6KAk.svg</image:loc>
-		</image:image>
-		<image:image>
-			<image:loc>https://rucaptcha.com/dist/web/assets/recaptcha-v2-DBQ62iXv.svg</image:loc>
-		</image:image>
-		<image:image>
-			<image:loc>https://rucaptcha.com/dist/web/assets/recaptcha-v3-I27Vdp8Q.svg</image:loc>
-		</image:image>
-		<image:image>
-			<image:loc>https://rucaptcha.com/dist/web/assets/text-captcha-Dd4zARgY.svg</image:loc>
-		</image:image>
-		<image:image>
-			<image:loc>https://rucaptcha.com/dist/web/assets/normal-captcha-_CJEALOL.svg</image:loc>
-		</image:image>
-		<image:image>
-			<image:loc>https://rucaptcha.com/dist/web/assets/gee-test-captcha-Cqm7nOT5.svg</image:loc>
-		</image:image>
-		<image:image>
-			<image:loc>https://rucaptcha.com/dist/web/assets/recaptcha-enterprise-BWlcmRgl.svg</image:loc>
-		</image:image>
-		<image:image>
-			<image:loc>https://rucaptcha.com/dist/web/assets/recaptcha-v2-invisible-C9aQ16le.svg</image:loc>
-		</image:image>
-	</url>
-	<url>
 		<loc>https://rucaptcha.com/p/friendly-captcha-solver</loc>
 		<image:image>
 			<image:loc>https://rucaptcha.com/dist/web/assets/hero-CywTVYUE.svg</image:loc>
@@ -1832,10 +2366,64 @@
 			<image:loc>https://rucaptcha.com/dist/web/assets/friendly-captcha-3-BPsdpnST.svg</image:loc>
 		</image:image>
 		<image:image>
-			<image:loc>https://rucaptcha.com/dist/web/assets/friendly-captcha-1-DIexQOMq.svg</image:loc>
+			<image:loc>https://rucaptcha.com/dist/web/assets/friendly-captcha-2-DxHEg63X.svg</image:loc>
 		</image:image>
 		<image:image>
-			<image:loc>https://rucaptcha.com/dist/web/assets/friendly-captcha-2-DxHEg63X.svg</image:loc>
+			<image:loc>https://rucaptcha.com/dist/web/assets/friendly-captcha-1-DIexQOMq.svg</image:loc>
+		</image:image>
+	</url>
+	<url>
+		<loc>https://rucaptcha.com/p/datadome-captcha-solver</loc>
+		<image:image>
+			<image:loc>https://rucaptcha.com/dist/web/assets/hero-yym_Mr1K.svg</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://rucaptcha.com/dist/web/assets/datadome-captcha-2-Cdkkm8m8.svg</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://rucaptcha.com/dist/web/assets/datadome-captcha-4-BqH8b0vO.svg</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://rucaptcha.com/dist/web/assets/datadome-captcha-3-Cylz9zz7.svg</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://rucaptcha.com/dist/web/assets/datadome-captcha-1-AGdOlvrV.svg</image:loc>
+		</image:image>
+	</url>
+	<url>
+		<loc>https://rucaptcha.com/p/selenium-captcha-solver</loc>
+		<image:image>
+			<image:loc>https://rucaptcha.com/dist/web/assets/ruby-tlTQHSzV.svg</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://rucaptcha.com/dist/web/assets/java-BaGOKG7K.svg</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://rucaptcha.com/dist/web/assets/python-BsVOljey.svg</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://rucaptcha.com/dist/web/assets/csharp-Cj__a0Qu.svg</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://rucaptcha.com/dist/web/assets/recaptcha-DisryppN.svg</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://rucaptcha.com/dist/web/assets/selenium-logo-DeWEqM8a.svg</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://rucaptcha.com/dist/web/assets/captchathecat-ByA9lyUa.svg</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://rucaptcha.com/dist/web/assets/bypass-manual-B8EYTapv.svg</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://rucaptcha.com/dist/web/assets/recaptcha-bypass-DnpBfdH2.svg</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://rucaptcha.com/dist/web/assets/selenium-captcha-solver-10HlvZ7N.svg</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://rucaptcha.com/dist/web/assets/captcha-bypass-extension-D6ouHjGk.svg</image:loc>
 		</image:image>
 	</url>
 	<url>
@@ -1860,60 +2448,6 @@
 		</image:image>
 	</url>
 	<url>
-		<loc>https://rucaptcha.com/p/datadome-captcha-solver</loc>
-		<image:image>
-			<image:loc>https://rucaptcha.com/dist/web/assets/hero-yym_Mr1K.svg</image:loc>
-		</image:image>
-		<image:image>
-			<image:loc>https://rucaptcha.com/dist/web/assets/datadome-captcha-2-Cdkkm8m8.svg</image:loc>
-		</image:image>
-		<image:image>
-			<image:loc>https://rucaptcha.com/dist/web/assets/datadome-captcha-3-Cylz9zz7.svg</image:loc>
-		</image:image>
-		<image:image>
-			<image:loc>https://rucaptcha.com/dist/web/assets/datadome-captcha-1-AGdOlvrV.svg</image:loc>
-		</image:image>
-		<image:image>
-			<image:loc>https://rucaptcha.com/dist/web/assets/datadome-captcha-4-BqH8b0vO.svg</image:loc>
-		</image:image>
-	</url>
-	<url>
-		<loc>https://rucaptcha.com/p/selenium-captcha-solver</loc>
-		<image:image>
-			<image:loc>https://rucaptcha.com/dist/web/assets/java-BaGOKG7K.svg</image:loc>
-		</image:image>
-		<image:image>
-			<image:loc>https://rucaptcha.com/dist/web/assets/ruby-tlTQHSzV.svg</image:loc>
-		</image:image>
-		<image:image>
-			<image:loc>https://rucaptcha.com/dist/web/assets/csharp-Cj__a0Qu.svg</image:loc>
-		</image:image>
-		<image:image>
-			<image:loc>https://rucaptcha.com/dist/web/assets/python-BsVOljey.svg</image:loc>
-		</image:image>
-		<image:image>
-			<image:loc>https://rucaptcha.com/dist/web/assets/recaptcha-DisryppN.svg</image:loc>
-		</image:image>
-		<image:image>
-			<image:loc>https://rucaptcha.com/dist/web/assets/bypass-manual-B8EYTapv.svg</image:loc>
-		</image:image>
-		<image:image>
-			<image:loc>https://rucaptcha.com/dist/web/assets/captchathecat-ByA9lyUa.svg</image:loc>
-		</image:image>
-		<image:image>
-			<image:loc>https://rucaptcha.com/dist/web/assets/selenium-logo-DeWEqM8a.svg</image:loc>
-		</image:image>
-		<image:image>
-			<image:loc>https://rucaptcha.com/dist/web/assets/recaptcha-bypass-DnpBfdH2.svg</image:loc>
-		</image:image>
-		<image:image>
-			<image:loc>https://rucaptcha.com/dist/web/assets/selenium-captcha-solver-10HlvZ7N.svg</image:loc>
-		</image:image>
-		<image:image>
-			<image:loc>https://rucaptcha.com/dist/web/assets/captcha-bypass-extension-D6ouHjGk.svg</image:loc>
-		</image:image>
-	</url>
-	<url>
 		<loc>https://rucaptcha.com/p/puppeteer-captcha-solver</loc>
 		<image:image>
 			<image:loc>https://rucaptcha.com/dist/web/assets/our-sdk-DxUJNZpb.svg</image:loc>
@@ -1931,10 +2465,10 @@
 			<image:loc>https://rucaptcha.com/dist/web/assets/recaptcha-bypass-D2qY3QCr.svg</image:loc>
 		</image:image>
 		<image:image>
-			<image:loc>https://rucaptcha.com/dist/web/assets/bypass-captcha-tools-DEwf9KI-.svg</image:loc>
+			<image:loc>https://rucaptcha.com/dist/web/assets/cloudflare-turnstile--kxhB4pS.svg</image:loc>
 		</image:image>
 		<image:image>
-			<image:loc>https://rucaptcha.com/dist/web/assets/cloudflare-turnstile--kxhB4pS.svg</image:loc>
+			<image:loc>https://rucaptcha.com/dist/web/assets/bypass-captcha-tools-DEwf9KI-.svg</image:loc>
 		</image:image>
 		<image:image>
 			<image:loc>https://rucaptcha.com/dist/web/assets/puppeteer-captcha-solver-sScoftBR.svg</image:loc>
@@ -1949,16 +2483,25 @@
 			<image:loc>https://rucaptcha.com/dist/web/assets/hero-Cdk6P0BU.svg</image:loc>
 		</image:image>
 		<image:image>
-			<image:loc>https://rucaptcha.com/dist/web/assets/cybersiara-4-BB2E7YyA.svg</image:loc>
+			<image:loc>https://rucaptcha.com/dist/web/assets/cybersiara-3-BccH1Wyz.svg</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://rucaptcha.com/dist/web/assets/cybersiara-2-7Ev5gAXm.svg</image:loc>
 		</image:image>
 		<image:image>
 			<image:loc>https://rucaptcha.com/dist/web/assets/cybersiara-1-C03QMmYN.svg</image:loc>
 		</image:image>
 		<image:image>
-			<image:loc>https://rucaptcha.com/dist/web/assets/cybersiara-3-BccH1Wyz.svg</image:loc>
+			<image:loc>https://rucaptcha.com/dist/web/assets/cybersiara-4-BB2E7YyA.svg</image:loc>
+		</image:image>
+	</url>
+	<url>
+		<loc>https://sourceforge.net/software/product/2Captcha</loc>
+		<image:image>
+			<image:loc>https://a.fsdn.com/con/images/sandiego/sf-logo-full.svg</image:loc>
 		</image:image>
 		<image:image>
-			<image:loc>https://rucaptcha.com/dist/web/assets/cybersiara-2-7Ev5gAXm.svg</image:loc>
+			<image:loc>https://a.fsdn.com/con/assets/maxnav/sourceforge/socradar300-4f5de238.png</image:loc>
 		</image:image>
 	</url>
 	<url>
@@ -1976,10 +2519,10 @@
 			<image:loc>https://rucaptcha.com/dist/web/assets/visual-impairment-DN4wVdaq.svg</image:loc>
 		</image:image>
 		<image:image>
-			<image:loc>https://rucaptcha.com/dist/web/assets/poor-audio-quality-0uPftFxY.svg</image:loc>
+			<image:loc>https://rucaptcha.com/dist/web/assets/motor-disabilities-BC2oI5mt.svg</image:loc>
 		</image:image>
 		<image:image>
-			<image:loc>https://rucaptcha.com/dist/web/assets/motor-disabilities-BC2oI5mt.svg</image:loc>
+			<image:loc>https://rucaptcha.com/dist/web/assets/poor-audio-quality-0uPftFxY.svg</image:loc>
 		</image:image>
 		<image:image>
 			<image:loc>https://rucaptcha.com/dist/web/assets/cognitive-disabilities-Bn_tim5G.svg</image:loc>
@@ -1994,10 +2537,10 @@
 			<image:loc>https://rucaptcha.com/dist/web/assets/image-captcha-C9Npc7oc.svg</image:loc>
 		</image:image>
 		<image:image>
-			<image:loc>https://rucaptcha.com/dist/web/assets/image-captcha-1-CG4qrw9f.svg</image:loc>
+			<image:loc>https://rucaptcha.com/dist/web/assets/image-captcha-2-CXXqFSPY.svg</image:loc>
 		</image:image>
 		<image:image>
-			<image:loc>https://rucaptcha.com/dist/web/assets/image-captcha-2-CXXqFSPY.svg</image:loc>
+			<image:loc>https://rucaptcha.com/dist/web/assets/image-captcha-1-CG4qrw9f.svg</image:loc>
 		</image:image>
 	</url>
 	<url>
@@ -2006,16 +2549,22 @@
 			<image:loc>https://rucaptcha.com/api/v1/articles/attachments/64a58b8db077a336f4454c3c.png</image:loc>
 		</image:image>
 		<image:image>
-			<image:loc>https://rucaptcha.com/api/v1/articles/attachments/64a58c615d7edf36b6938640.png</image:loc>
+			<image:loc>https://rucaptcha.com/api/v1/articles/attachments/64b0f3a539ff0631417975ed.svg</image:loc>
 		</image:image>
 		<image:image>
-			<image:loc>https://rucaptcha.com/api/v1/articles/attachments/64b0f3a539ff0631417975ed.svg</image:loc>
+			<image:loc>https://rucaptcha.com/api/v1/articles/attachments/64a58c615d7edf36b6938640.png</image:loc>
 		</image:image>
 		<image:image>
 			<image:loc>https://rucaptcha.com/api/v1/articles/attachments/64b0f7125c919133458d8a0d.svg</image:loc>
 		</image:image>
 		<image:image>
 			<image:loc>https://rucaptcha.com/api/v1/articles/attachments/64ad1979ecb58f23b0c91768.jpeg</image:loc>
+		</image:image>
+	</url>
+	<url>
+		<loc>https://addons.mozilla.org/firefox/addon/2captcha-solver</loc>
+		<image:image>
+			<image:loc>https://addons.mozilla.org/static-frontend/1b2fb62f37f1c1e59208f4993714d166.svg</image:loc>
 		</image:image>
 	</url>
 	<url>
@@ -2051,10 +2600,10 @@
 			<image:loc>https://rucaptcha.com/assets/captcha-api-docs/img/bounding-box.svg</image:loc>
 		</image:image>
 		<image:image>
-			<image:loc>https://rucaptcha.com/api/v1/articles/attachments/6554c845dd22d702a91ecaf9.svg</image:loc>
+			<image:loc>https://rucaptcha.com/api/v1/articles/attachments/6554c4074a2c05026950cdf8.svg</image:loc>
 		</image:image>
 		<image:image>
-			<image:loc>https://rucaptcha.com/api/v1/articles/attachments/6554c4074a2c05026950cdf8.svg</image:loc>
+			<image:loc>https://rucaptcha.com/api/v1/articles/attachments/6554c845dd22d702a91ecaf9.svg</image:loc>
 		</image:image>
 	</url>
 </urlset>
