@@ -1,3 +1,4 @@
+import urllib
 import asyncio
 import logging
 from typing import Set, Optional
@@ -6,13 +7,15 @@ from urllib.parse import urlparse
 import aiohttp
 from bs4 import BeautifulSoup
 
+from .config import Config
+
 logger = logging.getLogger(__name__)
 
 __all__ = ("WebInstrument",)
 
 
 class WebInstrument:
-    def __init__(self, init_url: str, header: dict[str] = None):
+    def __init__(self, init_url: str, config: Config):
         """
         Core class for working with webpages:
 
@@ -24,20 +27,11 @@ class WebInstrument:
 
         Args:
             init_url: webpage main link
-            header: dict with header args
+            config: dataclass contains all params
         """
         self.init_url = init_url
         self.domain = self.get_domain(url=self.init_url)
-        self.headers = (
-            header
-            if header
-            else {
-                "User-Agent": "ImageSitemap Crawler",
-                "Accept": "text/html",
-                "Accept-Encoding": "gzip",
-                "Connection": "close",
-            }
-        )
+        self.config = config
 
     @staticmethod
     def get_domain(url: str) -> str:
@@ -79,7 +73,7 @@ class WebInstrument:
         Returns:
             Webpage as text
         """
-        async with aiohttp.ClientSession(headers=self.headers) as session:
+        async with aiohttp.ClientSession(headers=self.config.header) as session:
             for attempt in self.attempts_generator():
                 try:
                     async with session.get(url=url) as resp:
@@ -97,7 +91,7 @@ class WebInstrument:
                 logger.error(f"Page not loaded - {url = }")
 
     @staticmethod
-    def filter_links_query(links: Set[str], is_query_enabled: bool = True) -> Set[str]:
+    def __filter_links_query(links: Set[str], is_query_enabled: bool = True) -> Set[str]:
         """
         Method filter webpages links set and return only links with same domain or subdomain
         Args:
@@ -148,6 +142,27 @@ class WebInstrument:
             if link and not link.startswith("https://"):
                 result_links.add(link)
         return result_links
+
+    def filter_links(self, canonical_url: str, links: Set[str]) -> Set[str]:
+
+        # filter only local weblinks
+        inner_links = self.filter_inner_links(links=links)
+        links = links.difference(inner_links)
+        logger.warning(f"{inner_links = }")
+        logger.warning(f"{links.difference(inner_links) = }")
+        # filter global domain weblinks from local links
+        links.update(
+            self.filter_links_domain(
+                links=links,
+                is_subdomain=self.config.accept_subdomains,
+            )
+        )
+        logger.warning(f"#1 {links = }")
+        # create fixed inner links (fixed - added to local link page url)
+        links.update({urllib.parse.urljoin(canonical_url, inner_link) for inner_link in inner_links})
+        logger.warning(f"#2 {links = }")
+        # filter weblinks from webpages link minus links with query
+        return self.__filter_links_query(links=links, is_query_enabled=self.config.is_query_enabled)
 
     @staticmethod
     def attempts_generator(amount: int = 6) -> int:
