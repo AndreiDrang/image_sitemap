@@ -7,7 +7,7 @@ config = Config(
     max_depth=1,
     accept_subdomains=True,
     is_query_enabled=False,
-    file_name="sitemap_images.xml",
+    file_name="example_sitemap_images.xml",
     header={
         "User-Agent": "ImageSitemap Crawler",
         "Accept": "text/html",
