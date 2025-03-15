@@ -3,16 +3,17 @@ import mimetypes
 from typing import Set, Dict
 
 from .instruments import WebInstrument, FileInstrument
+from .instruments.config import Config
 
 __all__ = ("ImagesCrawler",)
 
 
 class ImagesCrawler:
-    def __init__(self, file_name: str = "sitemap_images.xml", accept_subdomains: bool = True):
-        if not file_name.endswith(".xml"):
-            raise ValueError(f"File must be in XML format! Your file name - {file_name}")
-        self.accept_subdomains = accept_subdomains
-        self.file_instrument = FileInstrument(file_name=file_name)
+    def __init__(self, config: Config):
+        self.config = config
+        if not config.file_name.endswith(".xml"):
+            raise ValueError(f"File must be in XML format! Your file name - {self.config.file_name}")
+        self.file_instrument = FileInstrument(file_name=self.config.file_name)
         self.web_instrument = WebInstrument
 
     @staticmethod
@@ -37,7 +38,7 @@ class ImagesCrawler:
             inner_links = self.web_instrument.filter_inner_links(links=images_links)
             links.update(
                 self.web_instrument.filter_links_domain(
-                    links=images_links.difference(inner_links), is_subdomain=self.accept_subdomains
+                    links=images_links.difference(inner_links), is_subdomain=self.config.accept_subdomains
                 )
             )
             links.update({urllib.parse.urljoin(url, inner_link) for inner_link in inner_links})
@@ -55,9 +56,9 @@ class ImagesCrawler:
         return images_data
 
     async def create_sitemap(self, links: Set[str]):
-        self.web_instrument = WebInstrument(init_url=next(iter(links)))
+        self.web_instrument = WebInstrument(init_url=next(iter(links)), config=self.config)
         self.file_instrument.create(links_images_data=await self.__prepare_images_struct(links=links))
 
     async def get_data(self, links: Set[str]) -> Dict[str, Set[str]]:
-        self.web_instrument = WebInstrument(init_url=next(iter(links)))
+        self.web_instrument = WebInstrument(init_url=next(iter(links)), config=self.config)
         return await self.__prepare_images_struct(links=links)
