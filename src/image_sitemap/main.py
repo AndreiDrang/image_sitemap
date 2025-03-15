@@ -3,6 +3,7 @@ from typing import Set, Dict
 
 from .links_crawler import LinksCrawler
 from .images_crawler import ImagesCrawler
+from .instruments.config import Config
 
 logging.basicConfig(
     level=logging.INFO,
@@ -17,9 +18,7 @@ __all__ = ("Sitemap",)
 
 
 class Sitemap:
-    def __init__(
-        self, accept_subdomains: bool = True, is_query_enabled: bool = True, file_name: str = "sitemap_images.xml"
-    ):
+    def __init__(self, config: Config):
         """
         Main class for work with sitemap images generation
 
@@ -27,12 +26,9 @@ class Sitemap:
             1. Crawling website pages
             2. Generate sitemap images file or get this data
         Args:
-            accept_subdomains: if True - crawlers will accept subdomains pages/links, else - No
-            file_name: sitemap images file name
+            config: dataclass contains all params
         """
-        self.accept_subdomains = accept_subdomains
-        self.is_query_enabled = is_query_enabled
-        self.file_name = file_name
+        self.config = config
 
     async def run(self, url: str, max_depth: int = 3) -> None:
         """
@@ -57,7 +53,7 @@ class Sitemap:
             links: set with webpages links
         """
         logger.info(f"File generation started")
-        images_crawler = ImagesCrawler(file_name=self.file_name, accept_subdomains=self.accept_subdomains)
+        images_crawler = ImagesCrawler(config=self.config)
         await images_crawler.create_sitemap(links=links)
         logger.info(f"File generation finished")
 
@@ -72,7 +68,7 @@ class Sitemap:
         Returns:
             Dict with collected images data and pages
         """
-        images_crawler = ImagesCrawler(accept_subdomains=self.accept_subdomains)
+        images_crawler = ImagesCrawler(config=self.config)
         return await images_crawler.get_data(links=links)
 
     async def crawl_links(self, url: str, max_depth: int = 3) -> Set[str]:
@@ -86,9 +82,4 @@ class Sitemap:
             Set of all parsed website pages
         """
         logger.info(f"Pages crawling is started")
-        return await LinksCrawler(
-            init_url=url,
-            max_depth=max_depth,
-            accept_subdomains=self.accept_subdomains,
-            is_query_enabled=self.is_query_enabled,
-        ).run()
+        return await LinksCrawler(init_url=url, config=self.config).run()
