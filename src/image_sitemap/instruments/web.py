@@ -144,21 +144,20 @@ class WebInstrument:
         return result_links
 
     def filter_links(self, canonical_url: str, links: Set[str]) -> Set[str]:
-
+        filtered_links = set()
         # filter only local weblinks
         inner_links = self.filter_inner_links(links=links)
-        links = links.difference(inner_links)
         # filter global domain weblinks from local links
-        links.update(
+        filtered_links.update(
             self.filter_links_domain(
-                links=links,
+                links=links.difference(inner_links),
                 is_subdomain=self.config.accept_subdomains,
             )
         )
         # create fixed inner links (fixed - added to local link page url)
-        links.update({urllib.parse.urljoin(canonical_url, inner_link) for inner_link in inner_links})
+        filtered_links.update({urllib.parse.urljoin(canonical_url, inner_link) for inner_link in inner_links})
         # filter weblinks from webpages link minus links with query
-        return self.__filter_links_query(links=links, is_query_enabled=self.config.is_query_enabled)
+        return self.__filter_links_query(links=filtered_links, is_query_enabled=self.config.is_query_enabled)
 
     @staticmethod
     def attempts_generator(amount: int = 6) -> int:
