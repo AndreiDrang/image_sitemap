@@ -35,7 +35,6 @@ class LinksCrawler:
                 rec_parsed_links.update(await self.__links_crawler(url=link, current_depth=current_depth + 1))
 
             links.update(rec_parsed_links)
-
         return links
 
     async def run(self) -> Set[str]:
