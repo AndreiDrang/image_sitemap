@@ -1,7 +1,7 @@
 import logging
-from typing import Set
+from typing import Set, List
 
-from .instruments import WebInstrument
+from .instruments import WebInstrument, FileInstrument
 from .instruments.config import Config
 
 logger = logging.getLogger(__name__)
@@ -12,6 +12,8 @@ class LinksCrawler:
     def __init__(self, init_url: str, config: Config):
         self.config = config
         self.web_instrument = WebInstrument(init_url=init_url, config=self.config)
+        self.crawled_links: List[str]
+        self.file_instrument = FileInstrument(file_name=self.config.file_name)
 
     async def __links_crawler(self, url: str, current_depth: int = 0) -> Set[str]:
         """
@@ -37,13 +39,16 @@ class LinksCrawler:
             links.update(rec_parsed_links)
         return links
 
-    async def run(self) -> Set[str]:
+    async def run(self) -> "LinksCrawler":
         """
         Method runs website crawling process
         Returns:
             Set with all crawled website pages links
         """
         logger.info(f"Starting crawling - {self.web_instrument.init_url}," f" config - {self.config}")
-        result = await self.__links_crawler(url=self.web_instrument.init_url)
+        self.crawled_links = sorted(await self.__links_crawler(url=self.web_instrument.init_url), key=len)
         logger.info(f"Finishing crawling - {self.web_instrument.init_url}")
-        return result
+        return self
+
+    def create_sitemap(self):
+        self.file_instrument.create_sitemap(links=self.crawled_links)

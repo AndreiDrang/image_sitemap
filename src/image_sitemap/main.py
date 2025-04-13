@@ -30,21 +30,20 @@ class Sitemap:
         """
         self.config = config
 
-    async def run(self, url: str, max_depth: int = 3) -> None:
+    async def run_images_sitemap(self, url: str) -> None:
         """
         Basic images sitemap generation method
         1. Crawling webpages
         2. Creating images sitemap file
         Args:
             url: website address for crawling
-            max_depth: crawling max depth, higher value == more time for parsing
         """
         logger.info(f"Run command is started")
-        links = await self.crawl_links(url=url, max_depth=max_depth)
-        await self.generate_file(links=links)
+        links = await self.crawl_links(url=url)
+        await self.generate_images_sitemap_file(links=links)
         logger.info(f"Run command finished")
 
-    async def generate_file(self, links: Set[str]) -> None:
+    async def generate_images_sitemap_file(self, links: Set[str]) -> None:
         """
         Method get webpages links set and collect images from them
         And finally generate images sitemap file
@@ -71,15 +70,26 @@ class Sitemap:
         images_crawler = ImagesCrawler(config=self.config)
         return await images_crawler.get_data(links=links)
 
-    async def crawl_links(self, url: str, max_depth: int = 3) -> Set[str]:
+    async def crawl_links(self, url: str) -> Set[str]:
         """
         Method crawling website and collect all domain\subdomain pages
         Args:
             url: website page for starting crawling
-            max_depth: crawling max depth, higher value == more time for parsing
 
         Returns:
             Set of all parsed website pages
         """
         logger.info(f"Pages crawling is started")
-        return await LinksCrawler(init_url=url, config=self.config).run()
+        return (await LinksCrawler(init_url=url, config=self.config).run()).crawled_links
+
+    async def run_sitemap(self, url: str) -> None:
+        """
+        Basic images sitemap generation method
+        1. Crawling webpages
+        2. Creating images sitemap file
+        Args:
+            url: website address for crawling
+        """
+        logger.info(f"Run command is started")
+        (await LinksCrawler(init_url=url, config=self.config).run()).create_sitemap()
+        logger.info(f"Run command finished")
