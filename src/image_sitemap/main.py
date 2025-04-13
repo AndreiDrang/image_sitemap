@@ -38,10 +38,10 @@ class Sitemap:
         Args:
             url: website address for crawling
         """
-        logger.info(f"Run command is started")
+        logger.info(f"Run images sitemap command is started")
         links = await self.crawl_links(url=url)
         await self.generate_images_sitemap_file(links=links)
-        logger.info(f"Run command finished")
+        logger.info(f"Run images sitemap command finished")
 
     async def generate_images_sitemap_file(self, links: Set[str]) -> None:
         """
@@ -90,6 +90,6 @@ class Sitemap:
         Args:
             url: website address for crawling
         """
-        logger.info(f"Run command is started")
+        logger.info(f"Run sitemap command is started")
         (await LinksCrawler(init_url=url, config=self.config).run()).create_sitemap()
-        logger.info(f"Run command finished")
+        logger.info(f"Run sitemap command finished")
