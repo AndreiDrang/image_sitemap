@@ -48,20 +48,33 @@ class WebInstrument:
     @staticmethod
     def find_tags(page_data: str, tag: str, key: str) -> Set[str]:
         """
-        Method parse webpage text and extract certain tags and keys
+        Parses webpage text and extracts values of a specific attribute from given tags,
+        ignoring elements with rel="nofollow".
+
         Args:
-            page_data: downloaded webpage text
-            tag: tag for parsing
-            key: tag key for extract
+            page_data: HTML content of the page
+            tag: HTML tag to search for (e.g., 'a')
+            key: attribute to extract (e.g., 'href')
 
         Returns:
-            Set of all extracted tag keys values
+            Set of extracted attribute values
         """
         result_elements = set()
-        soup = BeautifulSoup(page_data)
+
+        soup = BeautifulSoup(page_data, "html.parser")
         elements = soup.find_all(tag)
+
         for element in elements:
-            result_elements.add(element.get(key).strip())
+            if not element.has_attr(key):
+                continue
+
+            if rel_values := element.get("rel"):
+                if "nofollow" in rel_values:
+                    continue
+
+            if value := element.get(key).strip():
+                result_elements.add(value)
+
         return result_elements
 
     async def download_page(self, url: str) -> Optional[str]:
