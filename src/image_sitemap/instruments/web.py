@@ -57,12 +57,12 @@ class WebInstrument:
         Returns:
             Set of all extracted tag keys values
         """
-        result_images = set()
+        result_elements = set()
         soup = BeautifulSoup(page_data)
-        images = soup.find_all(tag)
-        for image in images:
-            result_images.add(image.get(key))
-        return result_images
+        elements = soup.find_all(tag)
+        for element in elements:
+            result_elements.add(element.get(key).strip())
+        return result_elements
 
     async def download_page(self, url: str) -> Optional[str]:
         """
