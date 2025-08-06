@@ -27,3 +27,58 @@ multi_line_output = 3
 include_trailing_comma = true
 force_grid_wrap = 0
 use_parentheses = true
+
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "image-sitemap"
+dynamic = ["version"]
+authors = [
+    {name = "AndreiDrang", email = "python-captcha@pm.me"},
+]
+description = "Library to generate XML sitemaps for websites and images. Boost SEO by indexing image URLs for better visibility on search engines."
+readme = "README.md"
+requires-python = ">=3.12"
+keywords = [    "sitemap generator",
+                "image sitemap",
+                "XML sitemap",
+                "SEO optimization",
+                "Python SEO tools",
+                "website indexing",
+                "search engine visibility",
+                "image indexing",
+                "web crawler"
+            ]
+license = "MIT"
+classifiers = [
+        "Development Status :: 5 - Production/Stable",
+        "Programming Language :: Python",
+        "Programming Language :: Python :: 3",
+        "Programming Language :: Python :: 3 :: Only",
+        "Programming Language :: Python :: 3.12",
+        "Programming Language :: Python :: 3.13",
+        "Framework :: AsyncIO",
+        "Operating System :: Unix",
+        "Operating System :: Microsoft :: Windows",
+        "Operating System :: MacOS",
+]
+dependencies = [
+    "aiohttp==3.12.*",
+    "beautifulsoup4==4.13.*"
+]
+
+[tool.setuptools.packages.find]
+where = ["src"]
+include = ["image_sitemap*"]
+
+[tool.setuptools.dynamic]
+version = {attr = "image_sitemap.__version__"}
+
+[project.urls]
+Homepage = "https://github.com/AndreiDrang/image_sitemap"
+Documentation = "https://github.com/AndreiDrang/image_sitemap"
+Repository = "https://github.com/AndreiDrang/image_sitemap"
+Issues = "https://github.com/AndreiDrang/image_sitemap/issues"
+Changelog = "https://github.com/AndreiDrang/image_sitemap/releases"
