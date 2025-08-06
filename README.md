@@ -26,8 +26,8 @@ Google image sitemaps standard description - [Click](https://developers.google.c
     ```python
     import asyncio
     
-    from src.image_sitemap import Sitemap
-    from src.image_sitemap.instruments.config import Config
+    from image_sitemap import Sitemap
+    from image_sitemap.instruments.config import Config
       
     images_config = Config(
         max_depth=3,
