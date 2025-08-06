@@ -74,7 +74,7 @@ where = ["src"]
 include = ["image_sitemap*"]
 
 [tool.setuptools.dynamic]
-version = {attr = "image_sitemap.__version__"}
+version = {attr = "image_sitemap.__version__.__version__"}
 
 [project.urls]
 Homepage = "https://github.com/AndreiDrang/image_sitemap"
