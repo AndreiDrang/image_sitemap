@@ -1,4 +1,9 @@
 #!make
+install:
+	pip3 install -e .
+
+remove:
+	pip3 uninstall image_sitemap -y
 
 lint:
 	black src/ --check
@@ -15,3 +20,12 @@ refactor:
 				src/
 	black src/
 	isort src/
+
+build:
+	pip3 install --upgrade build setuptools
+	python3 -m build
+
+upload:
+	pip3 install wheel setuptools build
+	pip3 install twine==6.1.0
+	twine upload dist/*
