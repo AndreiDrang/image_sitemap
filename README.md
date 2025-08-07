@@ -1,5 +1,7 @@
 # 🗺️ image_sitemap
 
+[![Logo.png](https://s.vyjava.xyz/files/2025/08-August/07/3e9bfab2/Logo_348x300_.png)](https://vyjava.xyz/dashboard/image/3e9bfab2-262f-47ac-bd76-96eb93d77b31)
+
 <hr>
 
 [![PyPI version](https://badge.fury.io/py/image-sitemap.svg)](https://badge.fury.io/py/image-sitemap)
