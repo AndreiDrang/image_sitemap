@@ -1,5 +1,11 @@
 # 🗺️ image_sitemap
 
+<hr>
+
+[![PyPI version](https://badge.fury.io/py/image-sitemap.svg)](https://badge.fury.io/py/image-sitemap)
+[![Python versions](https://img.shields.io/pypi/pyversions/image-sitemap.svg?logo=python&logoColor=FBE072)](https://badge.fury.io/py/image-sitemap)
+[![Downloads](https://static.pepy.tech/badge/image-sitemap/month)](https://pepy.tech/project/image-sitemap)
+
 Image & Website Sitemap Generator - SEO Tool for Better Visibility
 
 Sitemap Images is a Python tool that generates [a specialized XML sitemap file](./example_sitemap_images.xml),
