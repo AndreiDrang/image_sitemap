@@ -79,5 +79,18 @@ Google image sitemaps standard description - [Click](https://developers.google.c
         </url>
     </urlset>
     ```
+   Or just sitemap file
+    ```xml
+   <?xml version="1.0" encoding="UTF-8"?>
+   <urlset
+       xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+       <url>
+           <loc>https://rucaptcha.com/</loc>
+       </url>
+       <url>
+           <loc>https://rucaptcha.com/h</loc>
+       </url>
+    </urlset>
+    ```
 
 You can check examples file here - [Click](./example_sitemap_images.xml).
