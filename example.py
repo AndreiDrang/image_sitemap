@@ -3,7 +3,7 @@ from image_sitemap import Sitemap
 from image_sitemap.instruments.config import Config
 
 images_config = Config(
-    max_depth=3,
+    max_depth=1,
     accept_subdomains=True,
     is_query_enabled=False,
     file_name="sitemap_images.xml",
