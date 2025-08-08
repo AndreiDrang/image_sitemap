@@ -102,6 +102,7 @@ class WebInstrument:
                     logger.warning(f"{err}")
             else:
                 logger.error(f"Page not loaded - {url = }")
+        return None
 
     @staticmethod
     def __filter_links_query(links: Set[str], is_query_enabled: bool = True) -> Set[str]:

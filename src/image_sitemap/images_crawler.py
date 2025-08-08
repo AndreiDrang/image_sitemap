@@ -14,7 +14,7 @@ class ImagesCrawler:
         if not config.file_name.endswith(".xml"):
             raise ValueError(f"File must be in XML format! Your file name - {self.config.file_name}")
         self.file_instrument = FileInstrument(file_name=self.config.file_name)
-        self.web_instrument = WebInstrument
+        self.web_instrument = WebInstrument()
 
     @staticmethod
     def __filter_images_links(links: Set[str]) -> Set[str]:
