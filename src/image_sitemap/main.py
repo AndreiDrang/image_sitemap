@@ -1,5 +1,5 @@
 import logging.config
-from typing import Set, Dict
+from typing import Set, Dict, List
 
 from .links_crawler import LinksCrawler
 from .images_crawler import ImagesCrawler
@@ -43,7 +43,7 @@ class Sitemap:
         await self.generate_images_sitemap_file(links=links)
         logger.info(f"Run images sitemap command finished")
 
-    async def generate_images_sitemap_file(self, links: Set[str]) -> None:
+    async def generate_images_sitemap_file(self, links: List[str]) -> None:
         """
         Method get webpages links set and collect images from them
         And finally generate images sitemap file
@@ -56,7 +56,7 @@ class Sitemap:
         await images_crawler.create_sitemap(links=links)
         logger.info(f"File generation finished")
 
-    async def images_data(self, links: Set[str]) -> Dict[str, Set[str]]:
+    async def images_data(self, links: Set[str]) -> Dict[str, List[str]]:
         """
         Method collect and return images data as dictionary:
             key - webpage link
@@ -70,9 +70,9 @@ class Sitemap:
         images_crawler = ImagesCrawler(config=self.config)
         return await images_crawler.get_data(links=links)
 
-    async def crawl_links(self, url: str) -> Set[str]:
+    async def crawl_links(self, url: str) -> List[str]:
         """
-        Method crawling website and collect all domain\subdomain pages
+        Method crawling website and collect all domai/subdomain pages
         Args:
             url: website page for starting crawling
 
