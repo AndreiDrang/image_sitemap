@@ -1,2 +1,2 @@
 aiohttp==3.12.*
-beautifulsoup4==4.13.*
+beautifulsoup4>=4.13,<4.15
