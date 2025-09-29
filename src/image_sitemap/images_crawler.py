@@ -18,7 +18,7 @@ class ImagesCrawler:
 
     @staticmethod
     def __filter_images_links(links: Set[str]) -> Set[str]:
-        result_links = set()
+        result_links: set[str] = set()
         for link in links:
             mime_type, _ = mimetypes.guess_type(link if link else "")
             if mime_type and mime_type.startswith("image/") and not link.startswith("data:image/"):
@@ -26,7 +26,7 @@ class ImagesCrawler:
         return result_links
 
     async def __parse_images(self, url: str) -> Set[str]:
-        links = set()
+        links: set[str] = set()
         if page_data := await self.web_instrument.download_page(url=url):
             images_links = self.__filter_images_links(
                 links=self.web_instrument.find_tags(
@@ -45,8 +45,8 @@ class ImagesCrawler:
         return links
 
     async def __prepare_images_struct(self, links: Set[str]) -> Dict[str, List[str]]:
-        images_data = dict()
-        all_images = set()
+        images_data: dict[str, list[str]] = dict()
+        all_images: set[str] = set()
 
         for url in sorted(links, key=len):
             if parsed_images := (await self.__parse_images(url=url)).difference(all_images):
