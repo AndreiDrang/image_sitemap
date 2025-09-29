@@ -28,11 +28,11 @@ class LinksCrawler:
         if current_depth >= self.config.max_depth:
             return set()
 
-        links = set()
+        links: set[str] = set()
         if page_data := await self.web_instrument.download_page(url=url):
             page_links = self.web_instrument.find_tags(page_data=page_data, tag="a", key="href")
             links = self.web_instrument.filter_links(canonical_url=url, links=page_links)
-            rec_parsed_links = set()
+            rec_parsed_links: set[str] = set()
             for link in sorted(links, key=len):
                 rec_parsed_links.update(await self.__links_crawler(url=link, current_depth=current_depth + 1))
 
