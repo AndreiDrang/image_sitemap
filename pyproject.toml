@@ -69,6 +69,13 @@ dependencies = [
     "beautifulsoup4==4.*"
 ]
 
+[project.optional-dependencies]
+style = [
+    "black==25.*",
+    "isort==6.*",
+    "autoflake==2.*",
+]
+
 [tool.setuptools.packages.find]
 where = ["src"]
 include = ["image_sitemap*"]
