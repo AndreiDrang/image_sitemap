@@ -65,8 +65,8 @@ classifiers = [
         "Operating System :: MacOS",
 ]
 dependencies = [
-    "aiohttp==3.12.*",
-    "beautifulsoup4==4.13.*"
+    "aiohttp==3.*",
+    "beautifulsoup4==4.*"
 ]
 
 [tool.setuptools.packages.find]
