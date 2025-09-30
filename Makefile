@@ -6,11 +6,13 @@ remove:
 	pip3 uninstall image_sitemap -y
 
 lint:
+	pip install .[style]
 	black src/ --check
 	isort src/ --check-only
 	autoflake --in-place --recursive src/ --check-diff
 
 refactor:
+	pip install .[style]
 	autoflake --in-place \
 				--recursive \
 				--remove-unused-variables \
