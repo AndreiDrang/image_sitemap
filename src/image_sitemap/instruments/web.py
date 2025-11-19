@@ -2,7 +2,7 @@ import urllib
 import asyncio
 import logging
 from typing import Set, Optional
-from urllib.parse import urlparse
+from urllib.parse import urlparse, urlunparse
 
 import aiohttp
 from bs4 import BeautifulSoup
@@ -44,6 +44,21 @@ class WebInstrument:
             domain name
         """
         return ".".join(urlparse(url=url).hostname.split(".")[-2:])
+
+    @staticmethod
+    def normalize_url(url: str) -> str:
+        """Normalize a URL by stripping fragment identifiers.
+
+        Args:
+            url: URL string to normalize.
+
+        Returns:
+            The normalized URL without any fragment component.
+        """
+        parsed = urlparse(url=url)
+        if not parsed.fragment:
+            return url
+        return urlunparse(parsed._replace(fragment=""))
 
     @staticmethod
     def find_tags(page_data: str, tag: str, key: str) -> Set[str]:
@@ -173,8 +188,9 @@ class WebInstrument:
         )
         # create fixed inner links (fixed - added to local link page url)
         filtered_links.update({urllib.parse.urljoin(canonical_url, inner_link) for inner_link in inner_links})
+        normalized_links = {self.normalize_url(link) for link in filtered_links}
         # filter weblinks from webpages link minus links with query
-        return self.__filter_links_query(links=filtered_links, is_query_enabled=self.config.is_query_enabled)
+        return self.__filter_links_query(links=normalized_links, is_query_enabled=self.config.is_query_enabled)
 
     @staticmethod
     def attempts_generator(amount: int = 6) -> int:
