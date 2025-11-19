@@ -73,6 +73,9 @@ class WebInstrument:
                     continue
 
             if value := element.get(key).strip():
+                # Skip email links like "mailto:user@example.com"
+                if value.lower().startswith("mailto:"):
+                    continue
                 result_elements.add(value)
 
         return result_elements
