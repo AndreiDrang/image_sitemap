@@ -1,6 +1,6 @@
-import urllib
 import mimetypes
 from typing import Set, Dict, List
+from urllib.parse import urljoin
 
 from .instruments import WebInstrument, FileInstrument
 from .instruments.config import Config
@@ -41,7 +41,7 @@ class ImagesCrawler:
                     links=images_links.difference(inner_links), is_subdomain=self.config.accept_subdomains
                 )
             )
-            links.update({urllib.parse.urljoin(url, inner_link) for inner_link in inner_links})
+            links.update({urljoin(url, inner_link) for inner_link in inner_links})
         return links
 
     async def __prepare_images_struct(self, links: Set[str]) -> Dict[str, List[str]]:
@@ -55,9 +55,10 @@ class ImagesCrawler:
 
         return images_data
 
-    async def create_sitemap(self, links: Set[str]):
-        self.web_instrument = WebInstrument(init_url=next(iter(links)), config=self.config)
-        self.file_instrument.create_image_sitemap(links_images_data=await self.__prepare_images_struct(links=links))
+    async def create_sitemap(self, links: Set[str] | List[str]):
+        links_set = set(links) if isinstance(links, list) else links
+        self.web_instrument = WebInstrument(init_url=next(iter(links_set)), config=self.config)
+        self.file_instrument.create_image_sitemap(links_images_data=await self.__prepare_images_struct(links=links_set))
 
     async def get_data(self, links: Set[str]) -> Dict[str, List[str]]:
         self.web_instrument = WebInstrument(init_url=next(iter(links)), config=self.config)
