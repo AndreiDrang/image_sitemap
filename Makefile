@@ -31,3 +31,9 @@ upload:
 	pip3 install wheel setuptools build
 	pip3 install twine==6.1.0
 	twine upload dist/*
+
+# Testing commands
+test:
+	coverage run --rcfile=.coveragerc -m pytest --verbose --showlocals --disable-warnings && \
+    coverage report --format=markdown --precision=3 --sort=cover --skip-empty --show-missing > ./coverage/coverage.md && \
+    coverage html --precision=3 --skip-empty -d ./coverage/html/
