@@ -1,8 +1,8 @@
-import urllib
 import asyncio
 import logging
+import mimetypes
 from typing import Set, Optional
-from urllib.parse import urlparse, urlunparse
+from urllib.parse import urljoin, urlparse, urlunparse
 
 import aiohttp
 from bs4 import BeautifulSoup
@@ -43,7 +43,10 @@ class WebInstrument:
         Returns:
             domain name
         """
-        return ".".join(urlparse(url=url).hostname.split(".")[-2:])
+        hostname = urlparse(url=url).hostname
+        if not hostname:
+            return ""
+        return ".".join(hostname.split(".")[-2:])
 
     @staticmethod
     def normalize_url(url: str) -> str:
@@ -176,6 +179,16 @@ class WebInstrument:
         return result_links
 
     def filter_links(self, canonical_url: str, links: Set[str]) -> Set[str]:
+        """
+        Filter links by domain, query, and file type
+
+        Args:
+            canonical_url: Base URL for resolving relative links
+            links: Set of links to filter
+
+        Returns:
+            Filtered set of links
+        """
         filtered_links = set()
         # filter only local weblinks
         inner_links = self.filter_inner_links(links=links)
@@ -187,13 +200,121 @@ class WebInstrument:
             )
         )
         # create fixed inner links (fixed - added to local link page url)
-        filtered_links.update({urllib.parse.urljoin(canonical_url, inner_link) for inner_link in inner_links})
+        filtered_links.update({urljoin(canonical_url, inner_link) for inner_link in inner_links})
         normalized_links = {self.normalize_url(link) for link in filtered_links}
         # filter weblinks from webpages link minus links with query
-        return self.__filter_links_query(links=normalized_links, is_query_enabled=self.config.is_query_enabled)
+        filtered_links = self.__filter_links_query(
+            links=normalized_links, is_query_enabled=self.config.is_query_enabled
+        )
+
+        # Apply file filtering if enabled
+        if self.config.exclude_file_links:
+            filtered_links = self.filter_file_links(filtered_links)
+
+        return filtered_links
+
+    def is_web_page_url(self, url: str) -> bool:
+        """
+        Check if URL represents a web page rather than a downloadable file
+
+        Args:
+            url: URL to check
+
+        Returns:
+            True if URL represents a web page, False if it's a file
+        """
+        parsed = urlparse(url)
+        path = parsed.path.lower() if parsed.path else ""
+
+        # Skip protocol-relative URLs and special schemes
+        if url.startswith(("mailto:", "tel:", "javascript:", "data:")):
+            return False
+
+        # Check file extensions
+        if path.endswith(tuple(self.config.web_page_extensions)):
+            return True
+
+        # Directory paths (no extension) are considered web pages
+        path_parts = path.split("/")
+        filename = path_parts[-1] if path_parts and path_parts[-1] else ""
+        if "." not in filename:
+            return True
+
+        # Check MIME type
+        mime_type, _ = mimetypes.guess_type(url)
+        if mime_type:
+            # Web page MIME types
+            if mime_type in ["text/html", "application/xhtml+xml"]:
+                return True
+            # Known file types (not web pages)
+            elif not any(mime_type.startswith(prefix) for prefix in ["text/", "application/xhtml"]):
+                return False
+
+        # Check against excluded file extensions
+        for ext in self.config.excluded_file_extensions:
+            if path.endswith(ext.lower()):
+                return False
+
+        # Check against allowed file extensions (whitelist mode)
+        if self.config.allowed_file_extensions is not None:
+            for ext in self.config.allowed_file_extensions:
+                if path.endswith(ext.lower()):
+                    return True
+            return False  # Not in whitelist, treat as file
+
+        return True  # Default to web page if uncertain
+
+    def is_file_url(self, url: str) -> bool:
+        """
+        Check if URL represents a downloadable file (inverse of is_web_page_url)
+
+        Args:
+            url: URL to check
+
+        Returns:
+            True if URL represents a file, False if it's a web page
+        """
+        return not self.is_web_page_url(url)
+
+    def filter_file_links(self, links: Set[str]) -> Set[str]:
+        """
+        Filter out file links from a set of URLs, keeping only web pages
+
+        Args:
+            links: Set of URLs to filter
+
+        Returns:
+            Set containing only web page URLs (files filtered out)
+        """
+        if not self.config.exclude_file_links:
+            return links
+
+        filtered_links = set()
+        for link in links:
+            if self.is_web_page_url(link):
+                filtered_links.add(link)
+
+        return filtered_links
+
+    async def check_url_content_type(self, url: str) -> Optional[str]:
+        """
+        Check the actual Content-Type of a URL via HEAD request
+
+        Args:
+            url: URL to check
+
+        Returns:
+            Content-Type header value or None if unable to determine
+        """
+        try:
+            async with aiohttp.ClientSession(headers=self.config.header) as session:
+                async with session.head(url) as response:
+                    return response.headers.get("Content-Type")
+        except Exception:
+            return None
 
     @staticmethod
-    def attempts_generator(amount: int = 6) -> int:
+    def attempts_generator(amount: int = 6):
         """
         Function generates a generator of length equal to `amount`
 
@@ -201,6 +322,6 @@ class WebInstrument:
             amount: number of attempts generated
 
         Returns:
-            Attempt number
+            Attempt number generator
         """
         yield from range(1, amount)
