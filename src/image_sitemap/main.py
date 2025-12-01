@@ -53,7 +53,7 @@ class Sitemap:
         """
         logger.info(f"File generation started")
         images_crawler = ImagesCrawler(config=self.config)
-        await images_crawler.create_sitemap(links=links)
+        await images_crawler.create_sitemap(links=set(links))
         logger.info(f"File generation finished")
 
     async def images_data(self, links: Set[str]) -> Dict[str, List[str]]:
@@ -77,10 +77,11 @@ class Sitemap:
             url: website page for starting crawling
 
         Returns:
-            Set of all parsed website pages
+            List of all parsed website pages
         """
         logger.info(f"Pages crawling is started")
-        return (await LinksCrawler(init_url=url, config=self.config).run()).crawled_links
+        crawler = await LinksCrawler(init_url=url, config=self.config).run()
+        return crawler.crawled_links
 
     async def run_sitemap(self, url: str) -> None:
         """
