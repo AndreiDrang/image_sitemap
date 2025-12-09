@@ -11,6 +11,7 @@ images_config = Config(
         "User-Agent": "ImageSitemap Crawler",
         "Accept": "text/html",
     },
+    excluded_subdomains={'wiki'}
 )
 sitemap_config = Config(
     max_depth=1,
@@ -21,6 +22,7 @@ sitemap_config = Config(
         "User-Agent": "ImageSitemap Crawler",
         "Accept": "text/html",
     },
+    excluded_subdomains={'wiki'}
 )
 
 asyncio.run(Sitemap(config=images_config).run_images_sitemap(url="https://rucaptcha.com/"))
