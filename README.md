@@ -31,6 +31,8 @@ Google image sitemaps standard description - [Click](https://developers.google.c
 - Easy integration with existing Python projects  
 - Helps improve visibility in search engine results  
 - Boosts image search performance
+- Subdomain filtering with exclusion support
+- Configurable crawling depth and query parameters
 
 ## ✍️ Examples
 
@@ -44,6 +46,7 @@ Google image sitemaps standard description - [Click](https://developers.google.c
     images_config = Config(
         max_depth=3,
         accept_subdomains=True,
+        excluded_subdomains={"blog", "api", "staging"},  # Exclude specific subdomains
         is_query_enabled=False,
         file_name="sitemap_images.xml",
         header={
@@ -54,6 +57,7 @@ Google image sitemaps standard description - [Click](https://developers.google.c
     sitemap_config = Config(
         max_depth=3,
         accept_subdomains=True,
+        excluded_subdomains={"blog", "api", "staging"},  # Exclude specific subdomains
         is_query_enabled=False,
         file_name="sitemap.xml",
         header={
@@ -92,5 +96,38 @@ Google image sitemaps standard description - [Click](https://developers.google.c
        </url>
     </urlset>
     ```
+
+## 🔧 Configuration Options
+
+The `Config` class provides various options to customize sitemap generation:
+
+### Subdomain Control
+- `accept_subdomains` (bool): Enable/disable subdomain crawling (default: `True`)
+- `excluded_subdomains` (Set[str]): Set of subdomain names to exclude from parsing (default: `set()`)
+
+```python
+# Example: Include all subdomains except blog and api
+config = Config(
+    accept_subdomains=True,
+    excluded_subdomains={"blog", "api", "staging", "dev"}
+)
+
+# This will include:
+# - example.com
+# - www.example.com  
+# - shop.example.com
+# But exclude:
+# - blog.example.com
+# - api.example.com
+# - staging.example.com
+# - dev.example.com
+```
+
+### Other Options
+- `max_depth` (int): Maximum crawling depth (default: `1`)
+- `is_query_enabled` (bool): Include URLs with query parameters (default: `True`)
+- `file_name` (str): Output sitemap filename (default: `"sitemap_images.xml"`)
+- `exclude_file_links` (bool): Filter out file links from sitemap (default: `True`)
+- `header` (dict): Custom HTTP headers for requests
 
 You can check examples file here - [Click](./example_sitemap_images.xml).
