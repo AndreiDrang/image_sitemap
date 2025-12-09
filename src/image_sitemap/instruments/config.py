@@ -8,6 +8,7 @@ __all__ = ("Config",)
 class Config:
     """
     accept_subdomains: if True - crawlers will accept subdomains pages/links, else - No
+    excluded_subdomains: set of subdomain names to exclude from parsing (e.g., {"blog", "api"})
     file_name: sitemap images file name
     exclude_file_links: if True - filter out file links from sitemap (recommended for SEO)
     allowed_file_extensions: set of file extensions to explicitly allow (None = use blacklist)
@@ -17,6 +18,7 @@ class Config:
 
     max_depth: int = 1
     accept_subdomains: bool = True
+    excluded_subdomains: Set[str] = field(default_factory=set)
     is_query_enabled: bool = True
     file_name: str = "sitemap_images.xml"
     exclude_file_links: bool = True
