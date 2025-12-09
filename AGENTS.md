@@ -27,4 +27,10 @@ Library to generate XML sitemaps for websites and images. Boosts SEO by indexing
 - Configuration via `Config` dataclass in `instruments/config.py`
 - Web crawling in `instruments/web.py`, file operations in `instruments/file.py`
 - Use relative imports within package (`from .module import Class`)
-- 
+
+### Docstring Policy
+- **Style**: Google Python docstring style is **required** for modules, public classes, public functions/method.
+- **Python docstrings**: for docstrings in python classes, methods, functions also use PEP 257.
+- **Required for**:
+  - Public functions and methods
+  - Public classes
