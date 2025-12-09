@@ -1,0 +1,3 @@
+build/
+src/image_sitemap.egg-info/
+.pytest_cache/
