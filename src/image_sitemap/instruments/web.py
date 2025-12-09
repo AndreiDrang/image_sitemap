@@ -147,16 +147,16 @@ class WebInstrument:
     def is_subdomain_excluded(self, hostname: str) -> bool:
         """
         Check if a hostname contains any excluded subdomains
-        
+
         Args:
             hostname: hostname to check (e.g., "blog.example.com")
-            
+
         Returns:
             True if hostname contains excluded subdomain, False otherwise
         """
         if not hostname or not self.config.excluded_subdomains:
             return False
-            
+
         hostname_parts = hostname.split(".")
         # Check each part of the hostname against excluded subdomains
         for part in hostname_parts:
@@ -180,11 +180,11 @@ class WebInstrument:
             link_domain = urlparse(url=link).hostname
             if not link_domain:
                 continue
-                
+
             # Check if subdomain is excluded first
             if self.is_subdomain_excluded(link_domain):
                 continue
-                
+
             if getattr(link_domain, check_logic)(self.domain):
                 result_links.add(link)
         return result_links
