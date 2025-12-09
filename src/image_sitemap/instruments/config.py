@@ -6,14 +6,27 @@ __all__ = ("Config",)
 
 @dataclass
 class Config:
-    """
-    accept_subdomains: if True - crawlers will accept subdomains pages/links, else - No
-    excluded_subdomains: set of subdomain names to exclude from parsing (e.g., {"blog", "api"})
-    file_name: sitemap images file name
-    exclude_file_links: if True - filter out file links from sitemap (recommended for SEO)
-    allowed_file_extensions: set of file extensions to explicitly allow (None = use blacklist)
-    excluded_file_extensions: set of file extensions to exclude from sitemap
-    web_page_extensions: set of extensions that indicate web pages
+    """Configuration class for sitemap generation parameters.
+
+    Attributes:
+        max_depth: Maximum crawling depth for website pages. Defaults to 1.
+        accept_subdomains: If True, crawlers will accept subdomain pages/links.
+            If False, only the main domain is crawled. Defaults to True.
+        excluded_subdomains: Set of subdomain names to exclude from parsing
+            (e.g., {"blog", "api", "staging"}). Defaults to empty set.
+        is_query_enabled: If True, URLs with query parameters are included
+            in sitemap. Defaults to True.
+        file_name: Output sitemap file name. Defaults to "sitemap_images.xml".
+        exclude_file_links: If True, filter out file links from sitemap
+            (recommended for SEO). Defaults to True.
+        allowed_file_extensions: Set of file extensions to explicitly allow.
+            If None, uses blacklist mode. Defaults to None.
+        excluded_file_extensions: Set of file extensions to exclude from sitemap
+            when in blacklist mode. Defaults to comprehensive file type list.
+        web_page_extensions: Set of extensions that indicate web pages rather
+            than downloadable files. Defaults to common web extensions.
+        header: Dictionary of HTTP headers to use for requests. Defaults to
+            standard crawler headers.
     """
 
     max_depth: int = 1
