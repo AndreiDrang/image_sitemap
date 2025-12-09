@@ -144,6 +144,26 @@ class WebInstrument:
                 result_links.add(link)
         return result_links
 
+    def is_subdomain_excluded(self, hostname: str) -> bool:
+        """
+        Check if a hostname contains any excluded subdomains
+        
+        Args:
+            hostname: hostname to check (e.g., "blog.example.com")
+            
+        Returns:
+            True if hostname contains excluded subdomain, False otherwise
+        """
+        if not hostname or not self.config.excluded_subdomains:
+            return False
+            
+        hostname_parts = hostname.split(".")
+        # Check each part of the hostname against excluded subdomains
+        for part in hostname_parts:
+            if part in self.config.excluded_subdomains:
+                return True
+        return False
+
     def filter_links_domain(self, links: Set[str], is_subdomain: bool = True) -> Set[str]:
         """
         Method filter webpages links set and return only links with same domain or subdomain
@@ -158,7 +178,14 @@ class WebInstrument:
         check_logic = "endswith" if is_subdomain else "__eq__"
         for link in links:
             link_domain = urlparse(url=link).hostname
-            if link_domain and getattr(link_domain, check_logic)(self.domain):
+            if not link_domain:
+                continue
+                
+            # Check if subdomain is excluded first
+            if self.is_subdomain_excluded(link_domain):
+                continue
+                
+            if getattr(link_domain, check_logic)(self.domain):
                 result_links.add(link)
         return result_links
 
