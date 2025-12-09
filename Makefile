@@ -29,7 +29,7 @@ build:
 
 upload:
 	pip3 install wheel setuptools build
-	pip3 install twine==6.1.0
+	pip3 install twine==6.2.0
 	twine upload dist/*
 
 # Testing commands
