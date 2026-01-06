@@ -126,9 +126,7 @@ class WebInstrument:
         return None
 
     @staticmethod
-    def __filter_links_query(
-        links: Set[str], is_query_enabled: bool = True
-    ) -> Set[str]:
+    def __filter_links_query(links: Set[str], is_query_enabled: bool = True) -> Set[str]:
         """
         Method filter webpages links set and return only links with same domain or subdomain
         Args:
@@ -166,9 +164,7 @@ class WebInstrument:
                 return True
         return False
 
-    def filter_links_domain(
-        self, links: Set[str], is_subdomain: bool = True
-    ) -> Set[str]:
+    def filter_links_domain(self, links: Set[str], is_subdomain: bool = True) -> Set[str]:
         """
         Method filter webpages links set and return only links with same domain or subdomain
         Args:
@@ -244,9 +240,7 @@ class WebInstrument:
             )
         )
         # create fixed inner links (fixed - added to local link page url)
-        filtered_links.update(
-            {urljoin(canonical_url, inner_link) for inner_link in inner_links}
-        )
+        filtered_links.update({urljoin(canonical_url, inner_link) for inner_link in inner_links})
         normalized_links = {self.normalize_url(link) for link in filtered_links}
         # filter weblinks from webpages link minus links with query
         filtered_links = self.__filter_links_query(
@@ -293,10 +287,7 @@ class WebInstrument:
             if mime_type in ["text/html", "application/xhtml+xml"]:
                 return True
             # Known file types (not web pages)
-            elif not any(
-                mime_type.startswith(prefix)
-                for prefix in ["text/", "application/xhtml"]
-            ):
+            elif not any(mime_type.startswith(prefix) for prefix in ["text/", "application/xhtml"]):
                 return False
 
         # Check against excluded file extensions
