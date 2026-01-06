@@ -126,7 +126,9 @@ class WebInstrument:
         return None
 
     @staticmethod
-    def __filter_links_query(links: Set[str], is_query_enabled: bool = True) -> Set[str]:
+    def __filter_links_query(
+        links: Set[str], is_query_enabled: bool = True
+    ) -> Set[str]:
         """
         Method filter webpages links set and return only links with same domain or subdomain
         Args:
@@ -164,7 +166,9 @@ class WebInstrument:
                 return True
         return False
 
-    def filter_links_domain(self, links: Set[str], is_subdomain: bool = True) -> Set[str]:
+    def filter_links_domain(
+        self, links: Set[str], is_subdomain: bool = True
+    ) -> Set[str]:
         """
         Method filter webpages links set and return only links with same domain or subdomain
         Args:
@@ -184,6 +188,19 @@ class WebInstrument:
             # Check if subdomain is excluded first
             if self.is_subdomain_excluded(link_domain):
                 continue
+
+            if is_subdomain and self.config.allowed_subdomains:
+                is_allowed = False
+                if link_domain == self.domain:
+                    is_allowed = True
+                else:
+                    hostname_parts = link_domain.split(".")
+                    for part in hostname_parts:
+                        if part in self.config.allowed_subdomains:
+                            is_allowed = True
+                            break
+                if not is_allowed:
+                    continue
 
             if getattr(link_domain, check_logic)(self.domain):
                 result_links.add(link)
@@ -227,7 +244,9 @@ class WebInstrument:
             )
         )
         # create fixed inner links (fixed - added to local link page url)
-        filtered_links.update({urljoin(canonical_url, inner_link) for inner_link in inner_links})
+        filtered_links.update(
+            {urljoin(canonical_url, inner_link) for inner_link in inner_links}
+        )
         normalized_links = {self.normalize_url(link) for link in filtered_links}
         # filter weblinks from webpages link minus links with query
         filtered_links = self.__filter_links_query(
@@ -274,7 +293,10 @@ class WebInstrument:
             if mime_type in ["text/html", "application/xhtml+xml"]:
                 return True
             # Known file types (not web pages)
-            elif not any(mime_type.startswith(prefix) for prefix in ["text/", "application/xhtml"]):
+            elif not any(
+                mime_type.startswith(prefix)
+                for prefix in ["text/", "application/xhtml"]
+            ):
                 return False
 
         # Check against excluded file extensions
