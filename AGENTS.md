@@ -1,36 +1,72 @@
 # Agent Guidelines for image_sitemap
 
-## Project Overview
-**image_sitemap** - Image & Website Sitemap Generator - SEO Tool for Better Visibility
+**Generated:** 2026-01-07  
 
-Library to generate XML sitemaps for websites and images. Boosts SEO by indexing image URLs for better visibility on search engines (Google, Bing, Yahoo). Supports both website and image sitemap generation, easy integration with Python projects, and helps improve search engine results visibility.
 
-**Framework:** AsyncIO, Python 3.12+  
-**Stack:** aiohttp, beautifulsoup4, black, isort, autoflake
+## Overview
+Async Python library for XML sitemap generation (website + image sitemaps). Crawls URLs, extracts images, outputs SEO-optimized XML.
 
-## Lint Commands
-- `make refactor` - Auto-format code (autoflake, black, isort)
+## Structure
+```
+src/image_sitemap/
+├── main.py              # Sitemap class - orchestrator entry point
+├── links_crawler.py     # LinksCrawler - recursive page discovery
+├── images_crawler.py    # ImagesCrawler - image URL extraction
+├── __init__.py          # Exports: Sitemap, __version__
+├── __version__.py       # Version string (2.1.0)
+└── instruments/
+    ├── config.py        # Config dataclass - all crawl settings
+    ├── web.py           # WebInstrument - aiohttp HTTP + BeautifulSoup parsing
+    ├── file.py          # FileInstrument - XML file generation
+    └── templates.py     # XML template strings
+```
 
-## Code Style Guidelines
-- **Formatting**: Black with 120-line length, Python 3.12+
-- **Imports**: isort with black profile, use `__all__` exports
-- **Types**: Full type hints required, use modern syntax (dict[str, str])
-- **Naming**: snake_case for functions/variables, PascalCase for classes
-- **Error Handling**: Use specific exceptions (e.g., `ValueError` with descriptive messages)
-- **Logging**: Use `logging.getLogger(__name__)` with INFO level
-- **Documentation**: Comprehensive docstrings explaining methods and parameters
-- **Async**: Use async/await patterns with aiohttp for HTTP requests
-- **Structure**: PlaceConfig dataclass in `instruments/config.py` for configuration
+## Where to Look
+| Task | Location | Notes |
+|------|----------|-------|
+| Add crawl settings | `instruments/config.py` | Config dataclass |
+| Modify HTTP behavior | `instruments/web.py` | WebInstrument class |
+| Change XML output | `instruments/templates.py` | Template strings |
+| Add sitemap features | `main.py` | Sitemap orchestrator |
+| URL discovery logic | `links_crawler.py` | LinksCrawler |
+| Image extraction | `images_crawler.py` | ImagesCrawler |
 
-## Package Structure
-- Main code in `src/image_sitemap/`
-- Configuration via `Config` dataclass in `instruments/config.py`
-- Web crawling in `instruments/web.py`, file operations in `instruments/file.py`
-- Use relative imports within package (`from .module import Class`)
+## Code Map
+| Symbol | Type | Location | Role |
+|--------|------|----------|------|
+| `Sitemap` | class | main.py | Main entry, orchestrates crawling |
+| `LinksCrawler` | class | links_crawler.py | Recursive URL discovery |
+| `ImagesCrawler` | class | images_crawler.py | Image URL extraction |
+| `Config` | dataclass | instruments/config.py | Crawl configuration |
+| `WebInstrument` | class | instruments/web.py | HTTP requests + HTML parsing |
+| `FileInstrument` | class | instruments/file.py | XML file generation |
 
-### Docstring Policy
-- **Style**: Google Python docstring style is **required** for modules, public classes, public functions/method.
-- **Python docstrings**: for docstrings in python classes, methods, functions also use PEP 257.
-- **Required for**:
-  - Public functions and methods
-  - Public classes
+## Conventions
+- **Formatting**: Black 120-char, Python 3.12+
+- **Imports**: isort black profile, use `__all__` exports
+- **Types**: Full type hints, modern syntax (`dict[str, str]` not `Dict`)
+- **Naming**: snake_case functions/variables, PascalCase classes
+- **Docstrings**: Google style, required for public API
+- **Async**: async/await with aiohttp, no sync HTTP calls
+- **Config**: All settings via Config dataclass, never hardcode
+
+## Anti-Patterns
+- No `as any`, `@ts-ignore` equivalents - fix type errors properly
+- No empty exception handlers
+- No hardcoded URLs/settings - use Config dataclass
+- No sync HTTP - always aiohttp async
+
+## Commands
+```bash
+make install    # pip install -e .
+make refactor   # autoflake + black + isort (use before commit)
+make lint       # Check formatting without changes
+make test       # pytest with coverage
+make build      # Build distribution
+make upload     # Upload to PyPI
+```
+
+## Notes
+- No tests directory exists yet (testpaths configured but empty)
+- No CI/CD workflows - only Dependabot for dependency updates
+- `build/lib/` is artifact - never edit, always edit `src/`
