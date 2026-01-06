@@ -13,15 +13,15 @@ __all__ = ("FileInstrument",)
 
 class FileInstrument:
     """Instrument for creating and saving XML sitemap files.
-    
+
     Handles the generation of both standard sitemaps and image sitemaps,
     formatting the data according to XML sitemap standards and saving
     them to specified files.
     """
-    
+
     def __init__(self, file_name: str):
         """Initialize FileInstrument with target file name.
-        
+
         Args:
             file_name: Name of the file where sitemap will be saved.
         """
@@ -30,13 +30,13 @@ class FileInstrument:
     @staticmethod
     def __build_image_sitemap_file(links_images_data: dict[str, List[str]]) -> str:
         """Build XML content for image sitemap.
-        
+
         Creates XML sitemap content that includes both page URLs and
         their associated image URLs according to sitemap image protocol.
-        
+
         Args:
             links_images_data: Dictionary mapping page URLs to lists of image URLs.
-            
+
         Returns:
             Formatted XML string for the image sitemap.
         """
@@ -52,13 +52,13 @@ class FileInstrument:
     @staticmethod
     def __build_sitemap_file(links: List[str]) -> str:
         """Build XML content for standard sitemap.
-        
+
         Creates XML sitemap content containing only page URLs
         according to standard sitemap protocol.
-        
+
         Args:
             links: List of page URLs to include in the sitemap.
-            
+
         Returns:
             Formatted XML string for the standard sitemap.
         """
@@ -71,9 +71,9 @@ class FileInstrument:
 
     def __save_file(self, file_data: str) -> None:
         """Save XML content to file.
-        
+
         Writes the provided XML data to the specified file name.
-        
+
         Args:
             file_data: XML content to be written to file.
         """
@@ -82,10 +82,10 @@ class FileInstrument:
 
     def create_image_sitemap(self, links_images_data: Dict[str, List[str]]) -> None:
         """Create and save an image sitemap file.
-        
+
         Generates XML sitemap with images and saves it to the file
         specified during initialization.
-        
+
         Args:
             links_images_data: Dictionary mapping page URLs to lists of image URLs.
         """
@@ -94,10 +94,10 @@ class FileInstrument:
 
     def create_sitemap(self, links: List[str]) -> None:
         """Create and save a standard sitemap file.
-        
+
         Generates XML sitemap without images and saves it to the file
         specified during initialization.
-        
+
         Args:
             links: List of page URLs to include in the sitemap.
         """
