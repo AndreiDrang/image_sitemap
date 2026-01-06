@@ -32,6 +32,7 @@ class Config:
     max_depth: int = 1
     accept_subdomains: bool = True
     excluded_subdomains: Set[str] = field(default_factory=set)
+    allowed_subdomains: Set[str] = field(default_factory=set)
     is_query_enabled: bool = True
     file_name: str = "sitemap_images.xml"
     exclude_file_links: bool = True
@@ -102,7 +103,17 @@ class Config:
         }
     )
     web_page_extensions: Set[str] = field(
-        default_factory=lambda: {".html", ".htm", ".php", ".aspx", ".jsp", ".asp", ".cfm", ".pl", ".py"}
+        default_factory=lambda: {
+            ".html",
+            ".htm",
+            ".php",
+            ".aspx",
+            ".jsp",
+            ".asp",
+            ".cfm",
+            ".pl",
+            ".py",
+        }
     )
     header: dict[str, str] = field(
         default_factory=lambda: {
