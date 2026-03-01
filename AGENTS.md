@@ -1,7 +1,7 @@
 # Agent Guidelines for image_sitemap
 
-**Generated:** 2026-02-17  
-**Commit:** 0a74998  
+**Generated:** 2026-03-02
+**Commit:** 96cc83d
 **Branch:** main  
 
 ## Overview
@@ -60,10 +60,14 @@ src/image_sitemap/
 ## Anti-Patterns
 - No `as any`, `@ts-ignore` equivalents - fix type errors properly
 - No empty exception handlers
-- No hardcoded URLs/settings - use Config dataclass
-- No sync HTTP - always aiohttp async
+- No hardcoded URLs/settings/headers - use Config dataclass
+- No sync HTTP - always aiohttp async (never `requests` library)
+- No sync file I/O - use `aiofiles` if needed
 - No print() statements - use logging module
-
+- No HTML parsing with regex - use BeautifulSoup
+- No direct crawler instantiation - use `Sitemap` class
+- No forgetting to `await` async methods
+- No modifying crawlers after `run()` - create new instance
 ## Commands
 ```bash
 make install    # pip install -e .
@@ -75,7 +79,8 @@ make upload     # Upload to PyPI
 ```
 
 ## Notes
-- No tests directory exists yet (testpaths configured but empty)
+- Missing tests/ directory (pyproject.toml configures it but doesn't exist)
+- Missing .coveragerc (Makefile references it)
 - No CI/CD workflows - only Dependabot for dependency updates
 - `build/lib/` is artifact - never edit, always edit `src/`
 - Uses retry logic in WebInstrument (6 attempts with exponential backoff)
