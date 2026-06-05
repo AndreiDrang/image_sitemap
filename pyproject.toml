@@ -65,7 +65,7 @@ classifiers = [
         "Operating System :: MacOS",
 ]
 dependencies = [
-    "aiohttp==3.13.4",
+    "aiohttp==3.14.*",
     "beautifulsoup4==4.*"
 ]
 
