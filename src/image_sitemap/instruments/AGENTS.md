@@ -2,40 +2,41 @@
 
 ## Scope
 
-Shared utility classes for the image_sitemap library. These instruments provide core functionality used across crawlers.
+Shared utility layer for the image_sitemap library. Provides HTTP client/parsing, configuration, XML generation, and template strings. All crawlers depend on these instruments.
 
 ## What Lives Here
 
-```
+```text
 instruments/
-├── config.py        # Config dataclass - 32 crawl settings for the entire library
-├── web.py           # WebInstrument - aiohttp HTTP client + BeautifulSoup parsing (368 lines)
-├── file.py          # FileInstrument - XML file generation from templates
-└── templates.py     # XML template strings for sitemap formats
+├── config.py        # Config dataclass — ~30 fields controlling crawl behavior
+├── web.py           # WebInstrument — aiohttp HTTP client, HTML parsing, URL filtering (367 lines)
+├── file.py          # FileInstrument — builds and writes XML sitemap files
+└── templates.py     # XML template strings for sitemap and image-sitemap formats
 ```
 
 ## Local Boundaries and Invariants
 
-- **Config is immutable**: Once created, Config instances should not be modified
-- **WebInstrument is stateless**: Each instance handles its own HTTP session lifecycle
-- **Templates are pure**: Template strings contain no logic, only XML structure
-- **FileInstrument writes sync**: Uses synchronous file I/O (acceptable for final output step)
+- **WebInstrument is the sole HTTP layer**: All network requests go through `download_page()`. Never bypass it with raw aiohttp calls elsewhere.
+- **Config is a frozen contract**: All behavioral tuning must flow through `Config` fields. Do not add ad-hoc parameters to instrument methods.
+- **Templates are output contracts**: `templates.py` defines the XML structure that search engines expect. Changing these alters SEO compatibility — validate output against [Google's sitemap protocol](https://www.sitemaps.org/protocol.html).
 
 ## Safe Change Rules
 
-- **Config changes**: Add new fields with sensible defaults; maintain backward compatibility
-- **WebInstrument**: Preserve retry logic (6 attempts with exponential backoff)
-- **Subdomain filtering**: Test changes against web.py:147-203 logic carefully
-- **Templates**: Ensure generated XML validates against sitemap schemas
-- **File I/O**: If adding async file operations, use `aiofiles` consistently
+- **web.py changes are high-risk**: It handles retry logic (exponential backoff, 6 attempts), subdomain filtering, nofollow exclusion, and URL normalization. Test thoroughly against real sites.
+- **config.py field additions**: New fields must have sensible defaults — existing callers must not break.
+- **templates.py**: Only modify if you understand the sitemap XML schema. Invalid XML breaks search engine ingestion.
+- **file.py**: FileInstrument uses sync file I/O (standard `open()`). This is acceptable because it runs only after all async crawling completes, not inside an event loop.
 
 ## Validation
 
-- Changes to `config.py` should maintain all 32 existing fields
-- Changes to `web.py` must preserve `rel="nofollow"` filtering (lines 89-91)
-- Template changes must maintain XML namespace declarations
+After changes to this subtree, run:
+
+```bash
+python example.py   # End-to-end smoke test — generates sitemap XML files
+make lint           # Check formatting
+```
 
 ## Nearby Docs
 
-- Parent: `src/image_sitemap/AGENTS.md` (if exists)
-- Root: `AGENTS.md` for global conventions and anti-patterns
+- Root `AGENTS.md` — project-wide conventions and architecture
+- `README.md` — Config field descriptions and usage examples
