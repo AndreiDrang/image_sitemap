@@ -72,7 +72,7 @@ dependencies = [
 [project.optional-dependencies]
 style = [
     "black==26.3.1",
-    "isort>=6,<9",
+    "isort>=6,<10",
     "autoflake==2.*",
 ]
 
